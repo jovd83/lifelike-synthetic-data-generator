@@ -1,0 +1,6 @@
+{
+  "eval_id": 3,
+  "eval_slug": "be-03-region-sex-age-address",
+  "title": "Regional Adults With Address Basics",
+  "prompt": "Generate Belgian adult records with regional spread, sex, age band, names, and basic address fields. Region, sex, and age should follow the target distribution."
+}

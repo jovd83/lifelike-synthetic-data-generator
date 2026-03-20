@@ -1,0 +1,12 @@
+{
+  "experiment_id": "be-01-sex-age-brussels",
+  "title": "Brussels Sex And Age",
+  "localization_score": 1.0,
+  "joint_fit_score": 0.9825,
+  "largest_joint_gap": 0.015500000000000014,
+  "records": 2000,
+  "represented_dimensions": [
+    "sex",
+    "age_band"
+  ]
+}

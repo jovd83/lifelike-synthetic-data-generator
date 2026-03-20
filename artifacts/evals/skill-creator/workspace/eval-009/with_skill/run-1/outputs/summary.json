@@ -1,0 +1,13 @@
+{
+  "experiment_id": "be-09-mobility-profiles",
+  "title": "Mobility Profiles",
+  "localization_score": 1.0,
+  "joint_fit_score": 0.9757142857142858,
+  "largest_joint_gap": 0.012619047619047613,
+  "records": 4200,
+  "represented_dimensions": [
+    "region",
+    "sex",
+    "age_band"
+  ]
+}

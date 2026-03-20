@@ -1,0 +1,14 @@
+{
+  "experiment_id": "be-04-elderly-women-marital",
+  "title": "Elderly Women With Marital Status",
+  "localization_score": 1.0,
+  "joint_fit_score": 0.9622222222222222,
+  "largest_joint_gap": 0.02111111111111111,
+  "records": 1800,
+  "represented_dimensions": [
+    "age_band",
+    "marital_status",
+    "sex",
+    "region"
+  ]
+}

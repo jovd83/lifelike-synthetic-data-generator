@@ -1,0 +1,6 @@
+{
+  "eval_id": 5,
+  "eval_slug": "be-05-labour-education",
+  "title": "Labour Market And Education",
+  "prompt": "Generate Belgian working-age profiles with sex, age band, education level, and employment status. Those dimensions should follow the requested spread."
+}

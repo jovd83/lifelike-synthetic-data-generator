@@ -1,0 +1,16 @@
+{
+  "experiment_id": "be-10-max-complex",
+  "title": "Maximum Complexity Belgian Profiles",
+  "localization_score": 1.0,
+  "joint_fit_score": 0.9793999999999999,
+  "largest_joint_gap": 0.007400000000000018,
+  "records": 5000,
+  "represented_dimensions": [
+    "region",
+    "sex",
+    "age_band",
+    "marital_status",
+    "income_quintile",
+    "occupation_status"
+  ]
+}

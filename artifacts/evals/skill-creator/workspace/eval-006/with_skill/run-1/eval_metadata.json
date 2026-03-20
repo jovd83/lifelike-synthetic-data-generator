@@ -1,0 +1,6 @@
+{
+  "eval_id": 6,
+  "eval_slug": "be-06-income-occupation-brussels",
+  "title": "Income And Occupation In Brussels",
+  "prompt": "Generate Brussels adult profiles with sex, age band, income quintile, and occupation status, plus basic contact fields."
+}

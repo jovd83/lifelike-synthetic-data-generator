@@ -1,0 +1,6 @@
+{
+  "eval_id": 15,
+  "eval_slug": "be-15-exact-ages",
+  "title": "Exact Ages Rather Than Age Bands",
+  "prompt": "Generate a difficult Belgian dataset that uses exact ages instead of age ranges, together with sex, postcode hotspot, occupation status, and first and last names."
+}

@@ -1,0 +1,79 @@
+{
+  "expectations": [
+    {
+      "text": "The dataset contains the requested number of rows.",
+      "passed": true,
+      "evidence": "Expected 4200 rows and generated 4200 rows."
+    },
+    {
+      "text": "All requested output fields are present in the generated records.",
+      "passed": true,
+      "evidence": "Requested fields: region, sex, age_band, birth_date, first_name, last_name, job, license_plate, mobile_phone, city."
+    },
+    {
+      "text": "Localization and format adherence remain at or above 99%.",
+      "passed": true,
+      "evidence": "Observed localization score: 100.00%."
+    },
+    {
+      "text": "Joint statistical fit remains at or above 95% for the represented dimensions.",
+      "passed": true,
+      "evidence": "Observed joint fit: 97.57% across region, sex, age_band."
+    },
+    {
+      "text": "Every requested represented dimension appears in the dataset rows.",
+      "passed": true,
+      "evidence": "Represented dimensions: region, sex, age_band."
+    }
+  ],
+  "summary": {
+    "passed": 5,
+    "failed": 0,
+    "total": 5,
+    "pass_rate": 1.0
+  },
+  "execution_metrics": {
+    "tool_calls": {
+      "GenerateDataset": 1,
+      "EvaluateLocalization": 1,
+      "EvaluateStatistics": 1,
+      "RenderReport": 1
+    },
+    "total_tool_calls": 4,
+    "total_steps": 4,
+    "errors_encountered": 0,
+    "output_chars": 1275645,
+    "transcript_chars": 172
+  },
+  "timing": {
+    "executor_duration_seconds": 1.0337,
+    "grader_duration_seconds": 0.0,
+    "total_duration_seconds": 1.0337
+  },
+  "claims": [
+    {
+      "claim": "The generated dataset honors the requested row count.",
+      "type": "factual",
+      "verified": true,
+      "evidence": "Generated 4200 rows."
+    },
+    {
+      "claim": "The represented population fit is strong.",
+      "type": "analytical",
+      "verified": true,
+      "evidence": "Joint fit score: 97.57%."
+    }
+  ],
+  "user_notes_summary": {
+    "uncertainties": [
+      "Scenario-backed represented dimensions remain in this experiment: region, sex, age_band."
+    ],
+    "needs_review": [],
+    "workarounds": [
+      "This skill-creator export packages the repo's native eval harness results instead of replaying a separate blind comparator loop."
+    ]
+  },
+  "eval_feedback": {
+    "overall": "The packaged eval exposes both localization quality and distribution fit in the skill-creator viewer."
+  }
+}

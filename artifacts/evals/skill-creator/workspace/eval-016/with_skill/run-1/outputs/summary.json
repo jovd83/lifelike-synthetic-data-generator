@@ -1,0 +1,15 @@
+{
+  "experiment_id": "be-16-elderly-flanders-low-income-widowed",
+  "title": "Elderly Flanders Low-Income Widowed",
+  "localization_score": 1.0,
+  "joint_fit_score": 0.9791304347826087,
+  "largest_joint_gap": 0.009565217391304351,
+  "records": 4600,
+  "represented_dimensions": [
+    "region",
+    "sex",
+    "age_band",
+    "marital_status",
+    "income_quintile"
+  ]
+}

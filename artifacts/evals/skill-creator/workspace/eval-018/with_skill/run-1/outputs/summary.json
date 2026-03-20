@@ -1,0 +1,15 @@
+{
+  "experiment_id": "world-01-global-urban-profiles",
+  "title": "Global Urban Profiles",
+  "localization_score": 1.0,
+  "joint_fit_score": 0.991,
+  "largest_joint_gap": 0.0026666666666666644,
+  "records": 9000,
+  "represented_dimensions": [
+    "continent",
+    "density_tier",
+    "sex",
+    "age_band",
+    "income_tier"
+  ]
+}

@@ -1,0 +1,924 @@
+{
+  "metadata": {
+    "skill_name": "lifelike-synthetic-data-generator",
+    "skill_path": "C:\\projects\\skills\\lifelike-synthetic-data-generator",
+    "executor_model": "repo-native-eval-runner",
+    "analyzer_model": "skill-creator-aggregate-benchmark",
+    "timestamp": "2026-03-19T20:08:16Z",
+    "evals_run": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "runs_per_configuration": 1
+  },
+  "runs": [
+    {
+      "eval_id": 1,
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 5,
+        "failed": 0,
+        "total": 5,
+        "time_seconds": 0.0654,
+        "tokens": 111294,
+        "tool_calls": 4,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "The dataset contains the requested number of rows.",
+          "passed": true,
+          "evidence": "Expected 2000 rows and generated 2000 rows."
+        },
+        {
+          "text": "All requested output fields are present in the generated records.",
+          "passed": true,
+          "evidence": "Requested fields: sex, age_band."
+        },
+        {
+          "text": "Localization and format adherence remain at or above 99%.",
+          "passed": true,
+          "evidence": "Observed localization score: 100.00%."
+        },
+        {
+          "text": "Joint statistical fit remains at or above 95% for the represented dimensions.",
+          "passed": true,
+          "evidence": "Observed joint fit: 98.25% across sex, age_band."
+        },
+        {
+          "text": "Every requested represented dimension appears in the dataset rows.",
+          "passed": true,
+          "evidence": "Represented dimensions: sex, age_band."
+        }
+      ],
+      "notes": [
+        "This skill-creator export packages the repo's native eval harness results instead of replaying a separate blind comparator loop.",
+        "Localization 100.00% and joint fit 98.25%."
+      ],
+      "eval_name": "Brussels Sex And Age"
+    },
+    {
+      "eval_id": 2,
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 5,
+        "failed": 0,
+        "total": 5,
+        "time_seconds": 0.251,
+        "tokens": 422109,
+        "tool_calls": 4,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "The dataset contains the requested number of rows.",
+          "passed": true,
+          "evidence": "Expected 2500 rows and generated 2500 rows."
+        },
+        {
+          "text": "All requested output fields are present in the generated records.",
+          "passed": true,
+          "evidence": "Requested fields: sex, age_band, birth_date, first_name, last_name, country."
+        },
+        {
+          "text": "Localization and format adherence remain at or above 99%.",
+          "passed": true,
+          "evidence": "Observed localization score: 100.00%."
+        },
+        {
+          "text": "Joint statistical fit remains at or above 95% for the represented dimensions.",
+          "passed": true,
+          "evidence": "Observed joint fit: 98.16% across sex, age_band."
+        },
+        {
+          "text": "Every requested represented dimension appears in the dataset rows.",
+          "passed": true,
+          "evidence": "Represented dimensions: sex, age_band."
+        }
+      ],
+      "notes": [
+        "This skill-creator export packages the repo's native eval harness results instead of replaying a separate blind comparator loop.",
+        "Localization 100.00% and joint fit 98.16%."
+      ],
+      "eval_name": "Names And Birth Dates"
+    },
+    {
+      "eval_id": 3,
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 5,
+        "failed": 0,
+        "total": 5,
+        "time_seconds": 0.6247,
+        "tokens": 848235,
+        "tool_calls": 4,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "The dataset contains the requested number of rows.",
+          "passed": true,
+          "evidence": "Expected 3000 rows and generated 3000 rows."
+        },
+        {
+          "text": "All requested output fields are present in the generated records.",
+          "passed": true,
+          "evidence": "Requested fields: region, sex, age_band, birth_date, first_name, last_name, street_address, postcode, city, country."
+        },
+        {
+          "text": "Localization and format adherence remain at or above 99%.",
+          "passed": true,
+          "evidence": "Observed localization score: 100.00%."
+        },
+        {
+          "text": "Joint statistical fit remains at or above 95% for the represented dimensions.",
+          "passed": true,
+          "evidence": "Observed joint fit: 96.77% across region, sex, age_band."
+        },
+        {
+          "text": "Every requested represented dimension appears in the dataset rows.",
+          "passed": true,
+          "evidence": "Represented dimensions: region, sex, age_band."
+        }
+      ],
+      "notes": [
+        "Scenario-backed represented dimensions remain in this experiment: region.",
+        "This skill-creator export packages the repo's native eval harness results instead of replaying a separate blind comparator loop.",
+        "Localization 100.00% and joint fit 96.77%."
+      ],
+      "eval_name": "Regional Adults With Address Basics"
+    },
+    {
+      "eval_id": 4,
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 5,
+        "failed": 0,
+        "total": 5,
+        "time_seconds": 0.3959,
+        "tokens": 534817,
+        "tool_calls": 4,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "The dataset contains the requested number of rows.",
+          "passed": true,
+          "evidence": "Expected 1800 rows and generated 1800 rows."
+        },
+        {
+          "text": "All requested output fields are present in the generated records.",
+          "passed": true,
+          "evidence": "Requested fields: region, sex, age_band, marital_status, first_name, last_name, birth_date, street_address, postcode, city."
+        },
+        {
+          "text": "Localization and format adherence remain at or above 99%.",
+          "passed": true,
+          "evidence": "Observed localization score: 100.00%."
+        },
+        {
+          "text": "Joint statistical fit remains at or above 95% for the represented dimensions.",
+          "passed": true,
+          "evidence": "Observed joint fit: 96.22% across age_band, marital_status, sex, region."
+        },
+        {
+          "text": "Every requested represented dimension appears in the dataset rows.",
+          "passed": true,
+          "evidence": "Represented dimensions: age_band, marital_status."
+        }
+      ],
+      "notes": [
+        "Scenario-backed represented dimensions remain in this experiment: marital_status.",
+        "This skill-creator export packages the repo's native eval harness results instead of replaying a separate blind comparator loop.",
+        "Localization 100.00% and joint fit 96.22%."
+      ],
+      "eval_name": "Elderly Women With Marital Status"
+    },
+    {
+      "eval_id": 5,
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 5,
+        "failed": 0,
+        "total": 5,
+        "time_seconds": 0.6359,
+        "tokens": 846023,
+        "tool_calls": 4,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "The dataset contains the requested number of rows.",
+          "passed": true,
+          "evidence": "Expected 3200 rows and generated 3200 rows."
+        },
+        {
+          "text": "All requested output fields are present in the generated records.",
+          "passed": true,
+          "evidence": "Requested fields: sex, age_band, education_level, employment_status, first_name, last_name, job, email."
+        },
+        {
+          "text": "Localization and format adherence remain at or above 99%.",
+          "passed": true,
+          "evidence": "Observed localization score: 100.00%."
+        },
+        {
+          "text": "Joint statistical fit remains at or above 95% for the represented dimensions.",
+          "passed": true,
+          "evidence": "Observed joint fit: 97.78% across sex, age_band, education_level, employment_status."
+        },
+        {
+          "text": "Every requested represented dimension appears in the dataset rows.",
+          "passed": true,
+          "evidence": "Represented dimensions: sex, age_band, education_level, employment_status."
+        }
+      ],
+      "notes": [
+        "This skill-creator export packages the repo's native eval harness results instead of replaying a separate blind comparator loop.",
+        "Localization 100.00% and joint fit 97.78%."
+      ],
+      "eval_name": "Labour Market And Education"
+    },
+    {
+      "eval_id": 6,
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 5,
+        "failed": 0,
+        "total": 5,
+        "time_seconds": 0.939,
+        "tokens": 1068282,
+        "tool_calls": 4,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "The dataset contains the requested number of rows.",
+          "passed": true,
+          "evidence": "Expected 3400 rows and generated 3400 rows."
+        },
+        {
+          "text": "All requested output fields are present in the generated records.",
+          "passed": true,
+          "evidence": "Requested fields: sex, age_band, income_quintile, occupation_status, first_name, last_name, street_address, postcode, city, email."
+        },
+        {
+          "text": "Localization and format adherence remain at or above 99%.",
+          "passed": true,
+          "evidence": "Observed localization score: 100.00%."
+        },
+        {
+          "text": "Joint statistical fit remains at or above 95% for the represented dimensions.",
+          "passed": true,
+          "evidence": "Observed joint fit: 98.18% across sex, age_band, income_quintile, occupation_status."
+        },
+        {
+          "text": "Every requested represented dimension appears in the dataset rows.",
+          "passed": true,
+          "evidence": "Represented dimensions: sex, age_band, income_quintile, occupation_status."
+        }
+      ],
+      "notes": [
+        "This skill-creator export packages the repo's native eval harness results instead of replaying a separate blind comparator loop.",
+        "Localization 100.00% and joint fit 98.18%."
+      ],
+      "eval_name": "Income And Occupation In Brussels"
+    },
+    {
+      "eval_id": 7,
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 5,
+        "failed": 0,
+        "total": 5,
+        "time_seconds": 0.7253,
+        "tokens": 998272,
+        "tool_calls": 4,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "The dataset contains the requested number of rows.",
+          "passed": true,
+          "evidence": "Expected 3800 rows and generated 3800 rows."
+        },
+        {
+          "text": "All requested output fields are present in the generated records.",
+          "passed": true,
+          "evidence": "Requested fields: region, sex, age_band, marital_status, children_count, first_name, last_name, email, city."
+        },
+        {
+          "text": "Localization and format adherence remain at or above 99%.",
+          "passed": true,
+          "evidence": "Observed localization score: 100.00%."
+        },
+        {
+          "text": "Joint statistical fit remains at or above 95% for the represented dimensions.",
+          "passed": true,
+          "evidence": "Observed joint fit: 98.11% across region, sex, age_band, marital_status, children_count."
+        },
+        {
+          "text": "Every requested represented dimension appears in the dataset rows.",
+          "passed": true,
+          "evidence": "Represented dimensions: region, sex, age_band, marital_status, children_count."
+        }
+      ],
+      "notes": [
+        "Scenario-backed represented dimensions remain in this experiment: region, sex, age_band, marital_status, children_count.",
+        "This skill-creator export packages the repo's native eval harness results instead of replaying a separate blind comparator loop.",
+        "Localization 100.00% and joint fit 98.11%."
+      ],
+      "eval_name": "Family Profiles"
+    },
+    {
+      "eval_id": 8,
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 5,
+        "failed": 0,
+        "total": 5,
+        "time_seconds": 1.5657,
+        "tokens": 1726417,
+        "tool_calls": 4,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "The dataset contains the requested number of rows.",
+          "passed": true,
+          "evidence": "Expected 4000 rows and generated 4000 rows."
+        },
+        {
+          "text": "All requested output fields are present in the generated records.",
+          "passed": true,
+          "evidence": "Requested fields: region, sex, age_band, income_quintile, birth_date, first_name, last_name, insz, iban, email, mobile_phone, street_address, postcode, city."
+        },
+        {
+          "text": "Localization and format adherence remain at or above 99%.",
+          "passed": true,
+          "evidence": "Observed localization score: 100.00%."
+        },
+        {
+          "text": "Joint statistical fit remains at or above 95% for the represented dimensions.",
+          "passed": true,
+          "evidence": "Observed joint fit: 98.12% across region, sex, age_band, income_quintile."
+        },
+        {
+          "text": "Every requested represented dimension appears in the dataset rows.",
+          "passed": true,
+          "evidence": "Represented dimensions: region, sex, age_band, income_quintile."
+        }
+      ],
+      "notes": [
+        "Scenario-backed represented dimensions remain in this experiment: region, sex, age_band.",
+        "This skill-creator export packages the repo's native eval harness results instead of replaying a separate blind comparator loop.",
+        "Localization 100.00% and joint fit 98.12%."
+      ],
+      "eval_name": "Financial Customers"
+    },
+    {
+      "eval_id": 9,
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 5,
+        "failed": 0,
+        "total": 5,
+        "time_seconds": 1.0337,
+        "tokens": 1275645,
+        "tool_calls": 4,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "The dataset contains the requested number of rows.",
+          "passed": true,
+          "evidence": "Expected 4200 rows and generated 4200 rows."
+        },
+        {
+          "text": "All requested output fields are present in the generated records.",
+          "passed": true,
+          "evidence": "Requested fields: region, sex, age_band, birth_date, first_name, last_name, job, license_plate, mobile_phone, city."
+        },
+        {
+          "text": "Localization and format adherence remain at or above 99%.",
+          "passed": true,
+          "evidence": "Observed localization score: 100.00%."
+        },
+        {
+          "text": "Joint statistical fit remains at or above 95% for the represented dimensions.",
+          "passed": true,
+          "evidence": "Observed joint fit: 97.57% across region, sex, age_band."
+        },
+        {
+          "text": "Every requested represented dimension appears in the dataset rows.",
+          "passed": true,
+          "evidence": "Represented dimensions: region, sex, age_band."
+        }
+      ],
+      "notes": [
+        "Scenario-backed represented dimensions remain in this experiment: region, sex, age_band.",
+        "This skill-creator export packages the repo's native eval harness results instead of replaying a separate blind comparator loop.",
+        "Localization 100.00% and joint fit 97.57%."
+      ],
+      "eval_name": "Mobility Profiles"
+    },
+    {
+      "eval_id": 10,
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 5,
+        "failed": 0,
+        "total": 5,
+        "time_seconds": 2.4727,
+        "tokens": 3006195,
+        "tool_calls": 4,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "The dataset contains the requested number of rows.",
+          "passed": true,
+          "evidence": "Expected 5000 rows and generated 5000 rows."
+        },
+        {
+          "text": "All requested output fields are present in the generated records.",
+          "passed": true,
+          "evidence": "Requested fields: region, sex, age_band, birth_date, first_name, last_name, marital_status, children_count, insz, iban, street_address, postcode, city, mobile_phone, income_quintile, occupation_status, job, license_plate, email."
+        },
+        {
+          "text": "Localization and format adherence remain at or above 99%.",
+          "passed": true,
+          "evidence": "Observed localization score: 100.00%."
+        },
+        {
+          "text": "Joint statistical fit remains at or above 95% for the represented dimensions.",
+          "passed": true,
+          "evidence": "Observed joint fit: 97.94% across region, sex, age_band, marital_status, income_quintile, occupation_status."
+        },
+        {
+          "text": "Every requested represented dimension appears in the dataset rows.",
+          "passed": true,
+          "evidence": "Represented dimensions: region, sex, age_band, marital_status, income_quintile, occupation_status."
+        }
+      ],
+      "notes": [
+        "Scenario-backed represented dimensions remain in this experiment: region, sex, age_band, marital_status.",
+        "This skill-creator export packages the repo's native eval harness results instead of replaying a separate blind comparator loop.",
+        "Localization 100.00% and joint fit 97.94%."
+      ],
+      "eval_name": "Maximum Complexity Belgian Profiles"
+    },
+    {
+      "eval_id": 11,
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 5,
+        "failed": 0,
+        "total": 5,
+        "time_seconds": 2.0845,
+        "tokens": 1811489,
+        "tool_calls": 4,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "The dataset contains the requested number of rows.",
+          "passed": true,
+          "evidence": "Expected 5200 rows and generated 5200 rows."
+        },
+        {
+          "text": "All requested output fields are present in the generated records.",
+          "passed": true,
+          "evidence": "Requested fields: postcode, city_name, sex, age_band, income_quintile, first_name, last_name, street_address, email, mobile_phone."
+        },
+        {
+          "text": "Localization and format adherence remain at or above 99%.",
+          "passed": true,
+          "evidence": "Observed localization score: 100.00%."
+        },
+        {
+          "text": "Joint statistical fit remains at or above 95% for the represented dimensions.",
+          "passed": true,
+          "evidence": "Observed joint fit: 98.15% across postcode, city_name, sex, age_band, income_quintile."
+        },
+        {
+          "text": "Every requested represented dimension appears in the dataset rows.",
+          "passed": true,
+          "evidence": "Represented dimensions: postcode, city_name, sex, age_band, income_quintile."
+        }
+      ],
+      "notes": [
+        "Scenario-backed represented dimensions remain in this experiment: postcode, city_name, sex, age_band, income_quintile.",
+        "This skill-creator export packages the repo's native eval harness results instead of replaying a separate blind comparator loop.",
+        "Localization 100.00% and joint fit 98.15%."
+      ],
+      "eval_name": "Zipcode Hotspots"
+    },
+    {
+      "eval_id": 12,
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 5,
+        "failed": 0,
+        "total": 5,
+        "time_seconds": 0.8212,
+        "tokens": 1363462,
+        "tool_calls": 4,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "The dataset contains the requested number of rows.",
+          "passed": true,
+          "evidence": "Expected 4800 rows and generated 4800 rows."
+        },
+        {
+          "text": "All requested output fields are present in the generated records.",
+          "passed": true,
+          "evidence": "Requested fields: sex, age_band, degree_level, employment_status, first_name, last_name, email, city."
+        },
+        {
+          "text": "Localization and format adherence remain at or above 99%.",
+          "passed": true,
+          "evidence": "Observed localization score: 100.00%."
+        },
+        {
+          "text": "Joint statistical fit remains at or above 95% for the represented dimensions.",
+          "passed": true,
+          "evidence": "Observed joint fit: 98.33% across sex, age_band, degree_level, employment_status."
+        },
+        {
+          "text": "Every requested represented dimension appears in the dataset rows.",
+          "passed": true,
+          "evidence": "Represented dimensions: sex, age_band, degree_level, employment_status."
+        }
+      ],
+      "notes": [
+        "Scenario-backed represented dimensions remain in this experiment: sex, age_band, degree_level, employment_status.",
+        "This skill-creator export packages the repo's native eval harness results instead of replaying a separate blind comparator loop.",
+        "Localization 100.00% and joint fit 98.33%."
+      ],
+      "eval_name": "Known Degree Labels"
+    },
+    {
+      "eval_id": 13,
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 5,
+        "failed": 0,
+        "total": 5,
+        "time_seconds": 0.9509,
+        "tokens": 1722838,
+        "tool_calls": 4,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "The dataset contains the requested number of rows.",
+          "passed": true,
+          "evidence": "Expected 5400 rows and generated 5400 rows."
+        },
+        {
+          "text": "All requested output fields are present in the generated records.",
+          "passed": true,
+          "evidence": "Requested fields: sex, age_band, occupation_status, income_quintile, first_name, last_name, job, city, email."
+        },
+        {
+          "text": "Localization and format adherence remain at or above 99%.",
+          "passed": true,
+          "evidence": "Observed localization score: 100.00%."
+        },
+        {
+          "text": "Joint statistical fit remains at or above 95% for the represented dimensions.",
+          "passed": true,
+          "evidence": "Observed joint fit: 98.02% across sex, age_band, occupation_status, income_quintile."
+        },
+        {
+          "text": "Every requested represented dimension appears in the dataset rows.",
+          "passed": true,
+          "evidence": "Represented dimensions: sex, age_band, occupation_status, income_quintile."
+        }
+      ],
+      "notes": [
+        "Scenario-backed represented dimensions remain in this experiment: sex, age_band, occupation_status, income_quintile.",
+        "This skill-creator export packages the repo's native eval harness results instead of replaying a separate blind comparator loop.",
+        "Localization 100.00% and joint fit 98.02%."
+      ],
+      "eval_name": "Full Occupation Taxonomy"
+    },
+    {
+      "eval_id": 14,
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 5,
+        "failed": 0,
+        "total": 5,
+        "time_seconds": 1.2589,
+        "tokens": 1824477,
+        "tool_calls": 4,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "The dataset contains the requested number of rows.",
+          "passed": true,
+          "evidence": "Expected 5600 rows and generated 5600 rows."
+        },
+        {
+          "text": "All requested output fields are present in the generated records.",
+          "passed": true,
+          "evidence": "Requested fields: region, sex, age_band, income_quintile, car_brand, license_plate, first_name, last_name, city, mobile_phone."
+        },
+        {
+          "text": "Localization and format adherence remain at or above 99%.",
+          "passed": true,
+          "evidence": "Observed localization score: 100.00%."
+        },
+        {
+          "text": "Joint statistical fit remains at or above 95% for the represented dimensions.",
+          "passed": true,
+          "evidence": "Observed joint fit: 97.61% across region, sex, age_band, income_quintile, car_brand."
+        },
+        {
+          "text": "Every requested represented dimension appears in the dataset rows.",
+          "passed": true,
+          "evidence": "Represented dimensions: region, sex, age_band, income_quintile, car_brand."
+        }
+      ],
+      "notes": [
+        "Scenario-backed represented dimensions remain in this experiment: region, sex, age_band, income_quintile, car_brand.",
+        "This skill-creator export packages the repo's native eval harness results instead of replaying a separate blind comparator loop.",
+        "Localization 100.00% and joint fit 97.61%."
+      ],
+      "eval_name": "Car Brand Households"
+    },
+    {
+      "eval_id": 15,
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 5,
+        "failed": 0,
+        "total": 5,
+        "time_seconds": 1.5927,
+        "tokens": 1496433,
+        "tool_calls": 4,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "The dataset contains the requested number of rows.",
+          "passed": true,
+          "evidence": "Expected 6000 rows and generated 6000 rows."
+        },
+        {
+          "text": "All requested output fields are present in the generated records.",
+          "passed": true,
+          "evidence": "Requested fields: exact_age, sex, postcode, occupation_status, first_name, last_name, email, mobile_phone."
+        },
+        {
+          "text": "Localization and format adherence remain at or above 99%.",
+          "passed": true,
+          "evidence": "Observed localization score: 100.00%."
+        },
+        {
+          "text": "Joint statistical fit remains at or above 95% for the represented dimensions.",
+          "passed": true,
+          "evidence": "Observed joint fit: 98.65% across exact_age, sex, postcode, occupation_status."
+        },
+        {
+          "text": "Every requested represented dimension appears in the dataset rows.",
+          "passed": true,
+          "evidence": "Represented dimensions: exact_age, sex, postcode, occupation_status."
+        }
+      ],
+      "notes": [
+        "Scenario-backed represented dimensions remain in this experiment: exact_age, sex, postcode, occupation_status.",
+        "This skill-creator export packages the repo's native eval harness results instead of replaying a separate blind comparator loop.",
+        "Localization 100.00% and joint fit 98.65%."
+      ],
+      "eval_name": "Exact Ages Rather Than Age Bands"
+    },
+    {
+      "eval_id": 16,
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 5,
+        "failed": 0,
+        "total": 5,
+        "time_seconds": 1.1247,
+        "tokens": 1663148,
+        "tool_calls": 4,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "The dataset contains the requested number of rows.",
+          "passed": true,
+          "evidence": "Expected 4600 rows and generated 4600 rows."
+        },
+        {
+          "text": "All requested output fields are present in the generated records.",
+          "passed": true,
+          "evidence": "Requested fields: region, sex, age_band, marital_status, income_quintile, birth_date, first_name, last_name, street_address, postcode, city, mobile_phone."
+        },
+        {
+          "text": "Localization and format adherence remain at or above 99%.",
+          "passed": true,
+          "evidence": "Observed localization score: 100.00%."
+        },
+        {
+          "text": "Joint statistical fit remains at or above 95% for the represented dimensions.",
+          "passed": true,
+          "evidence": "Observed joint fit: 97.91% across region, sex, age_band, marital_status, income_quintile."
+        },
+        {
+          "text": "Every requested represented dimension appears in the dataset rows.",
+          "passed": true,
+          "evidence": "Represented dimensions: region, sex, age_band, marital_status, income_quintile."
+        }
+      ],
+      "notes": [
+        "Scenario-backed represented dimensions remain in this experiment: region, sex, age_band, marital_status, income_quintile.",
+        "This skill-creator export packages the repo's native eval harness results instead of replaying a separate blind comparator loop.",
+        "Localization 100.00% and joint fit 97.91%."
+      ],
+      "eval_name": "Elderly Flanders Low-Income Widowed"
+    },
+    {
+      "eval_id": 17,
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 5,
+        "failed": 0,
+        "total": 5,
+        "time_seconds": 0.7689,
+        "tokens": 2182531,
+        "tool_calls": 4,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "The dataset contains the requested number of rows.",
+          "passed": true,
+          "evidence": "Expected 7000 rows and generated 7000 rows."
+        },
+        {
+          "text": "All requested output fields are present in the generated records.",
+          "passed": true,
+          "evidence": "Requested fields: country_code, sex, age_band, degree_level, employment_status, first_name, last_name, email, city."
+        },
+        {
+          "text": "Localization and format adherence remain at or above 99%.",
+          "passed": true,
+          "evidence": "Observed localization score: 100.00%."
+        },
+        {
+          "text": "Joint statistical fit remains at or above 95% for the represented dimensions.",
+          "passed": true,
+          "evidence": "Observed joint fit: 97.70% across country_code, sex, age_band, degree_level, employment_status."
+        },
+        {
+          "text": "Every requested represented dimension appears in the dataset rows.",
+          "passed": true,
+          "evidence": "Represented dimensions: country_code, sex, age_band, degree_level, employment_status."
+        }
+      ],
+      "notes": [
+        "This skill-creator export packages the repo's native eval harness results instead of replaying a separate blind comparator loop.",
+        "Localization 100.00% and joint fit 97.70%."
+      ],
+      "eval_name": "Western Europe Education And Workforce"
+    },
+    {
+      "eval_id": 18,
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 5,
+        "failed": 0,
+        "total": 5,
+        "time_seconds": 2.2708,
+        "tokens": 2789559,
+        "tool_calls": 4,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "The dataset contains the requested number of rows.",
+          "passed": true,
+          "evidence": "Expected 9000 rows and generated 9000 rows."
+        },
+        {
+          "text": "All requested output fields are present in the generated records.",
+          "passed": true,
+          "evidence": "Requested fields: continent, density_tier, sex, age_band, income_tier, first_name, last_name, email, city."
+        },
+        {
+          "text": "Localization and format adherence remain at or above 99%.",
+          "passed": true,
+          "evidence": "Observed localization score: 100.00%."
+        },
+        {
+          "text": "Joint statistical fit remains at or above 95% for the represented dimensions.",
+          "passed": true,
+          "evidence": "Observed joint fit: 99.10% across continent, density_tier, sex, age_band, income_tier."
+        },
+        {
+          "text": "Every requested represented dimension appears in the dataset rows.",
+          "passed": true,
+          "evidence": "Represented dimensions: continent, density_tier, sex, age_band, income_tier."
+        }
+      ],
+      "notes": [
+        "Scenario-backed represented dimensions remain in this experiment: sex, age_band.",
+        "This skill-creator export packages the repo's native eval harness results instead of replaying a separate blind comparator loop.",
+        "Localization 100.00% and joint fit 99.10%."
+      ],
+      "eval_name": "Global Urban Profiles"
+    }
+  ],
+  "run_summary": {
+    "with_skill": {
+      "pass_rate": {
+        "mean": 1.0,
+        "stddev": 0.0,
+        "min": 1.0,
+        "max": 1.0
+      },
+      "time_seconds": {
+        "mean": 1.0879,
+        "stddev": 0.678,
+        "min": 0.0654,
+        "max": 2.4727
+      },
+      "tokens": {
+        "mean": 1427290.3333,
+        "stddev": 767487.8926,
+        "min": 111294,
+        "max": 3006195
+      }
+    },
+    "delta": {
+      "pass_rate": "n/a",
+      "time_seconds": "n/a",
+      "tokens": "n/a"
+    }
+  },
+  "notes": [
+    "Exported 18 experiments into the skill-creator workspace using only the with_skill configuration.",
+    "Lowest joint statistical fit: be-04-elderly-women-marital at 96.22%.",
+    "Highest joint statistical fit: world-01-global-urban-profiles at 99.10%.",
+    "Broader-than-Belgium scope cases included: eu-01-western-europe-education-workforce, world-01-global-urban-profiles."
+  ]
+}

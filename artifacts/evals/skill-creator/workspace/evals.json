@@ -1,0 +1,221 @@
+{
+  "skill_name": "lifelike-synthetic-data-generator",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Generate a Brussels dataset with only sex and age band, and make those two dimensions representative of the local population.",
+      "expected_output": "A localized synthetic dataset with strong realism and strong represented-dimension fit.",
+      "expectations": [
+        "The dataset contains the requested number of rows.",
+        "All requested output fields are present in the generated records.",
+        "Localization and format adherence remain at or above 99%.",
+        "Joint statistical fit remains at or above 95% for the represented dimensions.",
+        "Every requested represented dimension appears in the dataset rows."
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Generate Belgian resident records with sex, age band, birth date, first name, and last name while preserving the requested sex and age distribution.",
+      "expected_output": "A localized synthetic dataset with strong realism and strong represented-dimension fit.",
+      "expectations": [
+        "The dataset contains the requested number of rows.",
+        "All requested output fields are present in the generated records.",
+        "Localization and format adherence remain at or above 99%.",
+        "Joint statistical fit remains at or above 95% for the represented dimensions.",
+        "Every requested represented dimension appears in the dataset rows."
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "Generate Belgian adult records with regional spread, sex, age band, names, and basic address fields. Region, sex, and age should follow the target distribution.",
+      "expected_output": "A localized synthetic dataset with strong realism and strong represented-dimension fit.",
+      "expectations": [
+        "The dataset contains the requested number of rows.",
+        "All requested output fields are present in the generated records.",
+        "Localization and format adherence remain at or above 99%.",
+        "Joint statistical fit remains at or above 95% for the represented dimensions.",
+        "Every requested represented dimension appears in the dataset rows."
+      ]
+    },
+    {
+      "id": 4,
+      "prompt": "Generate elderly women in East Flanders with realistic names and addresses. Age band and marital status should match the target distribution within that subset.",
+      "expected_output": "A localized synthetic dataset with strong realism and strong represented-dimension fit.",
+      "expectations": [
+        "The dataset contains the requested number of rows.",
+        "All requested output fields are present in the generated records.",
+        "Localization and format adherence remain at or above 99%.",
+        "Joint statistical fit remains at or above 95% for the represented dimensions.",
+        "Every requested represented dimension appears in the dataset rows."
+      ]
+    },
+    {
+      "id": 5,
+      "prompt": "Generate Belgian working-age profiles with sex, age band, education level, and employment status. Those dimensions should follow the requested spread.",
+      "expected_output": "A localized synthetic dataset with strong realism and strong represented-dimension fit.",
+      "expectations": [
+        "The dataset contains the requested number of rows.",
+        "All requested output fields are present in the generated records.",
+        "Localization and format adherence remain at or above 99%.",
+        "Joint statistical fit remains at or above 95% for the represented dimensions.",
+        "Every requested represented dimension appears in the dataset rows."
+      ]
+    },
+    {
+      "id": 6,
+      "prompt": "Generate Brussels adult profiles with sex, age band, income quintile, and occupation status, plus basic contact fields.",
+      "expected_output": "A localized synthetic dataset with strong realism and strong represented-dimension fit.",
+      "expectations": [
+        "The dataset contains the requested number of rows.",
+        "All requested output fields are present in the generated records.",
+        "Localization and format adherence remain at or above 99%.",
+        "Joint statistical fit remains at or above 95% for the represented dimensions.",
+        "Every requested represented dimension appears in the dataset rows."
+      ]
+    },
+    {
+      "id": 7,
+      "prompt": "Generate Belgian family-profile rows with region, sex, age band, marital status, and number of children as distribution-backed fields, plus names and contact details.",
+      "expected_output": "A localized synthetic dataset with strong realism and strong represented-dimension fit.",
+      "expectations": [
+        "The dataset contains the requested number of rows.",
+        "All requested output fields are present in the generated records.",
+        "Localization and format adherence remain at or above 99%.",
+        "Joint statistical fit remains at or above 95% for the represented dimensions.",
+        "Every requested represented dimension appears in the dataset rows."
+      ]
+    },
+    {
+      "id": 8,
+      "prompt": "Generate Belgian financial-customer records with realistic identity, contact, and banking fields. Region, sex, age band, and income quintile should remain representative.",
+      "expected_output": "A localized synthetic dataset with strong realism and strong represented-dimension fit.",
+      "expectations": [
+        "The dataset contains the requested number of rows.",
+        "All requested output fields are present in the generated records.",
+        "Localization and format adherence remain at or above 99%.",
+        "Joint statistical fit remains at or above 95% for the represented dimensions.",
+        "Every requested represented dimension appears in the dataset rows."
+      ]
+    },
+    {
+      "id": 9,
+      "prompt": "Generate Belgian mobility-oriented records with sex, age band, region, job title, and a Belgian-style license plate. Region, sex, and age should match the requested spread.",
+      "expected_output": "A localized synthetic dataset with strong realism and strong represented-dimension fit.",
+      "expectations": [
+        "The dataset contains the requested number of rows.",
+        "All requested output fields are present in the generated records.",
+        "Localization and format adherence remain at or above 99%.",
+        "Joint statistical fit remains at or above 95% for the represented dimensions.",
+        "Every requested represented dimension appears in the dataset rows."
+      ]
+    },
+    {
+      "id": 10,
+      "prompt": "Generate a complex Belgian dataset with first name, last name, birth date, sex, marital status, INSZ, bank IBAN, amount of children, address, mobile phone, income quintile, profession, car license plate, email, region, and occupation status. Region, sex, age band, marital status, income quintile, and occupation status should be distribution-backed.",
+      "expected_output": "A localized synthetic dataset with strong realism and strong represented-dimension fit.",
+      "expectations": [
+        "The dataset contains the requested number of rows.",
+        "All requested output fields are present in the generated records.",
+        "Localization and format adherence remain at or above 99%.",
+        "Joint statistical fit remains at or above 95% for the represented dimensions.",
+        "Every requested represented dimension appears in the dataset rows."
+      ]
+    },
+    {
+      "id": 11,
+      "prompt": "Generate a difficult Belgian urban dataset where specific zipcodes must be represented with the requested spread, together with city, sex, age band, and income quintile.",
+      "expected_output": "A localized synthetic dataset with strong realism and strong represented-dimension fit.",
+      "expectations": [
+        "The dataset contains the requested number of rows.",
+        "All requested output fields are present in the generated records.",
+        "Localization and format adherence remain at or above 99%.",
+        "Joint statistical fit remains at or above 95% for the represented dimensions.",
+        "Every requested represented dimension appears in the dataset rows."
+      ]
+    },
+    {
+      "id": 12,
+      "prompt": "Generate a difficult Belgian higher-education profile dataset with exact degree labels people know, such as secondary, bachelor, master, and phd, together with sex, age band, and employment status.",
+      "expected_output": "A localized synthetic dataset with strong realism and strong represented-dimension fit.",
+      "expectations": [
+        "The dataset contains the requested number of rows.",
+        "All requested output fields are present in the generated records.",
+        "Localization and format adherence remain at or above 99%.",
+        "Joint statistical fit remains at or above 95% for the represented dimensions.",
+        "Every requested represented dimension appears in the dataset rows."
+      ]
+    },
+    {
+      "id": 13,
+      "prompt": "Generate a difficult Belgian status dataset with explicit occupation categories such as employed, unemployed, self-employed, retired, and student, together with sex, age band, income quintile, and city.",
+      "expected_output": "A localized synthetic dataset with strong realism and strong represented-dimension fit.",
+      "expectations": [
+        "The dataset contains the requested number of rows.",
+        "All requested output fields are present in the generated records.",
+        "Localization and format adherence remain at or above 99%.",
+        "Joint statistical fit remains at or above 95% for the represented dimensions.",
+        "Every requested represented dimension appears in the dataset rows."
+      ]
+    },
+    {
+      "id": 14,
+      "prompt": "Generate a difficult Belgian mobility-and-consumption dataset with car brand, region, sex, age band, income quintile, and Belgian license plates.",
+      "expected_output": "A localized synthetic dataset with strong realism and strong represented-dimension fit.",
+      "expectations": [
+        "The dataset contains the requested number of rows.",
+        "All requested output fields are present in the generated records.",
+        "Localization and format adherence remain at or above 99%.",
+        "Joint statistical fit remains at or above 95% for the represented dimensions.",
+        "Every requested represented dimension appears in the dataset rows."
+      ]
+    },
+    {
+      "id": 15,
+      "prompt": "Generate a difficult Belgian dataset that uses exact ages instead of age ranges, together with sex, postcode hotspot, occupation status, and first and last names.",
+      "expected_output": "A localized synthetic dataset with strong realism and strong represented-dimension fit.",
+      "expectations": [
+        "The dataset contains the requested number of rows.",
+        "All requested output fields are present in the generated records.",
+        "Localization and format adherence remain at or above 99%.",
+        "Joint statistical fit remains at or above 95% for the represented dimensions.",
+        "Every requested represented dimension appears in the dataset rows."
+      ]
+    },
+    {
+      "id": 16,
+      "prompt": "Generate a difficult Belgian subset dataset for elderly people aged 65+ living in Flanders, with below-average income and widowed marital status, plus realistic names, contact fields, and address basics.",
+      "expected_output": "A localized synthetic dataset with strong realism and strong represented-dimension fit.",
+      "expectations": [
+        "The dataset contains the requested number of rows.",
+        "All requested output fields are present in the generated records.",
+        "Localization and format adherence remain at or above 99%.",
+        "Joint statistical fit remains at or above 95% for the represented dimensions.",
+        "Every requested represented dimension appears in the dataset rows."
+      ]
+    },
+    {
+      "id": 17,
+      "prompt": "Generate a broader European dataset spanning Belgium, France, Germany, Netherlands, and Spain with country, sex, age band, degree level, and employment status as represented dimensions.",
+      "expected_output": "A localized synthetic dataset with strong realism and strong represented-dimension fit.",
+      "expectations": [
+        "The dataset contains the requested number of rows.",
+        "All requested output fields are present in the generated records.",
+        "Localization and format adherence remain at or above 99%.",
+        "Joint statistical fit remains at or above 95% for the represented dimensions.",
+        "Every requested represented dimension appears in the dataset rows."
+      ]
+    },
+    {
+      "id": 18,
+      "prompt": "Generate a world-level synthetic dataset spanning multiple continents with continent, settlement density tier, sex, age band, and income tier as represented dimensions.",
+      "expected_output": "A localized synthetic dataset with strong realism and strong represented-dimension fit.",
+      "expectations": [
+        "The dataset contains the requested number of rows.",
+        "All requested output fields are present in the generated records.",
+        "Localization and format adherence remain at or above 99%.",
+        "Joint statistical fit remains at or above 95% for the represented dimensions.",
+        "Every requested represented dimension appears in the dataset rows."
+      ]
+    }
+  ]
+}

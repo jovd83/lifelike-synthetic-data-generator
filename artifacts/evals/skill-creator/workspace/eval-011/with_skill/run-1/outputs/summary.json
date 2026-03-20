@@ -1,0 +1,15 @@
+{
+  "experiment_id": "be-11-zipcode-hotspots",
+  "title": "Zipcode Hotspots",
+  "localization_score": 1.0,
+  "joint_fit_score": 0.9815384615384616,
+  "largest_joint_gap": 0.008076923076923079,
+  "records": 5200,
+  "represented_dimensions": [
+    "postcode",
+    "city_name",
+    "sex",
+    "age_band",
+    "income_quintile"
+  ]
+}

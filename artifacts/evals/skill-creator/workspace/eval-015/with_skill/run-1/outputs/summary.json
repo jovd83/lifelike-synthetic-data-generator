@@ -1,0 +1,14 @@
+{
+  "experiment_id": "be-15-exact-ages",
+  "title": "Exact Ages Rather Than Age Bands",
+  "localization_score": 1.0,
+  "joint_fit_score": 0.9865454545454545,
+  "largest_joint_gap": 0.004818181818181805,
+  "records": 6000,
+  "represented_dimensions": [
+    "exact_age",
+    "sex",
+    "postcode",
+    "occupation_status"
+  ]
+}

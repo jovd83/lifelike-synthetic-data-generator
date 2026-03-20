@@ -1,0 +1,14 @@
+{
+  "experiment_id": "be-05-labour-education",
+  "title": "Labour Market And Education",
+  "localization_score": 1.0,
+  "joint_fit_score": 0.9778125,
+  "largest_joint_gap": 0.008437499999999987,
+  "records": 3200,
+  "represented_dimensions": [
+    "sex",
+    "age_band",
+    "education_level",
+    "employment_status"
+  ]
+}

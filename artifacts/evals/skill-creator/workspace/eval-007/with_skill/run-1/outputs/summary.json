@@ -1,0 +1,15 @@
+{
+  "experiment_id": "be-07-family-profiles",
+  "title": "Family Profiles",
+  "localization_score": 1.0,
+  "joint_fit_score": 0.9810526315789474,
+  "largest_joint_gap": 0.010263157894736863,
+  "records": 3800,
+  "represented_dimensions": [
+    "region",
+    "sex",
+    "age_band",
+    "marital_status",
+    "children_count"
+  ]
+}

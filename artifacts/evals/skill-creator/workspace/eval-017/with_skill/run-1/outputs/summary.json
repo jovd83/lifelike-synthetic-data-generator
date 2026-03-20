@@ -1,0 +1,15 @@
+{
+  "experiment_id": "eu-01-western-europe-education-workforce",
+  "title": "Western Europe Education And Workforce",
+  "localization_score": 1.0,
+  "joint_fit_score": 0.977012987012987,
+  "largest_joint_gap": 0.009090909090909094,
+  "records": 7000,
+  "represented_dimensions": [
+    "country_code",
+    "sex",
+    "age_band",
+    "degree_level",
+    "employment_status"
+  ]
+}

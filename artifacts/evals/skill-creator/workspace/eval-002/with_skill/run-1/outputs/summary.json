@@ -1,0 +1,12 @@
+{
+  "experiment_id": "be-02-sex-age-names",
+  "title": "Names And Birth Dates",
+  "localization_score": 1.0,
+  "joint_fit_score": 0.9816,
+  "largest_joint_gap": 0.009999999999999981,
+  "records": 2500,
+  "represented_dimensions": [
+    "sex",
+    "age_band"
+  ]
+}

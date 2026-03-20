@@ -1,0 +1,6 @@
+{
+  "eval_id": 12,
+  "eval_slug": "be-12-known-degrees",
+  "title": "Known Degree Labels",
+  "prompt": "Generate a difficult Belgian higher-education profile dataset with exact degree labels people know, such as secondary, bachelor, master, and phd, together with sex, age band, and employment status."
+}

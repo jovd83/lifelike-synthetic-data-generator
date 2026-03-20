@@ -1,0 +1,6 @@
+{
+  "eval_id": 2,
+  "eval_slug": "be-02-sex-age-names",
+  "title": "Names And Birth Dates",
+  "prompt": "Generate Belgian resident records with sex, age band, birth date, first name, and last name while preserving the requested sex and age distribution."
+}

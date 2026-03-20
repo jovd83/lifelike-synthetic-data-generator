@@ -1,0 +1,6 @@
+{
+  "eval_id": 18,
+  "eval_slug": "world-01-global-urban-profiles",
+  "title": "Global Urban Profiles",
+  "prompt": "Generate a world-level synthetic dataset spanning multiple continents with continent, settlement density tier, sex, age band, and income tier as represented dimensions."
+}

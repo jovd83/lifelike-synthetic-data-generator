@@ -1,0 +1,6 @@
+{
+  "eval_id": 7,
+  "eval_slug": "be-07-family-profiles",
+  "title": "Family Profiles",
+  "prompt": "Generate Belgian family-profile rows with region, sex, age band, marital status, and number of children as distribution-backed fields, plus names and contact details."
+}

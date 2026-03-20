@@ -1,0 +1,14 @@
+{
+  "experiment_id": "be-08-financial-customers",
+  "title": "Financial Customers",
+  "localization_score": 1.0,
+  "joint_fit_score": 0.98125,
+  "largest_joint_gap": 0.009250000000000008,
+  "records": 4000,
+  "represented_dimensions": [
+    "region",
+    "sex",
+    "age_band",
+    "income_quintile"
+  ]
+}

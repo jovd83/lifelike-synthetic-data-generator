@@ -1,0 +1,77 @@
+{
+  "expectations": [
+    {
+      "text": "The dataset contains the requested number of rows.",
+      "passed": true,
+      "evidence": "Expected 3400 rows and generated 3400 rows."
+    },
+    {
+      "text": "All requested output fields are present in the generated records.",
+      "passed": true,
+      "evidence": "Requested fields: sex, age_band, income_quintile, occupation_status, first_name, last_name, street_address, postcode, city, email."
+    },
+    {
+      "text": "Localization and format adherence remain at or above 99%.",
+      "passed": true,
+      "evidence": "Observed localization score: 100.00%."
+    },
+    {
+      "text": "Joint statistical fit remains at or above 95% for the represented dimensions.",
+      "passed": true,
+      "evidence": "Observed joint fit: 98.18% across sex, age_band, income_quintile, occupation_status."
+    },
+    {
+      "text": "Every requested represented dimension appears in the dataset rows.",
+      "passed": true,
+      "evidence": "Represented dimensions: sex, age_band, income_quintile, occupation_status."
+    }
+  ],
+  "summary": {
+    "passed": 5,
+    "failed": 0,
+    "total": 5,
+    "pass_rate": 1.0
+  },
+  "execution_metrics": {
+    "tool_calls": {
+      "GenerateDataset": 1,
+      "EvaluateLocalization": 1,
+      "EvaluateStatistics": 1,
+      "RenderReport": 1
+    },
+    "total_tool_calls": 4,
+    "total_steps": 4,
+    "errors_encountered": 0,
+    "output_chars": 1068282,
+    "transcript_chars": 119
+  },
+  "timing": {
+    "executor_duration_seconds": 0.939,
+    "grader_duration_seconds": 0.0,
+    "total_duration_seconds": 0.939
+  },
+  "claims": [
+    {
+      "claim": "The generated dataset honors the requested row count.",
+      "type": "factual",
+      "verified": true,
+      "evidence": "Generated 3400 rows."
+    },
+    {
+      "claim": "The represented population fit is strong.",
+      "type": "analytical",
+      "verified": true,
+      "evidence": "Joint fit score: 98.18%."
+    }
+  ],
+  "user_notes_summary": {
+    "uncertainties": [],
+    "needs_review": [],
+    "workarounds": [
+      "This skill-creator export packages the repo's native eval harness results instead of replaying a separate blind comparator loop."
+    ]
+  },
+  "eval_feedback": {
+    "overall": "The packaged eval exposes both localization quality and distribution fit in the skill-creator viewer."
+  }
+}

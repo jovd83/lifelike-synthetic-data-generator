@@ -1,0 +1,6 @@
+{
+  "eval_id": 1,
+  "eval_slug": "be-01-sex-age-brussels",
+  "title": "Brussels Sex And Age",
+  "prompt": "Generate a Brussels dataset with only sex and age band, and make those two dimensions representative of the local population."
+}

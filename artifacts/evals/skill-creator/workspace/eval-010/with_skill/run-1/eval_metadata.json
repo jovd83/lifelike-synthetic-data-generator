@@ -1,0 +1,6 @@
+{
+  "eval_id": 10,
+  "eval_slug": "be-10-max-complex",
+  "title": "Maximum Complexity Belgian Profiles",
+  "prompt": "Generate a complex Belgian dataset with first name, last name, birth date, sex, marital status, INSZ, bank IBAN, amount of children, address, mobile phone, income quintile, profession, car license plate, email, region, and occupation status. Region, sex, age band, marital status, income quintile, and occupation status should be distribution-backed."
+}

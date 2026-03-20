@@ -1,0 +1,6 @@
+{
+  "eval_id": 9,
+  "eval_slug": "be-09-mobility-profiles",
+  "title": "Mobility Profiles",
+  "prompt": "Generate Belgian mobility-oriented records with sex, age band, region, job title, and a Belgian-style license plate. Region, sex, and age should match the requested spread."
+}

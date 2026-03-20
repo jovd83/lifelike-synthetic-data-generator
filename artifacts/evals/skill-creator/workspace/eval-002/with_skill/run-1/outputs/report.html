@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Names And Birth Dates</title>
+  <style>
+    body { font-family: Georgia, serif; margin: 2rem auto; max-width: 1200px; color: #18222d; background: #f6f4ef; }
+    h1, h2, h3 { color: #17324d; }
+    .cards { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; margin: 1rem 0 2rem; }
+    .card { background: white; border: 1px solid #d9d4c7; padding: 1rem; border-radius: 12px; }
+    table { width: 100%; border-collapse: collapse; background: white; margin-bottom: 1.5rem; }
+    th, td { border: 1px solid #d9d4c7; padding: 0.55rem; text-align: left; vertical-align: top; }
+    th { background: #efe8d8; }
+    .muted { color: #556575; }
+  </style>
+</head>
+<body>
+  <h1>Names And Birth Dates</h1>
+  <p>Generate Belgian resident records with sex, age band, birth date, first name, and last name while preserving the requested sex and age distribution.</p>
+  <div class="cards">
+    <div class="card"><strong>Localization score</strong><br>100.00%<br><span class="muted">Excellent</span></div>
+    <div class="card"><strong>Joint statistical fit</strong><br>98.16%<br><span class="muted">TVD 1.84%</span></div>
+    <div class="card"><strong>Largest cell gap</strong><br>1.00%<br><span class="muted">Across all represented dimensions</span></div>
+  </div>
+  <h2>What Was Asked</h2>
+  <table><thead><tr><th>Item</th><th>Value</th></tr></thead><tbody><tr><td>Target population</td><td>Residents of Belgium</td></tr><tr><td>Requested dataset size</td><td>2500</td></tr><tr><td>Requested fields</td><td>sex, age_band, birth_date, first_name, last_name, country</td></tr><tr><td>Distribution-backed dimensions</td><td>sex, age_band</td></tr><tr><td>Locale</td><td>nl_BE</td></tr><tr><td>Seed</td><td>102</td></tr></tbody></table>
+  <h2>Localization And Format Adherence</h2>
+  <table><thead><tr><th>Field</th><th>Check</th><th>Pass rate</th><th>Sample failures</th></tr></thead><tbody><tr><td>sex</td><td>Allowed represented values</td><td>100.00%</td><td>none</td></tr><tr><td>age_band</td><td>Allowed represented values</td><td>100.00%</td><td>none</td></tr><tr><td>birth_date</td><td>Birth date aligns with requested age band</td><td>100.00%</td><td>none</td></tr><tr><td>first_name</td><td>Non-empty localized text</td><td>100.00%</td><td>none</td></tr><tr><td>last_name</td><td>Non-empty localized text</td><td>100.00%</td><td>none</td></tr><tr><td>country</td><td>Exact literal</td><td>100.00%</td><td>none</td></tr></tbody></table>
+  <h2>Statistical Fit On The Observed Population</h2>
+  <p>Joint fit compares the generated distribution against the full requested represented population cells. Marginals show how each represented dimension performs individually.</p>
+  <table><thead><tr><th>Cell</th><th>Expected</th><th>Observed</th><th>Gap</th></tr></thead><tbody><tr><td>sex=F, age_band=Y18T44</td><td>17.00%</td><td>18.00%</td><td>1.00%</td></tr><tr><td>sex=F, age_band=Y0T17</td><td>10.00%</td><td>9.16%</td><td>0.84%</td></tr><tr><td>sex=M, age_band=Y18T44</td><td>17.60%</td><td>16.96%</td><td>0.64%</td></tr><tr><td>sex=M, age_band=Y65PL</td><td>7.50%</td><td>7.96%</td><td>0.46%</td></tr><tr><td>sex=F, age_band=Y45T64</td><td>12.90%</td><td>12.56%</td><td>0.34%</td></tr><tr><td>sex=M, age_band=Y45T64</td><td>12.50%</td><td>12.84%</td><td>0.34%</td></tr><tr><td>sex=F, age_band=Y65PL</td><td>12.00%</td><td>12.04%</td><td>0.04%</td></tr><tr><td>sex=M, age_band=Y0T17</td><td>10.50%</td><td>10.48%</td><td>0.02%</td></tr></tbody></table>
+  <h3>sex</h3><table><thead><tr><th>Value</th><th>Expected</th><th>Observed</th><th>Gap</th></tr></thead><tbody><tr><td>sex=F</td><td>51.90%</td><td>51.76%</td><td>0.14%</td></tr><tr><td>sex=M</td><td>48.10%</td><td>48.24%</td><td>0.14%</td></tr></tbody></table><h3>age_band</h3><table><thead><tr><th>Value</th><th>Expected</th><th>Observed</th><th>Gap</th></tr></thead><tbody><tr><td>age_band=Y0T17</td><td>20.50%</td><td>19.64%</td><td>0.86%</td></tr><tr><td>age_band=Y65PL</td><td>19.50%</td><td>20.00%</td><td>0.50%</td></tr><tr><td>age_band=Y18T44</td><td>34.60%</td><td>34.96%</td><td>0.36%</td></tr><tr><td>age_band=Y45T64</td><td>25.40%</td><td>25.40%</td><td>0.00%</td></tr></tbody></table>
+  <h2>Preview</h2>
+  <table><thead><tr><th>sex</th><th>age_band</th><th>birth_date</th><th>first_name</th><th>last_name</th><th>country</th></tr></thead><tbody><tr><td>M</td><td>Y18T44</td><td>1994-01-27</td><td>David</td><td>Peeters</td><td>BE</td></tr><tr><td>M</td><td>Y18T44</td><td>1986-03-10</td><td>Dirk</td><td>Stroobants</td><td>BE</td></tr><tr><td>M</td><td>Y45T64</td><td>1971-11-08</td><td>Marc</td><td>Goyvaerts</td><td>BE</td></tr><tr><td>M</td><td>Y65PL</td><td>1943-01-30</td><td>Mario</td><td>Michielsen</td><td>BE</td></tr><tr><td>M</td><td>Y0T17</td><td>2016-11-22</td><td>Antoine</td><td>Martens</td><td>BE</td></tr><tr><td>F</td><td>Y0T17</td><td>2021-09-29</td><td>Manon</td><td>Maes</td><td>BE</td></tr><tr><td>F</td><td>Y0T17</td><td>2009-02-28</td><td>Sandra</td><td>Timmermans</td><td>BE</td></tr><tr><td>F</td><td>Y18T44</td><td>1994-12-02</td><td>Ilse</td><td>De Schepper</td><td>BE</td></tr></tbody></table>
+</body>
+</html>

@@ -1,0 +1,6 @@
+{
+  "eval_id": 11,
+  "eval_slug": "be-11-zipcode-hotspots",
+  "title": "Zipcode Hotspots",
+  "prompt": "Generate a difficult Belgian urban dataset where specific zipcodes must be represented with the requested spread, together with city, sex, age band, and income quintile."
+}

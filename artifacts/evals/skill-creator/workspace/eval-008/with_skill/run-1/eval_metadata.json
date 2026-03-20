@@ -1,0 +1,6 @@
+{
+  "eval_id": 8,
+  "eval_slug": "be-08-financial-customers",
+  "title": "Financial Customers",
+  "prompt": "Generate Belgian financial-customer records with realistic identity, contact, and banking fields. Region, sex, age band, and income quintile should remain representative."
+}

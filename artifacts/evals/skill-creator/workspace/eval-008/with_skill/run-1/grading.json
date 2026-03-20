@@ -1,0 +1,79 @@
+{
+  "expectations": [
+    {
+      "text": "The dataset contains the requested number of rows.",
+      "passed": true,
+      "evidence": "Expected 4000 rows and generated 4000 rows."
+    },
+    {
+      "text": "All requested output fields are present in the generated records.",
+      "passed": true,
+      "evidence": "Requested fields: region, sex, age_band, income_quintile, birth_date, first_name, last_name, insz, iban, email, mobile_phone, street_address, postcode, city."
+    },
+    {
+      "text": "Localization and format adherence remain at or above 99%.",
+      "passed": true,
+      "evidence": "Observed localization score: 100.00%."
+    },
+    {
+      "text": "Joint statistical fit remains at or above 95% for the represented dimensions.",
+      "passed": true,
+      "evidence": "Observed joint fit: 98.12% across region, sex, age_band, income_quintile."
+    },
+    {
+      "text": "Every requested represented dimension appears in the dataset rows.",
+      "passed": true,
+      "evidence": "Represented dimensions: region, sex, age_band, income_quintile."
+    }
+  ],
+  "summary": {
+    "passed": 5,
+    "failed": 0,
+    "total": 5,
+    "pass_rate": 1.0
+  },
+  "execution_metrics": {
+    "tool_calls": {
+      "GenerateDataset": 1,
+      "EvaluateLocalization": 1,
+      "EvaluateStatistics": 1,
+      "RenderReport": 1
+    },
+    "total_tool_calls": 4,
+    "total_steps": 4,
+    "errors_encountered": 0,
+    "output_chars": 1726417,
+    "transcript_chars": 170
+  },
+  "timing": {
+    "executor_duration_seconds": 1.5657,
+    "grader_duration_seconds": 0.0,
+    "total_duration_seconds": 1.5657
+  },
+  "claims": [
+    {
+      "claim": "The generated dataset honors the requested row count.",
+      "type": "factual",
+      "verified": true,
+      "evidence": "Generated 4000 rows."
+    },
+    {
+      "claim": "The represented population fit is strong.",
+      "type": "analytical",
+      "verified": true,
+      "evidence": "Joint fit score: 98.12%."
+    }
+  ],
+  "user_notes_summary": {
+    "uncertainties": [
+      "Scenario-backed represented dimensions remain in this experiment: region, sex, age_band."
+    ],
+    "needs_review": [],
+    "workarounds": [
+      "This skill-creator export packages the repo's native eval harness results instead of replaying a separate blind comparator loop."
+    ]
+  },
+  "eval_feedback": {
+    "overall": "The packaged eval exposes both localization quality and distribution fit in the skill-creator viewer."
+  }
+}

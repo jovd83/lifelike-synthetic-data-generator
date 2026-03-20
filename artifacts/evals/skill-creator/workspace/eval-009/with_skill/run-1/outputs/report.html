@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Mobility Profiles</title>
+  <style>
+    body { font-family: Georgia, serif; margin: 2rem auto; max-width: 1200px; color: #18222d; background: #f6f4ef; }
+    h1, h2, h3 { color: #17324d; }
+    .cards { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; margin: 1rem 0 2rem; }
+    .card { background: white; border: 1px solid #d9d4c7; padding: 1rem; border-radius: 12px; }
+    table { width: 100%; border-collapse: collapse; background: white; margin-bottom: 1.5rem; }
+    th, td { border: 1px solid #d9d4c7; padding: 0.55rem; text-align: left; vertical-align: top; }
+    th { background: #efe8d8; }
+    .muted { color: #556575; }
+  </style>
+</head>
+<body>
+  <h1>Mobility Profiles</h1>
+  <p>Generate Belgian mobility-oriented records with sex, age band, region, job title, and a Belgian-style license plate. Region, sex, and age should match the requested spread.</p>
+  <div class="cards">
+    <div class="card"><strong>Localization score</strong><br>100.00%<br><span class="muted">Excellent</span></div>
+    <div class="card"><strong>Joint statistical fit</strong><br>97.57%<br><span class="muted">TVD 2.43%</span></div>
+    <div class="card"><strong>Largest cell gap</strong><br>1.26%<br><span class="muted">Across all represented dimensions</span></div>
+  </div>
+  <h2>What Was Asked</h2>
+  <table><thead><tr><th>Item</th><th>Value</th></tr></thead><tbody><tr><td>Target population</td><td>Driving-age Belgian adults</td></tr><tr><td>Requested dataset size</td><td>4200</td></tr><tr><td>Requested fields</td><td>region, sex, age_band, birth_date, first_name, last_name, job, license_plate, mobile_phone, city</td></tr><tr><td>Distribution-backed dimensions</td><td>region, sex, age_band</td></tr><tr><td>Locale</td><td>nl_BE</td></tr><tr><td>Seed</td><td>109</td></tr></tbody></table>
+  <h2>Localization And Format Adherence</h2>
+  <table><thead><tr><th>Field</th><th>Check</th><th>Pass rate</th><th>Sample failures</th></tr></thead><tbody><tr><td>region</td><td>Allowed represented values</td><td>100.00%</td><td>none</td></tr><tr><td>sex</td><td>Allowed represented values</td><td>100.00%</td><td>none</td></tr><tr><td>age_band</td><td>Allowed represented values</td><td>100.00%</td><td>none</td></tr><tr><td>birth_date</td><td>Birth date aligns with requested age band</td><td>100.00%</td><td>none</td></tr><tr><td>first_name</td><td>Non-empty localized text</td><td>100.00%</td><td>none</td></tr><tr><td>last_name</td><td>Non-empty localized text</td><td>100.00%</td><td>none</td></tr><tr><td>job</td><td>Non-empty localized text</td><td>100.00%</td><td>none</td></tr><tr><td>license_plate</td><td>Belgian vehicle license plate style for demos and form validation.</td><td>100.00%</td><td>none</td></tr><tr><td>mobile_phone</td><td>Belgian mobile number in international format.</td><td>100.00%</td><td>none</td></tr><tr><td>city</td><td>Non-empty localized text</td><td>100.00%</td><td>none</td></tr></tbody></table>
+  <h2>Statistical Fit On The Observed Population</h2>
+  <p>Joint fit compares the generated distribution against the full requested represented population cells. Marginals show how each represented dimension performs individually.</p>
+  <table><thead><tr><th>Cell</th><th>Expected</th><th>Observed</th><th>Gap</th></tr></thead><tbody><tr><td>region=VLG, sex=F, age_band=Y18T34</td><td>17.00%</td><td>18.26%</td><td>1.26%</td></tr><tr><td>region=VLG, sex=M, age_band=Y18T34</td><td>18.00%</td><td>17.29%</td><td>0.71%</td></tr><tr><td>region=BXL, sex=F, age_band=Y25T54</td><td>5.00%</td><td>4.33%</td><td>0.67%</td></tr><tr><td>region=VLG, sex=M, age_band=Y35T54</td><td>12.00%</td><td>12.55%</td><td>0.55%</td></tr><tr><td>region=WAL, sex=M, age_band=Y35T54</td><td>7.00%</td><td>6.55%</td><td>0.45%</td></tr><tr><td>region=BXL, sex=M, age_band=Y25T54</td><td>4.00%</td><td>4.45%</td><td>0.45%</td></tr><tr><td>region=WAL, sex=M, age_band=Y18T34</td><td>9.00%</td><td>8.74%</td><td>0.26%</td></tr><tr><td>region=WAL, sex=F, age_band=Y35T54</td><td>7.00%</td><td>6.81%</td><td>0.19%</td></tr><tr><td>region=WAL, sex=F, age_band=Y18T34</td><td>9.00%</td><td>9.17%</td><td>0.17%</td></tr><tr><td>region=VLG, sex=F, age_band=Y35T54</td><td>12.00%</td><td>11.86%</td><td>0.14%</td></tr></tbody></table>
+  <h3>region</h3><table><thead><tr><th>Value</th><th>Expected</th><th>Observed</th><th>Gap</th></tr></thead><tbody><tr><td>region=VLG</td><td>59.00%</td><td>59.95%</td><td>0.95%</td></tr><tr><td>region=WAL</td><td>32.00%</td><td>31.26%</td><td>0.74%</td></tr><tr><td>region=BXL</td><td>9.00%</td><td>8.79%</td><td>0.21%</td></tr></tbody></table><h3>sex</h3><table><thead><tr><th>Value</th><th>Expected</th><th>Observed</th><th>Gap</th></tr></thead><tbody><tr><td>sex=F</td><td>50.00%</td><td>50.43%</td><td>0.43%</td></tr><tr><td>sex=M</td><td>50.00%</td><td>49.57%</td><td>0.43%</td></tr></tbody></table><h3>age_band</h3><table><thead><tr><th>Value</th><th>Expected</th><th>Observed</th><th>Gap</th></tr></thead><tbody><tr><td>age_band=Y18T34</td><td>53.00%</td><td>53.45%</td><td>0.45%</td></tr><tr><td>age_band=Y35T54</td><td>38.00%</td><td>37.76%</td><td>0.24%</td></tr><tr><td>age_band=Y25T54</td><td>9.00%</td><td>8.79%</td><td>0.21%</td></tr></tbody></table>
+  <h2>Preview</h2>
+  <table><thead><tr><th>region</th><th>sex</th><th>age_band</th><th>birth_date</th><th>first_name</th><th>last_name</th><th>job</th><th>license_plate</th><th>mobile_phone</th><th>city</th></tr></thead><tbody><tr><td>VLG</td><td>F</td><td>Y18T34</td><td>1998-04-21</td><td>Eva</td><td>Jonckheere</td><td>Sports development officer</td><td>8-DHQ-498</td><td>+32457846248</td><td>Bierghes</td></tr><tr><td>WAL</td><td>F</td><td>Y35T54</td><td>1975-02-08</td><td>Ayse</td><td>Loos</td><td>Hydrogeologist</td><td>2-UYA-932</td><td>+32496726522</td><td>Teralfene</td></tr><tr><td>VLG</td><td>M</td><td>Y18T34</td><td>1988-08-05</td><td>Tom</td><td>Buysse</td><td>Fashion designer</td><td>7-UPD-378</td><td>+32490475970</td><td>Parike</td></tr><tr><td>WAL</td><td>M</td><td>Y35T54</td><td>1977-05-22</td><td>Koen</td><td>Jacobs</td><td>Diplomatic Services operational officer</td><td>2-JYY-563</td><td>+32497078649</td><td>Langdorp</td></tr><tr><td>BXL</td><td>M</td><td>Y25T54</td><td>1992-04-12</td><td>Stijn</td><td>Mertens</td><td>Scientist, clinical (histocompatibility and immunogenetics)</td><td>2-DCS-045</td><td>+32495249246</td><td>Leisele</td></tr><tr><td>VLG</td><td>M</td><td>Y35T54</td><td>1979-07-11</td><td>Bart</td><td>De Clercq</td><td>Actuary</td><td>8-HDX-610</td><td>+32453277112</td><td>Lomprez</td></tr><tr><td>WAL</td><td>M</td><td>Y18T34</td><td>1988-03-23</td><td>Marnix</td><td>D&#x27;Hondt</td><td>Education administrator</td><td>7-YDE-121</td><td>+32489250432</td><td>Neerheylissem</td></tr><tr><td>VLG</td><td>M</td><td>Y18T34</td><td>1995-02-14</td><td>Steve</td><td>Schepers</td><td>Product designer</td><td>1-NGV-343</td><td>+32474053371</td><td>Elst</td></tr></tbody></table>
+</body>
+</html>

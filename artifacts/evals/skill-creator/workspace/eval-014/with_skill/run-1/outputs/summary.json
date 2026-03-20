@@ -1,0 +1,15 @@
+{
+  "experiment_id": "be-14-car-brand-households",
+  "title": "Car Brand Households",
+  "localization_score": 1.0,
+  "joint_fit_score": 0.9760714285714286,
+  "largest_joint_gap": 0.008035714285714285,
+  "records": 5600,
+  "represented_dimensions": [
+    "region",
+    "sex",
+    "age_band",
+    "income_quintile",
+    "car_brand"
+  ]
+}

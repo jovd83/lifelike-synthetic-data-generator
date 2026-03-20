@@ -1,0 +1,6 @@
+{
+  "eval_id": 16,
+  "eval_slug": "be-16-elderly-flanders-low-income-widowed",
+  "title": "Elderly Flanders Low-Income Widowed",
+  "prompt": "Generate a difficult Belgian subset dataset for elderly people aged 65+ living in Flanders, with below-average income and widowed marital status, plus realistic names, contact fields, and address basics."
+}

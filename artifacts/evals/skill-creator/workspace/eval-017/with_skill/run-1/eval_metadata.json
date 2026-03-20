@@ -1,0 +1,6 @@
+{
+  "eval_id": 17,
+  "eval_slug": "eu-01-western-europe-education-workforce",
+  "title": "Western Europe Education And Workforce",
+  "prompt": "Generate a broader European dataset spanning Belgium, France, Germany, Netherlands, and Spain with country, sex, age band, degree level, and employment status as represented dimensions."
+}

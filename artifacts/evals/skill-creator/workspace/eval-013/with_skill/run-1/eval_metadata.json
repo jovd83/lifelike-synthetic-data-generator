@@ -1,0 +1,6 @@
+{
+  "eval_id": 13,
+  "eval_slug": "be-13-full-occupation-taxonomy",
+  "title": "Full Occupation Taxonomy",
+  "prompt": "Generate a difficult Belgian status dataset with explicit occupation categories such as employed, unemployed, self-employed, retired, and student, together with sex, age band, income quintile, and city."
+}

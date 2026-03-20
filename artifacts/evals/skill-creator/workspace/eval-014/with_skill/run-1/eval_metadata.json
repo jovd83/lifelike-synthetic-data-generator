@@ -1,0 +1,6 @@
+{
+  "eval_id": 14,
+  "eval_slug": "be-14-car-brand-households",
+  "title": "Car Brand Households",
+  "prompt": "Generate a difficult Belgian mobility-and-consumption dataset with car brand, region, sex, age band, income quintile, and Belgian license plates."
+}

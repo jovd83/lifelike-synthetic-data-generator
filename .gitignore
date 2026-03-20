@@ -13,7 +13,7 @@ dist/
 build/
 *.egg-info/
 
-artifacts/
+
 synthetic_data.csv
 synthetic_data.json
 synthetic_data.ndjson

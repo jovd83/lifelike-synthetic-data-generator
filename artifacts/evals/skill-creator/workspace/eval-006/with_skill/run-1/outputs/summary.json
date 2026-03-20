@@ -1,0 +1,14 @@
+{
+  "experiment_id": "be-06-income-occupation-brussels",
+  "title": "Income And Occupation In Brussels",
+  "localization_score": 1.0,
+  "joint_fit_score": 0.981764705882353,
+  "largest_joint_gap": 0.010588235294117648,
+  "records": 3400,
+  "represented_dimensions": [
+    "sex",
+    "age_band",
+    "income_quintile",
+    "occupation_status"
+  ]
+}
