@@ -10,6 +10,8 @@ The format follows Keep a Changelog and Semantic Versioning.
 - Population-shaped generation through top-level `population_model` segments, subset filters, and representativeness summaries.
 - Live `source_query` support for deriving weighted population segments directly from public datasets such as the Statbel Open Data API.
 - New population-aware field types: `segment_value`, `birth_date_from_age_band`, and `faker_from_segment`.
+- Bundled Belgian address catalog support through `references/belgian_address_catalog.json`.
+- New `belgian_address_component` field type for coherent Belgian `street_address`, `postcode`, `city`, `province`, and `region` generation with row-level profile reuse and optional region, province, or postcode-prefix filters.
 - Native SQL output support plus simple `CREATE TABLE` schema parsing for schema-driven field derivation.
 - `references/population-modeling.md` with guidance for source-backed distribution shaping.
 - `examples/people-brussels-representative.json`, grounded in current Statbel population proportions for Brussels-Capital.
@@ -18,10 +20,11 @@ The format follows Keep a Changelog and Semantic Versioning.
 - `scripts/check_open_data_updates.py` for checking newly public datasets and schema drift against the stored snapshot.
 - `scripts/refresh_open_data_monitoring.py` for refreshing the stored monitoring baseline from live official catalogs.
 - `scripts/run_belgium_evals.py`, `evals/belgium_experiments.py`, and `tests/test_belgium_evals.py` for HTML-based Belgium realism and statistical evaluation experiments.
+- Belgium evaluation scenarios that exercise coherent regional and province-filtered address generation.
 
 ### Changed
 - Expanded `references/open_data_sources.json` into a richer, machine-readable catalog with Statbel-first guidance for Belgium plus monitored data.gov.be, Eurostat, GeoNames, WorldPop, and World Bank discovery metadata.
-- Updated `SKILL.md`, `README.md`, and `agents/openai.yaml` to cover representative datasets, live source queries, and explicit distribution coverage reporting.
+- Updated `SKILL.md`, `README.md`, and `agents/openai.yaml` to cover representative datasets, live source queries, explicit distribution coverage reporting, and the bundled Belgian address workflow.
 - Extended the JSON schema to document `population_model`.
 
 ### Fixed

@@ -52,6 +52,7 @@ This skill is not responsible for:
 - Live source-query mode for deriving segments from public datasets at generation time
 - Summary reporting for what is and is not distribution-backed
 - Segment-aware field types for consistent values such as sex-aligned first names and age-backed birth dates
+- Bundled Belgian address catalog support for coherent `street_address` + `postcode` + `city` generation
 - Simple SQL schema parsing from `CREATE TABLE` DDL when you want SQL `INSERT` output
 - Curated regex-backed custom formats
 - Belgian-specific synthetic identifiers
@@ -131,6 +132,7 @@ The preferred config format is versioned and explicit:
 Reference assets:
 
 - field catalog: `references/field-types.md`
+- Belgian address catalog: `references/belgian_address_catalog.json`
 - config schema: `references/schema-config.schema.json`
 - reusable regex formats: `references/custom_formats.json`
 - representativeness workflow: `references/population-modeling.md`
@@ -173,6 +175,60 @@ When a supported public source is available, `population_model` can use `source_
 
 Legacy config keys (`output_format`, `output_file`) are still accepted for backward compatibility.
 
+## Belgian Address Catalog
+
+For Belgian datasets that need coherent address tuples rather than independently faked street and city values, use `belgian_address_component`.
+
+The generator samples from the bundled [`references/belgian_address_catalog.json`](references/belgian_address_catalog.json) catalog and keeps related fields aligned within each row. That means `street_address`, `postcode`, `city`, `province`, and `region` can come from the same sampled Belgian locality profile.
+
+Supported `params` for `belgian_address_component`:
+
+- `component`: one of `street_address`, `postcode`, `city`, `province`, or `region`
+- `profile`: optional row-level cache key so multiple address fields reuse the same sampled address
+- `region`: optional fixed region filter such as `VLG`, `WAL`, or `BXL`
+- `region_segment_key`: optional population-segment key to read the region from dynamically
+- `province`: optional province filter
+- `postcode_prefix`: optional postcode prefix filter
+
+Example:
+
+```json
+{
+  "fields": [
+    { "name": "region", "type": "segment_value", "params": { "key": "region" } },
+    {
+      "name": "street_address",
+      "type": "belgian_address_component",
+      "params": {
+        "profile": "home_address",
+        "region_segment_key": "region",
+        "component": "street_address"
+      }
+    },
+    {
+      "name": "postcode",
+      "type": "belgian_address_component",
+      "params": {
+        "profile": "home_address",
+        "region_segment_key": "region",
+        "component": "postcode"
+      }
+    },
+    {
+      "name": "city",
+      "type": "belgian_address_component",
+      "params": {
+        "profile": "home_address",
+        "region_segment_key": "region",
+        "component": "city"
+      }
+    }
+  ]
+}
+```
+
+Use ordinary Faker `street_address` when you only need lifelike text. Use `belgian_address_component` when the Belgian address fields need to stay internally consistent.
+
 ## SQL Output And Known Schemas
 
 If you know the target table schema, the skill can now generate SQL `INSERT` output directly.
@@ -211,6 +267,7 @@ The skill can consult or be configured against the following curated public sour
 | --- | --- | --- | --- | --- |
 | `Statbel Open Data API` | Belgium | Primary | Age, sex, geography, nationality, education, employment, unemployment, income quintiles, occupation status | First choice for Belgium-specific distribution-backed synthetic datasets |
 | `Statbel Open Data Files and Geographic Downloads` | Belgium | Supporting | Population grids, density-aware geography, statistical sectors, NUTS mappings, REFNIS normalization | Add spatial spread and Belgian code/geography consistency |
+| `BOSA BeST Address` | Belgium | Supporting | Official Belgian street, postcode, city, province, and region combinations | Source used to build the bundled `references/belgian_address_catalog.json` catalog for `belgian_address_component` |
 | `Eurostat` | EU | Primary | Cross-country comparability, regional education, labour-market mix, income and social indicators | Use when the target scope is EU-wide or cross-country rather than only Belgium |
 | `Belgian Open Data Portal` | Belgium | Supporting | Discovery of Belgian municipal, locality, mobility, environment, and administrative datasets | Find supporting Belgian open data beyond Statbel, then combine with stronger statistics if needed |
 | `WorldPop` | Global | Supporting | Gridded population density, spatial weighting, subnational spread | Make dense cities more likely than sparse rural areas and support realistic locality weighting |
@@ -222,6 +279,7 @@ The skill can consult or be configured against the following curated public sour
 
 - `Statbel Open Data API`: strongest current source for Belgian distribution-backed dimensions.
 - `Statbel Open Data Files and Geographic Downloads`: especially helpful when postcode-level or grid-level density matters.
+- `BOSA BeST Address`: best current source for coherent Belgian address tuples; the runtime uses a bundled catalog derived from its official exports.
 - `Eurostat`: strong for region-level and country-level distributions, weaker for street or postcode realism.
 - `Belgian Open Data Portal`: mainly a catalog-discovery surface rather than a direct representative population source.
 - `WorldPop`: strong for spatial weighting, not a replacement for official demographic distributions.
@@ -232,10 +290,11 @@ The skill can consult or be configured against the following curated public sour
 ### Practical selection guidance
 
 - If the request is Belgian and distribution-backed: start with `Statbel Open Data API`.
+- If the request needs coherent Belgian addresses: prefer `belgian_address_component` backed by the bundled catalog derived from `BOSA BeST Address`.
 - If the request needs EU comparability: use `Eurostat`.
 - If the request needs dense-city versus rural spread: add `WorldPop` or Statbel geographic files.
 - If the request needs realistic place names or hierarchy mappings: add `GeoNames`.
-- If the request needs realistic-looking addresses: add `OpenAddresses` and/or `data.gov.be` discoveries.
+- If the request needs realistic-looking addresses outside that Belgian catalog workflow: add `OpenAddresses` and/or `data.gov.be` discoveries.
 - If the request only needs a few represented dimensions: only model those dimensions to save tokens and complexity.
 - Always report which dimensions are truly distribution-backed and which remain only lifelike.
 
@@ -252,6 +311,7 @@ examples/
   people-brussels-representative.json
   people-brussels-representative-live.json
 references/
+  belgian_address_catalog.json
   custom_formats.json
   field-types.md
   open_data_monitoring.json
@@ -264,7 +324,9 @@ scripts/
   refresh_open_data_monitoring.py
   requirements.txt
 tests/
+  test_belgium_evals.py
   test_generate_data.py
+  test_skill_creator_eval_export.py
 CHANGELOG.md
 CONTRIBUTING.md
 README.md
