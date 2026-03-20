@@ -1,0 +1,44 @@
+{
+  "formats": {
+    "belgian_license_plate": {
+      "type": "regex",
+      "pattern": "^[1-7]-[A-Z]{3}-[0-9]{3}$",
+      "description": "Belgian vehicle license plate style for demos and form validation, constrained to currently plausible leading digits."
+    },
+    "swift_code": {
+      "type": "regex",
+      "pattern": "^[A-Z]{6}[A-Z0-9]{2}([A-Z0-9]{3})?$",
+      "description": "SWIFT or BIC code structure."
+    },
+    "belgian_vat": {
+      "type": "regex",
+      "pattern": "^BE[0-1]\\d{9}$",
+      "description": "Belgian VAT number format."
+    },
+    "belgian_postal_code": {
+      "type": "regex",
+      "pattern": "^[1-9]\\d{3}$",
+      "description": "Belgian four-digit postal code."
+    },
+    "belgian_mobile_phone": {
+      "type": "regex",
+      "pattern": "^\\+324[5-9]\\d{7}$",
+      "description": "Belgian mobile number in international format."
+    },
+    "belgian_landline_phone": {
+      "type": "regex",
+      "pattern": "^\\+32[2-9]\\d{6,7}$",
+      "description": "Belgian landline number in international format."
+    },
+    "belgian_riziv": {
+      "type": "regex",
+      "pattern": "^[1-8]-[0-9]{5}-[0-9]{2}-[0-9]{3}$",
+      "description": "Belgian RIZIV/INAMI style identifier format."
+    },
+    "belgian_passport": {
+      "type": "regex",
+      "pattern": "^[A-Z]{2}[0-9]{6}$",
+      "description": "Belgian passport-like format for validation testing."
+    }
+  }
+}

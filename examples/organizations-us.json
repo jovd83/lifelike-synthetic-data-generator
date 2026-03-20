@@ -1,0 +1,55 @@
+{
+  "version": "1.0",
+  "locale": "en_US",
+  "records": 6,
+  "seed": 7,
+  "output": {
+    "format": "json",
+    "path": "artifacts/organizations-us.json"
+  },
+  "fields": [
+    {
+      "name": "company_name",
+      "type": "company"
+    },
+    {
+      "name": "contact_name",
+      "type": "name"
+    },
+    {
+      "name": "industry",
+      "type": "choice",
+      "params": {
+        "values": [
+          "Manufacturing",
+          "Healthcare",
+          "Software",
+          "Retail"
+        ]
+      }
+    },
+    {
+      "name": "headcount",
+      "type": "number_int",
+      "params": {
+        "min": 25,
+        "max": 500
+      }
+    },
+    {
+      "name": "revenue_band",
+      "type": "choice",
+      "params": {
+        "values": [
+          "1M-5M",
+          "5M-20M",
+          "20M-100M"
+        ]
+      }
+    },
+    {
+      "name": "website",
+      "type": "url"
+    }
+  ]
+}

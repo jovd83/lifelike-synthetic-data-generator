@@ -1,0 +1,412 @@
+{
+  "version": "2.2",
+  "selection_guidance": {
+    "primary_rule": "For population-representative datasets, prefer official statistics that directly match the requested geography and dimensions.",
+    "token_efficiency_rule": "Only source and model the dimensions the user explicitly needs represented.",
+    "address_rule": "Use address datasets to shape formats and locality vocabularies, not to claim population representativeness unless population weights are also applied.",
+    "reporting_rule": "Always state which dimensions are distribution-backed and which remain merely lifelike.",
+    "monitoring_rule": "Use references/open_data_monitoring.json plus scripts/check_open_data_updates.py to detect newly public datasets or schema drift, and scripts/refresh_open_data_monitoring.py to refresh the stored baseline."
+  },
+  "sources": [
+    {
+      "id": "statbel-open-data-api",
+      "name": "Statbel Open Data API",
+      "url": "https://opendata-api.statbel.fgov.be",
+      "locale_scope": [
+        "BE"
+      ],
+      "fit_for_representativeness": "primary",
+      "access": {
+        "protocols": [
+          "REST",
+          "PostgREST",
+          "JSON",
+          "CSV"
+        ],
+        "discovery_endpoints": [
+          "https://opendata-api.statbel.fgov.be",
+          "https://opendata-api.statbel.fgov.be/rpc/get_tables_columns",
+          "https://opendata-api.statbel.fgov.be/rpc/get_tables_columns_grouped"
+        ],
+        "table_prefix": "tf_"
+      },
+      "monitoring_reference": "references/open_data_monitoring.json",
+      "update_check_command": "python scripts/check_open_data_updates.py --source-id statbel-open-data-api",
+      "recommended_for": [
+        "age distribution",
+        "sex distribution",
+        "NUTS3 geography",
+        "nationality",
+        "country of birth",
+        "employment and unemployment mix",
+        "education mix",
+        "income quantiles",
+        "occupation status"
+      ],
+      "limitations": [
+        "The current public API is strongest for Belgium-wide and regional distributions, not raw person-level microdata.",
+        "Healthcare expenditure is macro-level context, not a direct individual health-status distribution.",
+        "Postal-code or street-level density requires additional geographic files or grids."
+      ],
+      "datasets": [
+        {
+          "id": "tf_hvd_demo_population",
+          "path": "/tf_hvd_demo_population",
+          "best_for": [
+            "age",
+            "sex",
+            "population spread by NUTS3",
+            "nationality",
+            "country of birth"
+          ],
+          "columns": [
+            "CD_YEAR",
+            "CD_SEX",
+            "CD_AGE",
+            "CD_CNTRY_BTH",
+            "CD_NATLTY",
+            "CD_NUTS_LVL3",
+            "CD_PROPERTY",
+            "MS_VALUE"
+          ],
+          "query_example": "https://opendata-api.statbel.fgov.be/tf_hvd_demo_population?CD_YEAR=eq.2023&CD_NUTS_LVL3=eq.BE100&CD_CNTRY_BTH=eq.TOTAL&CD_NATLTY=eq.TOTAL&CD_PROPERTY=eq.MS_POP&select=CD_SEX,CD_AGE,MS_VALUE"
+        },
+        {
+          "id": "tf_hvd_lfs_employment",
+          "path": "/tf_hvd_lfs_employment",
+          "best_for": [
+            "employment mix",
+            "education by labour-market segment",
+            "regional labour-market distributions"
+          ],
+          "columns": [
+            "CD_YEAR",
+            "CD_SEX",
+            "CD_EMPMT_AGE",
+            "CD_NUTS_LVL2",
+            "CD_ISCED_2011",
+            "CD_PROPERTY",
+            "MS_VALUE"
+          ]
+        },
+        {
+          "id": "tf_hvd_lfs_unemployment",
+          "path": "/tf_hvd_lfs_unemployment",
+          "best_for": [
+            "unemployment mix",
+            "age by sex by education distributions",
+            "regional labour-market distributions"
+          ],
+          "columns": [
+            "CD_YEAR",
+            "CD_SEX",
+            "CD_EMPMT_AGE",
+            "CD_NUTS_LVL2",
+            "CD_ISCED_2011",
+            "CD_PROPERTY",
+            "MS_VALUE"
+          ]
+        },
+        {
+          "id": "tf_hvd_silc_poverty",
+          "path": "/tf_hvd_silc_poverty",
+          "best_for": [
+            "income quantiles",
+            "occupation status",
+            "education level",
+            "regional social conditions"
+          ],
+          "columns": [
+            "CD_YEAR",
+            "CD_SEX",
+            "CD_PVRTY_AGE",
+            "CD_ISCED_2011",
+            "CD_PVRTY_OCPTN_STS",
+            "CD_PVRTY_INCM_QNTL",
+            "CD_NUTS_LVL2",
+            "CD_PROPERTY",
+            "MS_VALUE"
+          ],
+          "query_example": "https://opendata-api.statbel.fgov.be/tf_hvd_silc_poverty?CD_YEAR=eq.2023&CD_SEX=neq.TOTAL&CD_PVRTY_AGE=neq.TOTAL&CD_PROPERTY=eq.MS_RISK_OF_POVERTY&select=CD_SEX,CD_PVRTY_AGE,CD_ISCED_2011,CD_PVRTY_OCPTN_STS,CD_PVRTY_INCM_QNTL,CD_NUTS_LVL2,MS_VALUE"
+        },
+        {
+          "id": "tf_hvd_silc_inequality",
+          "path": "/tf_hvd_silc_inequality",
+          "best_for": [
+            "inequality context",
+            "age by sex inequality splits"
+          ],
+          "columns": [
+            "CD_YEAR",
+            "CD_SEX",
+            "CD_INEQ_AGE",
+            "CD_PROPERTY",
+            "MS_VALUE"
+          ]
+        },
+        {
+          "id": "tf_hvd_healthcare_expenditure",
+          "path": "/tf_hvd_healthcare_expenditure",
+          "best_for": [
+            "macro health-spending context"
+          ],
+          "columns": [
+            "TIME_PERIOD",
+            "HC",
+            "HF",
+            "HP",
+            "FS",
+            "OBS_VALUE"
+          ],
+          "fit_for_individual_health_status": "weak"
+        }
+      ]
+    },
+    {
+      "id": "statbel-open-data-files",
+      "name": "Statbel Open Data Files and Geographic Downloads",
+      "url": "https://statbel.fgov.be/en/open-data?category=190&page=0",
+      "locale_scope": [
+        "BE"
+      ],
+      "fit_for_representativeness": "supporting",
+      "recommended_for": [
+        "population density",
+        "spatial spread",
+        "geographic code mappings",
+        "statistical sectors",
+        "population grids"
+      ],
+      "datasets": [
+        {
+          "id": "population-grid",
+          "best_for": [
+            "dense city vs sparse rural spread",
+            "grid-weighted spatial sampling"
+          ]
+        },
+        {
+          "id": "statistical-sectors",
+          "best_for": [
+            "sector-level geographic modeling",
+            "joining administrative data to geometry"
+          ]
+        },
+        {
+          "id": "code-refnis",
+          "best_for": [
+            "Belgian geography code normalization"
+          ]
+        },
+        {
+          "id": "nuts-codes",
+          "best_for": [
+            "NUTS hierarchy mappings"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eurostat-api",
+      "name": "Eurostat",
+      "url": "https://ec.europa.eu/eurostat",
+      "locale_scope": [
+        "EU"
+      ],
+      "fit_for_representativeness": "primary",
+      "access": {
+        "protocols": [
+          "SDMX-ML",
+          "REST",
+          "XML"
+        ],
+        "discovery_endpoints": [
+          "https://ec.europa.eu/eurostat/api/dissemination/sdmx/2.1/dataflow/ESTAT/all/latest"
+        ]
+      },
+      "monitoring_reference": "references/open_data_monitoring.json",
+      "update_check_command": "python scripts/check_open_data_updates.py --source-id eurostat-api",
+      "recommended_for": [
+        "cross-country comparability",
+        "regional education",
+        "regional labour-market mix",
+        "income and social indicators"
+      ],
+      "limitations": [
+        "Often better for region-level and country-level distributions than for street or postcode realism."
+      ]
+    },
+    {
+      "id": "data-gov-be",
+      "name": "Belgian Open Data Portal",
+      "url": "https://data.gov.be",
+      "locale_scope": [
+        "BE"
+      ],
+      "fit_for_representativeness": "supporting",
+      "access": {
+        "protocols": [
+          "DCAT-AP",
+          "RDF/XML",
+          "N-Triples",
+          "GitHub API",
+          "RSS"
+        ],
+        "discovery_endpoints": [
+          "https://data.gov.be/nl/api-rss",
+          "https://api.github.com/repos/fedict/dcat/contents/all",
+          "https://api.github.com/repos/fedict/dcat/commits?per_page=5"
+        ],
+        "technical_files": [
+          "datagovbe.nt.gz",
+          "datagovbe_edp.xml.gz",
+          "cat.nt",
+          "licenses.nt"
+        ]
+      },
+      "monitoring_reference": "references/open_data_monitoring.json",
+      "update_check_command": "python scripts/check_open_data_updates.py --source-id data-gov-be",
+      "recommended_for": [
+        "finding additional Belgian administrative and geographic datasets",
+        "discovering Belgian public metadata catalogs beyond Statbel",
+        "finding locality, mobility, environment, and municipal supporting datasets"
+      ],
+      "limitations": [
+        "The current monitoring integration tracks official export artifact changes in the data.gov.be DCAT repository, not every individual dataset record inside the full RDF dump.",
+        "Use this source primarily for catalog discovery and supporting realism inputs, then layer official statistics on top when you need explicit population representativeness."
+      ]
+    },
+    {
+      "id": "world-bank-data",
+      "name": "World Bank Data",
+      "url": "https://data.worldbank.org",
+      "locale_scope": [
+        "GLOBAL"
+      ],
+      "fit_for_representativeness": "supporting",
+      "access": {
+        "protocols": [
+          "REST",
+          "JSON",
+          "XML"
+        ],
+        "discovery_endpoints": [
+          "https://api.worldbank.org/v2/sources?format=json&per_page=200",
+          "https://api.worldbank.org/v2/indicator?format=json&per_page=5"
+        ]
+      },
+      "monitoring_reference": "references/open_data_monitoring.json",
+      "update_check_command": "python scripts/check_open_data_updates.py --source-id world-bank-data",
+      "recommended_for": [
+        "macro-economic context",
+        "national-level demographic context"
+      ],
+      "limitations": [
+        "Best used for country-level or source-level context, not direct individual microdata distributions."
+      ]
+    },
+    {
+      "id": "worldpop",
+      "name": "WorldPop",
+      "url": "https://www.worldpop.org",
+      "locale_scope": [
+        "GLOBAL"
+      ],
+      "fit_for_representativeness": "supporting",
+      "access": {
+        "protocols": [
+          "REST",
+          "JSON",
+          "GeoTIFF"
+        ],
+        "discovery_endpoints": [
+          "https://www.worldpop.org/rest/data",
+          "https://api.worldpop.org/v1/services"
+        ],
+        "technical_files": [
+          "population count grids",
+          "population density grids",
+          "age and sex structures",
+          "administrative boundaries",
+          "covariates"
+        ]
+      },
+      "monitoring_reference": "references/open_data_monitoring.json",
+      "update_check_command": "python scripts/check_open_data_updates.py --source-id worldpop",
+      "recommended_for": [
+        "gridded population density",
+        "fine-grained spatial weighting",
+        "country and continent population grid discovery",
+        "population density-backed address or locality weighting",
+        "supporting subnational synthetic geography shaping"
+      ],
+      "limitations": [
+        "The current monitoring integration tracks the public WorldPop REST dataset tree, not every individual raster file inside each dataset download.",
+        "WorldPop is strong for spatial population weighting, but it is not a substitute for official census distributions when you need exact age, sex, income, or schooling proportions.",
+        "Use WorldPop to improve density realism and spatial spread, then combine it with official statistical sources for demographic representativeness."
+      ]
+    },
+    {
+      "id": "geonames",
+      "name": "GeoNames",
+      "url": "https://www.geonames.org",
+      "locale_scope": [
+        "GLOBAL"
+      ],
+      "fit_for_representativeness": "supporting",
+      "access": {
+        "protocols": [
+          "TXT",
+          "ZIP",
+          "Web Services",
+          "JSON",
+          "XML"
+        ],
+        "discovery_endpoints": [
+          "https://download.geonames.org/export/dump/",
+          "https://www.geonames.org/export/ws-overview.html"
+        ],
+        "technical_files": [
+          "allCountries.zip",
+          "cities500.zip",
+          "admin1CodesASCII.txt",
+          "admin2Codes.txt",
+          "countryInfo.txt",
+          "featureCodes_en.txt",
+          "timeZones.txt",
+          "hierarchy.zip"
+        ]
+      },
+      "monitoring_reference": "references/open_data_monitoring.json",
+      "update_check_command": "python scripts/check_open_data_updates.py --source-id geonames",
+      "recommended_for": [
+        "place names",
+        "geographic hierarchies",
+        "city and locality vocabularies",
+        "country and admin-code normalization",
+        "supporting spatial realism"
+      ],
+      "limitations": [
+        "Good for locality realism and hierarchy mapping, not enough on its own for population-weighted sampling.",
+        "Most GeoNames web service calls require a username, so the current monitoring integration uses the public dump listing rather than authenticated API queries.",
+        "GeoNames population fields can support plausibility but should not be treated as official census weights without corroborating statistics."
+      ]
+    },
+    {
+      "id": "openaddresses",
+      "name": "OpenAddresses",
+      "url": "https://openaddresses.io",
+      "locale_scope": [
+        "GLOBAL"
+      ],
+      "fit_for_representativeness": "supporting",
+      "recommended_for": [
+        "address formatting",
+        "street-level vocabulary"
+      ],
+      "limitations": [
+        "Use for address shape and completeness, not as proof of population density by itself."
+      ]
+    }
+  ]
+}

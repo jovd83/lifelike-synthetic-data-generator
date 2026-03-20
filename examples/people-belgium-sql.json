@@ -1,0 +1,13 @@
+{
+  "version": "1.0",
+  "locale": "nl_BE",
+  "records": 6,
+  "seed": 42,
+  "sql_schema": {
+    "ddl": "CREATE TABLE customer_profiles (first_name VARCHAR(100), last_name VARCHAR(100), email VARCHAR(255), city VARCHAR(120), postal_code VARCHAR(10), mobile_phone VARCHAR(20), insz VARCHAR(20), active BOOLEAN, loyalty_points INTEGER, created_on DATE);"
+  },
+  "output": {
+    "format": "sql",
+    "path": "artifacts/people-belgium.sql"
+  }
+}

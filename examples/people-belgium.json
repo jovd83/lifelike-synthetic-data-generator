@@ -1,0 +1,44 @@
+{
+  "version": "1.0",
+  "locale": "nl_BE",
+  "records": 8,
+  "seed": 42,
+  "output": {
+    "format": "csv",
+    "path": "artifacts/people-belgium.csv"
+  },
+  "fields": [
+    {
+      "name": "first_name",
+      "type": "first_name"
+    },
+    {
+      "name": "last_name",
+      "type": "last_name"
+    },
+    {
+      "name": "email",
+      "type": "email"
+    },
+    {
+      "name": "city",
+      "type": "city"
+    },
+    {
+      "name": "postal_code",
+      "type": "belgian_postal_code"
+    },
+    {
+      "name": "mobile_phone",
+      "type": "belgian_mobile_phone"
+    },
+    {
+      "name": "insz",
+      "type": "belgian_insz"
+    },
+    {
+      "name": "eid",
+      "type": "belgian_eid"
+    }
+  ]
+}

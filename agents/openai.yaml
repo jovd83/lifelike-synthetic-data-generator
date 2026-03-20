@@ -1,0 +1,7 @@
+interface:
+  display_name: "Synthetic Data Generator"
+  short_description: "Generate realistic or source-backed population-shaped synthetic datasets"
+  default_prompt: "Use $lifelike-synthetic-data-generator to generate realistic synthetic datasets from my requested schema, and make them population-representative from live public data when needed."
+
+policy:
+  allow_implicit_invocation: true

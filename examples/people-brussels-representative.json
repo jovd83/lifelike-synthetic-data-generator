@@ -1,0 +1,169 @@
+{
+  "version": "1.0",
+  "locale": "fr_BE",
+  "records": 12,
+  "seed": 20260319,
+  "population_model": {
+    "scope": {
+      "country": "BE",
+      "level": "nuts3",
+      "code": "BE100",
+      "label": "Brussels-Capital",
+      "reference_year": 2023,
+      "source_catalog": "statbel-open-data-api",
+      "source_dataset": "tf_hvd_demo_population"
+    },
+    "dimensions": [
+      {
+        "name": "sex",
+        "description": "Sampled from Brussels-Capital population counts.",
+        "source": {
+          "catalog_id": "statbel-open-data-api",
+          "dataset": "tf_hvd_demo_population",
+          "column": "CD_SEX"
+        }
+      },
+      {
+        "name": "age_band",
+        "description": "Aggregated from Statbel five-year age bands into broader age groups.",
+        "source": {
+          "catalog_id": "statbel-open-data-api",
+          "dataset": "tf_hvd_demo_population",
+          "column": "CD_AGE"
+        }
+      }
+    ],
+    "segments": [
+      {
+        "weight": 0.113083,
+        "values": {
+          "sex": "M",
+          "age_band": "Y0T17"
+        }
+      },
+      {
+        "weight": 0.203009,
+        "values": {
+          "sex": "M",
+          "age_band": "Y18T44"
+        }
+      },
+      {
+        "weight": 0.120244,
+        "values": {
+          "sex": "M",
+          "age_band": "Y45T64"
+        }
+      },
+      {
+        "weight": 0.053733,
+        "values": {
+          "sex": "M",
+          "age_band": "Y65PL"
+        }
+      },
+      {
+        "weight": 0.108472,
+        "values": {
+          "sex": "F",
+          "age_band": "Y0T17"
+        }
+      },
+      {
+        "weight": 0.209268,
+        "values": {
+          "sex": "F",
+          "age_band": "Y18T44"
+        }
+      },
+      {
+        "weight": 0.115766,
+        "values": {
+          "sex": "F",
+          "age_band": "Y45T64"
+        }
+      },
+      {
+        "weight": 0.076424,
+        "values": {
+          "sex": "F",
+          "age_band": "Y65PL"
+        }
+      }
+    ]
+  },
+  "output": {
+    "format": "json",
+    "path": "artifacts/people-brussels-representative.json"
+  },
+  "fields": [
+    {
+      "name": "district_nuts3",
+      "type": "literal",
+      "params": {
+        "value": "BE100"
+      }
+    },
+    {
+      "name": "sex",
+      "type": "segment_value",
+      "params": {
+        "key": "sex"
+      }
+    },
+    {
+      "name": "age_band",
+      "type": "segment_value",
+      "params": {
+        "key": "age_band"
+      }
+    },
+    {
+      "name": "birth_date",
+      "type": "birth_date_from_age_band",
+      "params": {
+        "segment_key": "age_band",
+        "reference_date": "2023-01-01",
+        "default_max_age": 105,
+        "bands": {
+          "Y0T17": {
+            "min_age": 0,
+            "max_age": 17
+          },
+          "Y18T44": {
+            "min_age": 18,
+            "max_age": 44
+          },
+          "Y45T64": {
+            "min_age": 45,
+            "max_age": 64
+          },
+          "Y65PL": {
+            "min_age": 65,
+            "max_age": 105
+          }
+        }
+      }
+    },
+    {
+      "name": "first_name",
+      "type": "faker_from_segment",
+      "params": {
+        "segment_key": "sex",
+        "providers": {
+          "M": "first_name_male",
+          "F": "first_name_female"
+        },
+        "fallback_provider": "first_name"
+      }
+    },
+    {
+      "name": "last_name",
+      "type": "last_name"
+    },
+    {
+      "name": "email",
+      "type": "email"
+    }
+  ]
+}

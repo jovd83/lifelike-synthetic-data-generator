@@ -1,0 +1,42 @@
+[
+  {
+    "query": "Generate 10,000 fake customer records for load testing with names, emails, phone numbers, and reproducible output so my QA team can rerun it next week.",
+    "should_trigger": true
+  },
+  {
+    "query": "I need seeded Belgian test identities with INSZ-style identifiers and city fields for a demo environment.",
+    "should_trigger": true
+  },
+  {
+    "query": "Can you create a CSV of synthetic companies with revenue bands, industry buckets, and realistic-looking websites?",
+    "should_trigger": true
+  },
+  {
+    "query": "Please make fake API fixture data in JSON using a schema I describe, and keep it deterministic.",
+    "should_trigger": true
+  },
+  {
+    "query": "I need anonymize a production dump by masking only some columns.",
+    "should_trigger": false
+  },
+  {
+    "query": "Write a SQL migration that adds indexes to our customer table.",
+    "should_trigger": false
+  },
+  {
+    "query": "Pull real postal addresses from a government registry and import them into this CSV.",
+    "should_trigger": false
+  },
+  {
+    "query": "Can you build a Python ETL job that reads CSV rows and writes them into Postgres?",
+    "should_trigger": false
+  },
+  {
+    "query": "Generate sample mobile numbers and postal codes that match Belgian validation rules for an onboarding form test.",
+    "should_trigger": true
+  },
+  {
+    "query": "Create five mock HR employee records with start dates between 2021 and today and export them as NDJSON.",
+    "should_trigger": true
+  }
+]
