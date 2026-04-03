@@ -1,8 +1,19 @@
 # Lifelike Synthetic Data Generator
 
+[![Version](https://img.shields.io/badge/version-2.2.0-blue.svg)](./SKILL.md)
+[![License](https://img.shields.io/github/license/jovd83/lifelike-synthetic-data-generator)](./LICENSE)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/jovd83/lifelike-synthetic-data-generator/ci.yml?branch=main&label=CI)](https://github.com/jovd83/lifelike-synthetic-data-generator/actions)
+[![Python Version](https://img.shields.io/badge/python-3.11%2B-blue)](./scripts/requirements.txt)
+[![Issues](https://img.shields.io/github/issues/jovd83/lifelike-synthetic-data-generator)](https://github.com/jovd83/lifelike-synthetic-data-generator/issues)
+[![Pull Requests](https://img.shields.io/github/issues-pr/jovd83/lifelike-synthetic-data-generator)](https://github.com/jovd83/lifelike-synthetic-data-generator/pulls)
+[![Stars](https://img.shields.io/github/stars/jovd83/lifelike-synthetic-data-generator)](https://github.com/jovd83/lifelike-synthetic-data-generator/stargazers)
+[![Last Commit](https://img.shields.io/github/last-commit/jovd83/lifelike-synthetic-data-generator)](https://github.com/jovd83/lifelike-synthetic-data-generator/commits/main)
+[![Outputs](https://img.shields.io/badge/output-CSV%20%7C%20JSON%20%7C%20NDJSON%20%7C%20SQL%20%7C%20HTML%20%7C%20Markdown-success)](./README.md#key-features)
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=flat&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/jovd83)
+
 An Agent Skill and reference repository for generating realistic synthetic datasets for tests, demos, sandboxes, seed data, and workflow simulations.
 
-The skill translates user requirements into a validated generation config, then runs a bundled Python CLI to produce CSV, JSON, NDJSON, or SQL output. It supports locale-aware Faker providers, curated regex-backed custom formats, seeded repeatability, Belgian-specific identifiers such as INSZ and eID, optional population-shaping through weighted distribution segments, and simple schema-driven SQL generation from `CREATE TABLE` statements.
+The skill translates user requirements into a validated generation config, then runs a bundled Python CLI to produce CSV, JSON, NDJSON, SQL, HTML, or Markdown output. It supports locale-aware Faker providers, curated regex-backed custom formats, seeded repeatability, Belgian-specific identifiers such as INSZ and eID, optional population-shaping through weighted distribution segments, simple schema-driven SQL generation from `CREATE TABLE` statements, and human-readable persona bundles for reviewer-friendly browsing.
 
 ## What This Repository Contains
 
@@ -46,7 +57,7 @@ This skill is not responsible for:
 
 - Versioned config model with JSON schema reference
 - Seeded deterministic runs when repeatability matters
-- CSV, JSON, NDJSON, and SQL output
+- CSV, JSON, NDJSON, SQL, HTML, and Markdown output
 - Structured CLI result summary with preview rows
 - Optional population-representativeness layer with weighted segments and subset filters
 - Live source-query mode for deriving segments from public datasets at generation time
@@ -93,6 +104,16 @@ Validate an example config:
 python scripts/generate_data.py --config examples/people-belgium.json --validate-only
 ```
 
+`examples/people-belgium.json` now demonstrates coherent Belgian address tuples by keeping street, postcode, and city aligned through `belgian_address_component`.
+
+Translate a plain-language persona request into a runnable config:
+
+```bash
+python scripts/translate_persona_request.py --request examples/persona-request-belgium.json --output artifacts/persona-request-belgium.generated.json
+```
+
+This translator remains Belgium-first. It can resolve the Belgian target locale from the request language, but it does not yet generate non-Belgian persona configs.
+
 Generate the dataset:
 
 ```bash
@@ -106,6 +127,23 @@ Generate SQL seed data from a schema-driven config:
 ```bash
 python scripts/generate_data.py --config examples/people-belgium-sql.json
 ```
+
+Generate a browsable persona bundle after setting `output.format` to `html` or `markdown` in the config:
+
+```bash
+python scripts/generate_data.py --config your-persona-config.json
+```
+
+`examples/persona-belgium.json` and `examples/persona-belgium-html.json` are the richer reference examples for nested personas, Belgian contact details, and correlation-driven profile sections.
+
+When `output.format` is `html` or `markdown`, the generator writes a bundle directory with an index plus one file per persona. HTML bundles include `index.html` with a table, a short description for each persona, and direct links to the individual persona pages.
+
+Persona bundles now use the config locale for page language metadata and basic UI copy. By default, the bundle renderer also omits sensitive-looking contact, banking, and identifier fields so reviewer-facing pages read like personas instead of raw record dumps. Set `output.include_sensitive_fields` to `true` only when you intentionally want a full QA-style bundle.
+
+Optional persona bundle output keys:
+
+- `output.title`: override the default bundle title
+- `output.include_sensitive_fields`: include full synthetic identifiers and contact/banking details in HTML or Markdown bundles
 
 ## Config Model
 
@@ -132,6 +170,10 @@ The preferred config format is versioned and explicit:
 Reference assets:
 
 - field catalog: `references/field-types.md`
+- persona template: `references/persona-template.md`
+- persona catalogs: `references/persona_catalogs.json`
+- persona profile bundles: `references/persona_profile_bundles.json`
+- persona archetypes: `references/persona_archetypes.json`
 - Belgian address catalog: `references/belgian_address_catalog.json`
 - config schema: `references/schema-config.schema.json`
 - reusable regex formats: `references/custom_formats.json`
@@ -308,6 +350,7 @@ evals/
 examples/
   organizations-us.json
   people-belgium.json
+  persona-belgium.json
   people-brussels-representative.json
   people-brussels-representative-live.json
 references/
@@ -383,3 +426,28 @@ python scripts/refresh_open_data_monitoring.py
 The curated source list in `references/open_data_sources.json` is an optional realism aid for maintainers. It is meant to guide distribution shaping and source selection, not to imply that live ingestion is fully automated for every dataset.
 
 Cross-agent memory is intentionally out of scope for this repository. If you need that capability, integrate with a dedicated shared-memory skill rather than expanding this skill into infrastructure it does not own.
+
+## Persona Design Template
+
+This repository now includes [`references/persona-template.md`](references/persona-template.md), a maintainer-facing template for extending the skill from flat person rows toward richer synthetic personas with:
+
+- identity and household members
+- an introduction paragraph
+- professional, lifestyle, digital, and finance sections
+- optional health fields
+- a longer biography
+
+The template is intentionally a design contract first. It helps capture user wishes and define a coherent output shape without claiming that all persona-specific narrative and family-generation features are already native in `scripts/generate_data.py`.
+
+The runtime now also includes foundational persona-oriented field types:
+
+- `object` for nested JSON sections such as `identity` or `contact`
+- `array` for repeated nested values such as children or preference lists
+- `template` for derived narrative strings such as introductions and biographies
+- `age_from_birth_date` for keeping exact age aligned with a generated birth date
+- field-level `when` conditions for optional sections such as spouse, children, or vehicle details
+- top-level `correlation_rules` for aligning related traits such as income, housing, and mobility
+- source-backed `correlation_rules.source_model` for grounding lifestyle traits in copied or live source-derived segments
+- top-level `contradiction_checks` for rejecting unrealistic combinations
+
+See [`examples/persona-belgium.json`](examples/persona-belgium.json) for a runnable nested persona example.

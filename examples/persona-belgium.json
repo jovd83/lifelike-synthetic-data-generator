@@ -1,0 +1,1134 @@
+{
+  "version": "1.0",
+  "locale": "nl_BE",
+  "records": 8,
+  "seed": 20260327,
+  "population_model": {
+    "scope": {
+      "country": "BE",
+      "reference_year": 2024
+    },
+    "dimensions": [
+      { "name": "sex" },
+      { "name": "age_band" },
+      { "name": "region" },
+      { "name": "marital_status", "represented": false, "description": "Weighted household-shape realism for this example; not source-backed." },
+      { "name": "num_children", "represented": false, "description": "Weighted household-shape realism for this example; not source-backed." }
+    ],
+    "segments": [
+      { "weight": 0.105, "values": { "sex": "F", "age_band": "Y35T44", "region": "VLG", "marital_status": "married", "num_children": 2 } },
+      { "weight": 0.047, "values": { "sex": "F", "age_band": "Y35T44", "region": "VLG", "marital_status": "married", "num_children": 1 } },
+      { "weight": 0.044, "values": { "sex": "F", "age_band": "Y35T44", "region": "VLG", "marital_status": "partnered", "num_children": 0 } },
+      { "weight": 0.026, "values": { "sex": "F", "age_band": "Y35T44", "region": "VLG", "marital_status": "married", "num_children": 0 } },
+      { "weight": 0.047, "values": { "sex": "F", "age_band": "Y35T44", "region": "VLG", "marital_status": "single", "num_children": 0 } },
+      { "weight": 0.023, "values": { "sex": "F", "age_band": "Y35T44", "region": "VLG", "marital_status": "divorced", "num_children": 1 } },
+      { "weight": 0.102, "values": { "sex": "M", "age_band": "Y35T44", "region": "VLG", "marital_status": "married", "num_children": 2 } },
+      { "weight": 0.045, "values": { "sex": "M", "age_band": "Y35T44", "region": "VLG", "marital_status": "married", "num_children": 1 } },
+      { "weight": 0.042, "values": { "sex": "M", "age_band": "Y35T44", "region": "VLG", "marital_status": "partnered", "num_children": 0 } },
+      { "weight": 0.025, "values": { "sex": "M", "age_band": "Y35T44", "region": "VLG", "marital_status": "married", "num_children": 0 } },
+      { "weight": 0.045, "values": { "sex": "M", "age_band": "Y35T44", "region": "VLG", "marital_status": "single", "num_children": 0 } },
+      { "weight": 0.022, "values": { "sex": "M", "age_band": "Y35T44", "region": "VLG", "marital_status": "divorced", "num_children": 1 } },
+      { "weight": 0.056, "values": { "sex": "F", "age_band": "Y35T44", "region": "WAL", "marital_status": "married", "num_children": 2 } },
+      { "weight": 0.026, "values": { "sex": "F", "age_band": "Y35T44", "region": "WAL", "marital_status": "married", "num_children": 1 } },
+      { "weight": 0.020, "values": { "sex": "F", "age_band": "Y35T44", "region": "WAL", "marital_status": "partnered", "num_children": 0 } },
+      { "weight": 0.013, "values": { "sex": "F", "age_band": "Y35T44", "region": "WAL", "marital_status": "married", "num_children": 0 } },
+      { "weight": 0.025, "values": { "sex": "F", "age_band": "Y35T44", "region": "WAL", "marital_status": "single", "num_children": 0 } },
+      { "weight": 0.016, "values": { "sex": "F", "age_band": "Y35T44", "region": "WAL", "marital_status": "divorced", "num_children": 1 } },
+      { "weight": 0.008, "values": { "sex": "F", "age_band": "Y35T44", "region": "WAL", "marital_status": "single", "num_children": 1 } },
+      { "weight": 0.053, "values": { "sex": "M", "age_band": "Y35T44", "region": "WAL", "marital_status": "married", "num_children": 2 } },
+      { "weight": 0.024, "values": { "sex": "M", "age_band": "Y35T44", "region": "WAL", "marital_status": "married", "num_children": 1 } },
+      { "weight": 0.018, "values": { "sex": "M", "age_band": "Y35T44", "region": "WAL", "marital_status": "partnered", "num_children": 0 } },
+      { "weight": 0.012, "values": { "sex": "M", "age_band": "Y35T44", "region": "WAL", "marital_status": "married", "num_children": 0 } },
+      { "weight": 0.023, "values": { "sex": "M", "age_band": "Y35T44", "region": "WAL", "marital_status": "single", "num_children": 0 } },
+      { "weight": 0.015, "values": { "sex": "M", "age_band": "Y35T44", "region": "WAL", "marital_status": "divorced", "num_children": 1 } },
+      { "weight": 0.008, "values": { "sex": "M", "age_band": "Y35T44", "region": "WAL", "marital_status": "single", "num_children": 1 } },
+      { "weight": 0.018, "values": { "sex": "F", "age_band": "Y35T44", "region": "BXL", "marital_status": "single", "num_children": 0 } },
+      { "weight": 0.012, "values": { "sex": "F", "age_band": "Y35T44", "region": "BXL", "marital_status": "partnered", "num_children": 0 } },
+      { "weight": 0.008, "values": { "sex": "F", "age_band": "Y35T44", "region": "BXL", "marital_status": "married", "num_children": 0 } },
+      { "weight": 0.007, "values": { "sex": "F", "age_band": "Y35T44", "region": "BXL", "marital_status": "married", "num_children": 1 } },
+      { "weight": 0.007, "values": { "sex": "F", "age_band": "Y35T44", "region": "BXL", "marital_status": "married", "num_children": 2 } },
+      { "weight": 0.003, "values": { "sex": "F", "age_band": "Y35T44", "region": "BXL", "marital_status": "divorced", "num_children": 1 } },
+      { "weight": 0.002, "values": { "sex": "F", "age_band": "Y35T44", "region": "BXL", "marital_status": "single", "num_children": 1 } },
+      { "weight": 0.016, "values": { "sex": "M", "age_band": "Y35T44", "region": "BXL", "marital_status": "single", "num_children": 0 } },
+      { "weight": 0.011, "values": { "sex": "M", "age_band": "Y35T44", "region": "BXL", "marital_status": "partnered", "num_children": 0 } },
+      { "weight": 0.008, "values": { "sex": "M", "age_band": "Y35T44", "region": "BXL", "marital_status": "married", "num_children": 0 } },
+      { "weight": 0.006, "values": { "sex": "M", "age_band": "Y35T44", "region": "BXL", "marital_status": "married", "num_children": 1 } },
+      { "weight": 0.007, "values": { "sex": "M", "age_band": "Y35T44", "region": "BXL", "marital_status": "married", "num_children": 2 } },
+      { "weight": 0.003, "values": { "sex": "M", "age_band": "Y35T44", "region": "BXL", "marital_status": "divorced", "num_children": 1 } },
+      { "weight": 0.002, "values": { "sex": "M", "age_band": "Y35T44", "region": "BXL", "marital_status": "single", "num_children": 1 } }
+    ]
+  },
+  "output": {
+    "format": "json",
+    "path": "artifacts/persona-belgium.json"
+  },
+  "correlation_rules": [
+    {
+      "name": "low_income_household_profile",
+      "when": {
+        "path": "professional.income_bracket",
+        "op": "eq",
+        "value": "low"
+      },
+      "assignments": [
+        { "path": "household_context.housing_type", "choices": ["apartment", "row house"], "weights": [0.65, 0.35] },
+        { "path": "household_context.ownership_status", "choices": ["renter", "owner"], "weights": [0.8, 0.2] },
+        { "path": "lifestyle.computer_model", "choices": ["Lenovo IdeaPad Slim 3", "HP 15", "Asus VivoBook 15"] },
+        { "path": "lifestyle.smartphone_model", "choices": ["Samsung Galaxy A35", "Motorola Edge 50 Neo", "Nokia G42"] },
+        { "path": "lifestyle.tablet_model", "choices": [null, "Lenovo Tab M11", "Samsung Galaxy Tab A9+"], "weights": [0.45, 0.3, 0.25] },
+        { "path": "mobility.travel_frequency", "value": "mostly day trips and one budget-friendly holiday" },
+        { "path": "finance.income_level", "value": "carefully budgeted household" },
+        { "path": "shopping_and_brand_preferences.favorite_supermarket", "choices": ["Colruyt", "Lidl", "ALDI"], "weights": [0.5, 0.3, 0.2] }
+      ]
+    },
+    {
+      "name": "lower_middle_household_profile",
+      "when": {
+        "path": "professional.income_bracket",
+        "op": "eq",
+        "value": "lower-middle"
+      },
+      "assignments": [
+        { "path": "household_context.housing_type", "choices": ["apartment", "row house"], "weights": [0.55, 0.45] },
+        { "path": "household_context.ownership_status", "choices": ["renter", "owner"], "weights": [0.65, 0.35] },
+        { "path": "lifestyle.computer_model", "choices": ["Lenovo IdeaPad Slim 3", "HP 15", "Acer Aspire 5"] },
+        { "path": "lifestyle.smartphone_model", "choices": ["Samsung Galaxy A55", "Google Pixel 8a", "Motorola Edge 50 Neo"] },
+        { "path": "lifestyle.tablet_model", "choices": [null, "Samsung Galaxy Tab A9+", "iPad 10th generation"], "weights": [0.35, 0.35, 0.3] },
+        { "path": "mobility.travel_frequency", "value": "one leisure trip or a few short breaks per year" },
+        { "path": "finance.income_level", "value": "stable but budget-aware household" },
+        { "path": "shopping_and_brand_preferences.favorite_supermarket", "choices": ["Colruyt", "Carrefour", "Lidl"], "weights": [0.45, 0.3, 0.25] }
+      ]
+    },
+    {
+      "name": "middle_household_profile",
+      "when": {
+        "path": "professional.income_bracket",
+        "op": "eq",
+        "value": "middle"
+      },
+      "assignments": [
+        { "path": "household_context.housing_type", "choices": ["apartment", "row house"], "weights": [0.45, 0.55] },
+        { "path": "household_context.ownership_status", "choices": ["owner", "renter"], "weights": [0.45, 0.55] },
+        { "path": "lifestyle.computer_model", "choices": ["Lenovo ThinkPad E14", "HP ProBook 445", "Dell Inspiron 14"] },
+        { "path": "lifestyle.smartphone_model", "choices": ["Samsung Galaxy A55", "Google Pixel 8a", "iPhone 15e"] },
+        { "path": "lifestyle.tablet_model", "choices": ["Samsung Galaxy Tab S9 FE", "iPad 10th generation", null], "weights": [0.4, 0.35, 0.25] },
+        { "path": "mobility.travel_frequency", "value": "one or two leisure trips per year" },
+        { "path": "finance.income_level", "value": "stable middle-income household" },
+        { "path": "shopping_and_brand_preferences.favorite_supermarket", "choices": ["Delhaize", "Carrefour", "Colruyt"], "weights": [0.35, 0.3, 0.35] }
+      ]
+    },
+    {
+      "name": "upper_middle_household_profile",
+      "when": {
+        "path": "professional.income_bracket",
+        "op": "eq",
+        "value": "upper-middle"
+      },
+      "assignments": [
+        { "path": "household_context.housing_type", "choices": ["semi-detached house", "row house", "apartment"], "weights": [0.55, 0.25, 0.2] },
+        { "path": "household_context.ownership_status", "choices": ["owner", "renter"], "weights": [0.8, 0.2] },
+        { "path": "lifestyle.computer_model", "choices": ["Lenovo ThinkPad X1 Carbon", "HP EliteBook 840", "MacBook Air 13"] },
+        { "path": "lifestyle.smartphone_model", "choices": ["Samsung Galaxy S24", "iPhone 15", "Google Pixel 9"] },
+        { "path": "lifestyle.tablet_model", "choices": ["iPad Air", "Samsung Galaxy Tab S10+", "iPad mini"] },
+        { "path": "mobility.travel_frequency", "value": "two or three leisure trips per year" },
+        { "path": "finance.income_level", "value": "comfortable upper-middle-income household" },
+        { "path": "shopping_and_brand_preferences.favorite_supermarket", "choices": ["Delhaize", "Carrefour", "Albert Heijn"], "weights": [0.4, 0.25, 0.35] }
+      ]
+    },
+    {
+      "name": "white_collar_brussels_mobility",
+      "when": {
+        "all": [
+          { "path": "professional.collar_type", "op": "eq", "value": "white-collar" },
+          { "path": "contact.region", "op": "eq", "value": "BXL" }
+        ]
+      },
+      "assignments": [
+        { "path": "mobility.primary_commute_mode", "choices": ["train", "bike", "car"], "weights": [0.45, 0.25, 0.3] }
+      ]
+    },
+    {
+      "name": "white_collar_regional_mobility",
+      "when": {
+        "all": [
+          { "path": "professional.collar_type", "op": "eq", "value": "white-collar" },
+          { "path": "contact.region", "op": "in", "value": ["VLG", "WAL"] }
+        ]
+      },
+      "assignments": [
+        { "path": "mobility.primary_commute_mode", "choices": ["car", "train", "bike"], "weights": [0.45, 0.35, 0.2] }
+      ]
+    },
+    {
+      "name": "blue_collar_mobility",
+      "when": {
+        "path": "professional.collar_type",
+        "op": "eq",
+        "value": "blue-collar"
+      },
+      "assignments": [
+        { "path": "mobility.primary_commute_mode", "choices": ["car", "train", "bike"], "weights": [0.65, 0.2, 0.15] }
+      ]
+    },
+    {
+      "name": "civil_service_mobility",
+      "when": {
+        "path": "professional.collar_type",
+        "op": "eq",
+        "value": "civil-service"
+      },
+      "assignments": [
+        { "path": "mobility.primary_commute_mode", "choices": ["train", "car", "bike"], "weights": [0.45, 0.35, 0.2] }
+      ]
+    },
+    {
+      "name": "train_commuter_coherence",
+      "when": {
+        "path": "mobility.primary_commute_mode",
+        "op": "eq",
+        "value": "train"
+      },
+      "assignments": [
+        { "path": "household_context.commute_style", "value": "train-based commuter routine" },
+        { "path": "mobility.public_transport_use", "value": "frequent" },
+        { "path": "mobility.driving_frequency", "value": "weekends and occasional errands" }
+      ]
+    },
+    {
+      "name": "car_commuter_coherence",
+      "when": {
+        "path": "mobility.primary_commute_mode",
+        "op": "eq",
+        "value": "car"
+      },
+      "assignments": [
+        { "path": "household_context.commute_style", "value": "car-led commute routine" },
+        { "path": "mobility.public_transport_use", "value": "occasional" },
+        { "path": "mobility.driving_frequency", "value": "most weekdays" }
+      ]
+    },
+    {
+      "name": "bike_commuter_coherence",
+      "when": {
+        "path": "mobility.primary_commute_mode",
+        "op": "eq",
+        "value": "bike"
+      },
+      "assignments": [
+        { "path": "household_context.commute_style", "value": "bike-first local routine" },
+        { "path": "mobility.public_transport_use", "value": "occasional" },
+        { "path": "mobility.driving_frequency", "value": "rare" }
+      ]
+    },
+    {
+      "name": "public_sector_income_stability",
+      "when": {
+        "all": [
+          { "path": "professional.sector_type", "op": "eq", "value": "public sector" },
+          { "path": "professional.income_bracket", "op": "eq", "value": "middle" }
+        ]
+      },
+      "assignments": [
+        { "path": "finance.income_level", "value": "stable middle-income household with predictable pay" },
+        { "path": "digital.device_use", "value": "practical household planning, work communication, public-service tools, and streaming in moderation" }
+      ]
+    },
+    {
+      "name": "public_sector_upper_middle_income_stability",
+      "when": {
+        "all": [
+          { "path": "professional.sector_type", "op": "eq", "value": "public sector" },
+          { "path": "professional.income_bracket", "op": "eq", "value": "upper-middle" }
+        ]
+      },
+      "assignments": [
+        { "path": "finance.income_level", "value": "comfortable upper-middle-income household with predictable pay" },
+        { "path": "digital.device_use", "value": "work communication, household planning, public-service admin tools, and steady streaming habits" }
+      ]
+    },
+    {
+      "name": "community_sector_middle_income_tone",
+      "when": {
+        "all": [
+          { "path": "professional.sector_type", "op": "eq", "value": "nonprofit or community sector" },
+          { "path": "professional.income_bracket", "op": "in", "value": ["middle", "lower-middle"] }
+        ]
+      },
+      "assignments": [
+        { "path": "finance.income_level", "value": "stable middle-income household with careful planning" },
+        { "path": "digital.device_use", "value": "messaging, household coordination, work communication, and one or two main streaming habits" }
+      ]
+    },
+    {
+      "name": "community_sector_upper_middle_income_tone",
+      "when": {
+        "all": [
+          { "path": "professional.sector_type", "op": "eq", "value": "nonprofit or community sector" },
+          { "path": "professional.income_bracket", "op": "eq", "value": "upper-middle" }
+        ]
+      },
+      "assignments": [
+        { "path": "finance.income_level", "value": "comfortable upper-middle-income household with careful planning" },
+        { "path": "digital.device_use", "value": "messaging, household coordination, work communication, and one or two main streaming habits" }
+      ]
+    },
+    {
+      "name": "local_sme_budget_tone",
+      "when": {
+        "all": [
+          { "path": "professional.employer_scale", "op": "eq", "value": "local SME" },
+          { "path": "professional.income_bracket", "op": "in", "value": ["low", "lower-middle"] }
+        ]
+      },
+      "assignments": [
+        { "path": "finance.income_level", "value": "carefully budgeted household with close monthly planning" },
+        { "path": "digital.device_use", "value": "messaging, practical household admin, catch-up TV, and careful online shopping" }
+      ]
+    },
+    {
+      "name": "train_commuter_with_children",
+      "when": {
+        "all": [
+          { "path": "mobility.primary_commute_mode", "op": "eq", "value": "train" },
+          { "path": "identity.num_children", "op": "gt", "value": 0 }
+        ]
+      },
+      "assignments": [
+        { "path": "household_context.commute_style", "value": "train-based family logistics" },
+        { "path": "mobility.driving_frequency", "value": "weekends and occasional school runs" }
+      ]
+    },
+    {
+      "name": "car_commuter_with_children",
+      "when": {
+        "all": [
+          { "path": "mobility.primary_commute_mode", "op": "eq", "value": "car" },
+          { "path": "identity.num_children", "op": "gt", "value": 0 }
+        ]
+      },
+      "assignments": [
+        { "path": "household_context.commute_style", "value": "car-based family commute" }
+      ]
+    },
+    {
+      "name": "bike_commuter_with_children",
+      "when": {
+        "all": [
+          { "path": "mobility.primary_commute_mode", "op": "eq", "value": "bike" },
+          { "path": "identity.num_children", "op": "gt", "value": 0 }
+        ]
+      },
+      "assignments": [
+        { "path": "household_context.commute_style", "value": "bike-first family routine" }
+      ]
+    },
+    {
+      "name": "brussels_neighborhood_profile",
+      "when": {
+        "path": "contact.region",
+        "op": "eq",
+        "value": "BXL"
+      },
+      "assignments": [
+        { "path": "household_context.neighborhood_type", "choices": ["urban", "suburban"], "weights": [0.8, 0.2] }
+      ]
+    },
+    {
+      "name": "regional_neighborhood_profile",
+      "when": {
+        "path": "contact.region",
+        "op": "in",
+        "value": ["VLG", "WAL"]
+      },
+      "assignments": [
+        { "path": "household_context.neighborhood_type", "choices": ["suburban", "small-town", "urban"], "weights": [0.5, 0.3, 0.2] }
+      ]
+    },
+    {
+      "name": "child_free_partnered_household_size",
+      "when": {
+        "all": [
+          { "path": "identity.num_children", "op": "eq", "value": 0 },
+          { "path": "identity.marital_status", "op": "in", "value": ["married", "partnered"] }
+        ]
+      },
+      "assignments": [
+        { "path": "household_context.household_size", "value": 2 }
+      ]
+    },
+    {
+      "name": "child_free_single_household_size",
+      "when": {
+        "all": [
+          { "path": "identity.num_children", "op": "eq", "value": 0 },
+          { "path": "identity.marital_status", "op": "in", "value": ["single", "divorced"] }
+        ]
+      },
+      "assignments": [
+        { "path": "household_context.household_size", "value": 1 }
+      ]
+    },
+    {
+      "name": "one_child_household_size",
+      "when": {
+        "path": "identity.num_children",
+        "op": "eq",
+        "value": 1
+      },
+      "assignments": [
+        { "path": "household_context.household_size", "choices": [2, 3], "weights": [0.35, 0.65] }
+      ]
+    },
+    {
+      "name": "two_child_household_size",
+      "when": {
+        "path": "identity.num_children",
+        "op": "eq",
+        "value": 2
+      },
+      "assignments": [
+        { "path": "household_context.household_size", "choices": [3, 4], "weights": [0.2, 0.8] }
+      ]
+    },
+    {
+      "name": "larger_household_size",
+      "when": {
+        "path": "identity.num_children",
+        "op": "gte",
+        "value": 3
+      },
+      "assignments": [
+        { "path": "household_context.household_size", "choices": [4, 5], "weights": [0.4, 0.6] }
+      ]
+    },
+    {
+      "name": "brussels_single_home_profile",
+      "when": {
+        "all": [
+          { "path": "contact.region", "op": "eq", "value": "BXL" },
+          { "path": "household_context.household_size", "op": "eq", "value": 1 }
+        ]
+      },
+      "assignments": [
+        { "path": "household_context.housing_type", "choices": ["apartment", "row house"], "weights": [0.9, 0.1] },
+        { "path": "household_context.ownership_status", "value": "renter" },
+        { "path": "household_context.neighborhood_type", "value": "urban" }
+      ]
+    },
+    {
+      "name": "brussels_child_free_couple_home_profile",
+      "when": {
+        "all": [
+          { "path": "contact.region", "op": "eq", "value": "BXL" },
+          { "path": "household_context.household_size", "op": "eq", "value": 2 },
+          { "path": "identity.num_children", "op": "eq", "value": 0 }
+        ]
+      },
+      "assignments": [
+        { "path": "household_context.housing_type", "choices": ["apartment", "row house"], "weights": [0.75, 0.25] },
+        { "path": "household_context.ownership_status", "choices": ["renter", "owner"], "weights": [0.65, 0.35] },
+        { "path": "household_context.neighborhood_type", "value": "urban" }
+      ]
+    },
+    {
+      "name": "brussels_family_home_profile",
+      "when": {
+        "all": [
+          { "path": "contact.region", "op": "eq", "value": "BXL" },
+          { "path": "identity.num_children", "op": "gt", "value": 0 }
+        ]
+      },
+      "assignments": [
+        { "path": "household_context.housing_type", "choices": ["row house", "apartment"], "weights": [0.6, 0.4] },
+        { "path": "household_context.ownership_status", "choices": ["renter", "owner"], "weights": [0.55, 0.45] },
+        { "path": "household_context.neighborhood_type", "choices": ["urban", "suburban"], "weights": [0.65, 0.35] }
+      ]
+    },
+    {
+      "name": "regional_upper_middle_family_home_profile",
+      "when": {
+        "all": [
+          { "path": "contact.region", "op": "in", "value": ["VLG", "WAL"] },
+          { "path": "identity.num_children", "op": "gt", "value": 0 },
+          { "path": "professional.income_bracket", "op": "eq", "value": "upper-middle" }
+        ]
+      },
+      "assignments": [
+        { "path": "household_context.housing_type", "choices": ["semi-detached house", "row house"], "weights": [0.7, 0.3] },
+        { "path": "household_context.ownership_status", "value": "owner" },
+        { "path": "household_context.neighborhood_type", "choices": ["suburban", "small-town"], "weights": [0.7, 0.3] }
+      ]
+    },
+    {
+      "name": "regional_middle_income_family_home_profile",
+      "when": {
+        "all": [
+          { "path": "contact.region", "op": "in", "value": ["VLG", "WAL"] },
+          { "path": "identity.num_children", "op": "gt", "value": 0 },
+          { "path": "professional.income_bracket", "op": "eq", "value": "middle" }
+        ]
+      },
+      "assignments": [
+        { "path": "household_context.housing_type", "choices": ["row house", "semi-detached house"], "weights": [0.55, 0.45] },
+        { "path": "household_context.ownership_status", "choices": ["owner", "renter"], "weights": [0.65, 0.35] },
+        { "path": "household_context.neighborhood_type", "choices": ["suburban", "small-town"], "weights": [0.6, 0.4] }
+      ]
+    },
+    {
+      "name": "regional_budget_family_home_profile",
+      "when": {
+        "all": [
+          { "path": "contact.region", "op": "in", "value": ["VLG", "WAL"] },
+          { "path": "identity.num_children", "op": "gt", "value": 0 },
+          { "path": "professional.income_bracket", "op": "in", "value": ["low", "lower-middle"] }
+        ]
+      },
+      "assignments": [
+        { "path": "household_context.housing_type", "choices": ["row house", "apartment"], "weights": [0.75, 0.25] },
+        { "path": "household_context.ownership_status", "choices": ["renter", "owner"], "weights": [0.75, 0.25] },
+        { "path": "household_context.neighborhood_type", "choices": ["suburban", "small-town"], "weights": [0.55, 0.45] }
+      ]
+    },
+    {
+      "name": "regional_single_budget_home_profile",
+      "when": {
+        "all": [
+          { "path": "contact.region", "op": "in", "value": ["VLG", "WAL"] },
+          { "path": "household_context.household_size", "op": "eq", "value": 1 },
+          { "path": "professional.income_bracket", "op": "in", "value": ["low", "lower-middle"] }
+        ]
+      },
+      "assignments": [
+        { "path": "household_context.housing_type", "choices": ["apartment", "row house"], "weights": [0.65, 0.35] },
+        { "path": "household_context.ownership_status", "value": "renter" },
+        { "path": "household_context.neighborhood_type", "choices": ["small-town", "urban", "suburban"], "weights": [0.45, 0.35, 0.2] }
+      ]
+    },
+    {
+      "name": "children_reduce_spontaneous_travel",
+      "when": {
+        "path": "identity.num_children",
+        "op": "gt",
+        "value": 0
+      },
+      "assignments": [
+        { "path": "daily_routine.weekend_rhythm", "value": "gezinsactiviteiten, boodschappen en een ontspannen uitstap" },
+        { "path": "mobility.travel_style", "value": "well-planned, family-friendly trips" }
+      ]
+    }
+  ],
+  "contradiction_checks": [
+    {
+      "name": "lower_income_should_not_keep_premium_vehicle",
+      "when": {
+        "all": [
+          { "path": "professional.income_bracket", "op": "in", "value": ["low", "lower-middle"] },
+          { "path": "lifestyle.car_model", "op": "in", "value": ["BMW X1", "Tesla Model Y", "Audi Q3", "Mercedes-Benz CLA Shooting Brake", "Volkswagen ID.7 Tourer"] }
+        ]
+      },
+      "message": "lower-income profile conflicts with the configured vehicle choice"
+    },
+    {
+      "name": "timeline_career_sequence",
+      "timeline_assertions": [
+        {
+          "type": "ordered_events",
+          "timeline_field": "life_timeline",
+          "first_event": { "category": "education" },
+          "second_event": { "category": "career", "title": "Current role" },
+          "allow_same_day": false
+        },
+        {
+          "type": "minimum_age_at_event",
+          "timeline_field": "life_timeline",
+          "event": { "category": "career", "title": "Career start" },
+          "birth_date_field": "identity.birth_date",
+          "min_age": 16
+        },
+        {
+          "type": "minimum_gap_between_events",
+          "timeline_field": "life_timeline",
+          "first_event": { "category": "career", "title": "Career start" },
+          "second_event": { "category": "career", "title": "Current role" },
+          "min_gap_days": 365
+        }
+      ],
+      "message": "timeline contains implausible career sequencing"
+    }
+  ],
+  "fields": [
+    {
+      "name": "identity",
+      "type": "object",
+      "params": {
+        "fields": [
+          {
+            "name": "first_name",
+            "type": "faker_from_segment",
+            "params": {
+              "segment_key": "sex",
+              "providers": {
+                "M": "first_name_male",
+                "F": "first_name_female"
+              },
+              "fallback_provider": "first_name"
+            }
+          },
+          { "name": "last_name", "type": "last_name" },
+          { "name": "full_name", "type": "template", "params": { "template": "{first_name} {last_name}" } },
+          { "name": "gender", "type": "segment_value", "params": { "key": "sex" } },
+          {
+            "name": "birth_date",
+            "type": "birth_date_from_age_band",
+            "params": {
+              "segment_key": "age_band",
+              "reference_date": "2026-01-01",
+              "bands": {
+                "Y35T44": { "min_age": 35, "max_age": 44 }
+              }
+            }
+          },
+          { "name": "age", "type": "age_from_birth_date", "params": { "field": "birth_date", "reference_date": "2026-01-01" } },
+          { "name": "nationality", "type": "literal", "params": { "value": "Belgian" } },
+          { "name": "marital_status", "type": "segment_value", "params": { "key": "marital_status" } },
+          { "name": "num_children", "type": "segment_value", "params": { "key": "num_children" } },
+          { "name": "unique_id", "type": "uuid4" },
+          { "name": "preferred_pronouns", "type": "pronouns_from_gender", "params": { "field": "gender" } },
+          { "name": "national_id_type", "type": "literal", "params": { "value": "INSZ" } },
+          { "name": "national_id_number", "type": "belgian_insz" }
+        ]
+      }
+    },
+    {
+      "name": "contact",
+      "type": "object",
+      "params": {
+        "fields": [
+          { "name": "email", "type": "email" },
+          { "name": "phone_number", "type": "belgian_mobile_phone" },
+          { "name": "region", "type": "segment_value", "params": { "key": "region" } },
+          { "name": "address", "type": "belgian_address_component", "params": { "profile": "home", "region_segment_key": "region", "component": "street_address" } },
+          { "name": "city", "type": "belgian_address_component", "params": { "profile": "home", "region_segment_key": "region", "component": "city" } },
+          { "name": "province", "type": "belgian_address_component", "params": { "profile": "home", "region_segment_key": "region", "component": "province" } },
+          { "name": "postal_code", "type": "belgian_address_component", "params": { "profile": "home", "region_segment_key": "region", "component": "postcode" } },
+          { "name": "country", "type": "literal", "params": { "value": "Belgium" } }
+        ]
+      }
+    },
+    {
+      "name": "professional",
+      "type": "object",
+      "params": {
+        "fields": [
+          {
+            "name": "job_title",
+            "type": "catalog_choice",
+            "params": {
+              "catalog": "occupation_profiles",
+              "profile": "occupation",
+              "filters": { "country": "BE" },
+              "return": "job_title"
+            }
+          },
+          { "name": "profession", "type": "template", "params": { "template": "{job_title}" } },
+          {
+            "name": "industry",
+            "type": "catalog_choice",
+            "params": {
+              "catalog": "occupation_profiles",
+              "profile": "occupation",
+              "filters": { "country": "BE" },
+              "return": "industry"
+            }
+          },
+          {
+            "name": "collar_type",
+            "type": "catalog_choice",
+            "params": {
+              "catalog": "occupation_profiles",
+              "profile": "occupation",
+              "filters": { "country": "BE" },
+              "return": "collar_type"
+            }
+          },
+          {
+            "name": "work_pattern",
+            "type": "catalog_choice",
+            "params": {
+              "catalog": "occupation_profiles",
+              "profile": "occupation",
+              "filters": { "country": "BE" },
+              "return": "work_pattern"
+            }
+          },
+          {
+            "name": "company",
+            "type": "belgian_company_name",
+            "params": {
+              "profile": "employer",
+              "industry_field": "industry",
+              "region_field": "contact.region",
+              "city_field": "contact.city",
+              "collar_type_field": "collar_type",
+              "work_pattern_field": "work_pattern"
+            }
+          },
+          {
+            "name": "organization_type",
+            "type": "belgian_employer_component",
+            "params": {
+              "component": "organization_type",
+              "profile": "employer",
+              "industry_field": "industry",
+              "region_field": "contact.region",
+              "city_field": "contact.city",
+              "collar_type_field": "collar_type",
+              "work_pattern_field": "work_pattern"
+            }
+          },
+          {
+            "name": "sector_type",
+            "type": "belgian_employer_component",
+            "params": {
+              "component": "sector_type",
+              "profile": "employer",
+              "industry_field": "industry",
+              "region_field": "contact.region",
+              "city_field": "contact.city",
+              "collar_type_field": "collar_type",
+              "work_pattern_field": "work_pattern"
+            }
+          },
+          {
+            "name": "employer_scale",
+            "type": "belgian_employer_component",
+            "params": {
+              "component": "employer_scale",
+              "profile": "employer",
+              "industry_field": "industry",
+              "region_field": "contact.region",
+              "city_field": "contact.city",
+              "collar_type_field": "collar_type",
+              "work_pattern_field": "work_pattern"
+            }
+          },
+          {
+            "name": "education_profile",
+            "type": "belgian_education_profile",
+            "params": {
+              "age_field": "identity.age",
+              "region_field": "contact.region",
+              "profession_field": "job_title"
+            }
+          },
+          { "name": "education_level", "type": "template", "params": { "template": "{education_profile.level}" } },
+          {
+            "name": "income_bracket",
+            "type": "catalog_choice",
+            "params": {
+              "catalog": "occupation_profiles",
+              "profile": "occupation",
+              "filters": { "country": "BE" },
+              "return": "income_bracket"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "household_context",
+      "type": "object",
+      "params": {
+        "fields": [
+          { "name": "household_size", "type": "literal", "params": { "value": 2 } },
+          { "name": "neighborhood_type", "type": "choice", "params": { "values": ["urban", "suburban", "small-town"], "weights": [0.28, 0.5, 0.22] } },
+          { "name": "commute_style", "type": "literal", "params": { "value": "work and home logistics" } }
+        ]
+      }
+    },
+    {
+      "name": "lifestyle",
+      "type": "object",
+      "params": {
+        "fields": [
+          {
+            "name": "hobbies",
+            "type": "catalog_choice",
+            "params": {
+              "catalog": "lifestyle_profiles",
+              "profile": "lifestyle",
+              "filters": { "country": "BE" },
+              "filter_from_fields": { "collar_type": "professional.collar_type" },
+              "return": "hobbies"
+            }
+          },
+          {
+            "name": "languages_spoken",
+            "type": "belgian_language_profile",
+            "params": {
+              "region_field": "contact.region",
+              "city_field": "contact.city"
+            }
+          },
+          {
+            "name": "pet",
+            "type": "catalog_choice",
+            "params": {
+              "catalog": "lifestyle_profiles",
+              "profile": "lifestyle",
+              "filters": { "country": "BE" },
+              "filter_from_fields": { "collar_type": "professional.collar_type" },
+              "return": "pet"
+            }
+          },
+          {
+            "name": "values",
+            "type": "catalog_choice",
+            "params": {
+              "catalog": "lifestyle_profiles",
+              "profile": "lifestyle",
+              "filters": { "country": "BE" },
+              "filter_from_fields": { "collar_type": "professional.collar_type" },
+              "return": "values"
+            }
+          },
+          {
+            "name": "personality_type",
+            "type": "catalog_choice",
+            "params": {
+              "catalog": "lifestyle_profiles",
+              "profile": "lifestyle",
+              "filters": { "country": "BE" },
+              "filter_from_fields": { "collar_type": "professional.collar_type" },
+              "return": "personality_type"
+            }
+          },
+          { "name": "computer_model", "type": "literal", "params": { "value": null } },
+          { "name": "smartphone_model", "type": "literal", "params": { "value": null } },
+          { "name": "tablet_model", "type": "literal", "params": { "value": null } },
+          {
+            "name": "car_model",
+            "type": "catalog_choice",
+            "params": {
+              "catalog": "car_models",
+              "filters": { "country": "BE" },
+              "filter_from_fields": { "income_bracket": "professional.income_bracket" }
+            }
+          },
+          {
+            "name": "bike_model",
+            "type": "catalog_choice",
+            "params": {
+              "catalog": "bike_models",
+              "filters": { "country": "BE" },
+              "filter_from_fields": { "income_bracket": "professional.income_bracket" }
+            }
+          },
+          {
+            "name": "tv_brand",
+            "type": "catalog_choice",
+            "params": {
+              "catalog": "tv_brands",
+              "filters": { "country": "BE" },
+              "filter_from_fields": { "income_bracket": "professional.income_bracket" }
+            }
+          },
+          {
+            "name": "favorite_tv_show",
+            "type": "catalog_choice",
+            "params": {
+              "catalog": "media_profiles",
+              "profile": "media",
+              "filters": { "country": "BE" },
+              "filter_from_fields": { "region": "contact.region" },
+              "return": "favorite_tv_show"
+            }
+          },
+          {
+            "name": "favorite_movie",
+            "type": "catalog_choice",
+            "params": {
+              "catalog": "media_profiles",
+              "profile": "media",
+              "filters": { "country": "BE" },
+              "filter_from_fields": { "region": "contact.region" },
+              "return": "favorite_movie"
+            }
+          },
+          {
+            "name": "favorite_documentary",
+            "type": "catalog_choice",
+            "params": {
+              "catalog": "media_profiles",
+              "profile": "media",
+              "filters": { "country": "BE" },
+              "filter_from_fields": { "region": "contact.region" },
+              "return": "favorite_documentary"
+            }
+          },
+          {
+            "name": "favorite_vacation_destinations",
+            "type": "catalog_choice",
+            "params": {
+              "catalog": "lifestyle_profiles",
+              "profile": "lifestyle",
+              "filters": { "country": "BE" },
+              "filter_from_fields": { "collar_type": "professional.collar_type" },
+              "return": "favorite_vacation_destinations"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "shopping_and_brand_preferences",
+      "type": "object",
+      "params": {
+        "fields": [
+          {
+            "name": "favorite_supermarket",
+            "type": "catalog_choice",
+            "params": {
+              "catalog": "supermarkets",
+              "filters": {
+                "country": "BE",
+                "segment": "mainstream"
+              }
+            }
+          },
+          {
+            "name": "preferred_insurer",
+            "type": "catalog_choice",
+            "params": {
+              "catalog": "insurers",
+              "filters": {
+                "country": "BE",
+                "segment": "mainstream"
+              },
+              "filter_from_fields": {
+                "region": "contact.region"
+              }
+            }
+          },
+          {
+            "name": "preferred_transit_operator",
+            "type": "catalog_choice",
+            "params": {
+              "catalog": "transit_operators",
+              "filters": {
+                "country": "BE"
+              },
+              "filter_from_fields": {
+                "region": "contact.region"
+              }
+            }
+          },
+          {
+            "name": "preferred_news_brand",
+            "type": "catalog_choice",
+            "params": {
+              "catalog": "news_brands",
+              "filters": {
+                "country": "BE"
+              },
+              "filter_from_fields": {
+                "region": "contact.region"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "digital",
+      "type": "profile_bundle",
+      "params": {
+        "bundle": "digital_profiles",
+        "filter_from_fields": {
+          "income_bracket": "professional.income_bracket"
+        }
+      }
+    },
+    {
+      "name": "mobility",
+      "type": "object",
+      "params": {
+        "fields": [
+          { "name": "driving_frequency", "type": "literal", "params": { "value": "varies by workday" } },
+          { "name": "travel_frequency", "type": "literal", "params": { "value": "one or two leisure trips per year" } }
+        ]
+      }
+    },
+    {
+      "name": "daily_routine",
+      "type": "daily_routine_profile",
+      "params": {
+        "age_field": "identity.age",
+        "profession_field": "professional.job_title",
+        "work_pattern_field": "professional.work_pattern",
+        "primary_commute_mode_field": "mobility.primary_commute_mode",
+        "children_count_field": "identity.num_children",
+        "income_bracket_field": "professional.income_bracket",
+        "sector_type_field": "professional.sector_type",
+        "employer_scale_field": "professional.employer_scale"
+      }
+    },
+    {
+      "name": "finance",
+      "type": "object",
+      "params": {
+        "fields": [
+          { "name": "iban", "type": "belgian_bank_account_component", "params": { "profile": "primary", "component": "iban" } },
+          { "name": "bank_name", "type": "belgian_bank_account_component", "params": { "profile": "primary", "component": "bank_name" } },
+          { "name": "swift_bic", "type": "belgian_bank_account_component", "params": { "profile": "primary", "component": "swift_bic" } },
+          { "name": "income_level", "type": "literal", "params": { "value": "stable household income" } },
+          {
+            "name": "preferred_payment_methods",
+            "type": "literal",
+            "params": {
+              "value": ["debit card", "credit card", "mobile payment"]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "family",
+      "type": "object",
+      "params": {
+        "fields": [
+          {
+            "name": "spouse",
+            "type": "object",
+            "when": {
+              "path": "identity.marital_status",
+              "op": "in",
+              "value": ["married", "partnered"]
+            },
+            "params": {
+              "fields": [
+                { "name": "gender", "type": "complementary_gender", "params": { "field": "identity.gender" } },
+                {
+                  "name": "first_name",
+                  "type": "faker_from_field",
+                  "params": {
+                    "field": "gender",
+                    "providers": {
+                      "M": "first_name_male",
+                      "F": "first_name_female"
+                    },
+                    "fallback_provider": "first_name"
+                  }
+                },
+                { "name": "last_name", "type": "template", "params": { "template": "{identity.last_name}" } },
+                { "name": "full_name", "type": "template", "params": { "template": "{first_name} {last_name}" } },
+                {
+                  "name": "birth_date",
+                  "type": "birth_date_relative_to_field",
+                  "params": {
+                    "anchor_birth_date_field": "identity.birth_date",
+                    "min_years_offset": -6,
+                    "max_years_offset": 6,
+                    "min_age": 30,
+                    "max_age": 55,
+                    "reference_date": "2026-01-01"
+                  }
+                },
+                { "name": "age", "type": "age_from_birth_date", "params": { "field": "birth_date", "reference_date": "2026-01-01" } },
+                { "name": "nationality", "type": "literal", "params": { "value": "Belgian" } },
+                { "name": "preferred_pronouns", "type": "pronouns_from_gender", "params": { "field": "gender" } },
+                { "name": "national_id_type", "type": "literal", "params": { "value": "INSZ" } },
+                { "name": "national_id_number", "type": "belgian_insz" }
+              ]
+            }
+          },
+          {
+            "name": "children",
+            "type": "array",
+            "when": {
+              "path": "identity.num_children",
+              "op": "gt",
+              "value": 0
+            },
+            "params": {
+              "count_from_field": "identity.num_children",
+              "item": {
+                "type": "object",
+                "params": {
+                  "fields": [
+                    { "name": "first_name", "type": "first_name" },
+                    { "name": "last_name", "type": "template", "params": { "template": "{identity.last_name}" } },
+                    { "name": "full_name", "type": "template", "params": { "template": "{first_name} {last_name}" } },
+                    {
+                      "name": "birth_date",
+                      "type": "child_birth_date_from_parent",
+                      "params": {
+                        "parent_birth_date_field": "identity.birth_date",
+                        "profile": "family_children",
+                        "reference_date": "2026-01-01",
+                        "min_child_age": 6,
+                        "max_child_age": 15,
+                        "min_parent_age_at_birth": 22,
+                        "max_parent_age_at_birth": 42,
+                        "min_spacing_days": 540,
+                        "max_spacing_years_between_siblings": 6
+                      }
+                    },
+                    { "name": "age", "type": "age_from_birth_date", "params": { "field": "birth_date", "reference_date": "2026-01-01" } },
+                    { "name": "nationality", "type": "literal", "params": { "value": "Belgian" } }
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "introduction",
+      "type": "persona_introduction",
+      "params": {
+        "full_name_field": "identity.full_name",
+        "age_field": "identity.age",
+        "profession_field": "professional.job_title",
+        "city_field": "contact.city",
+        "industry_field": "professional.industry",
+        "neighborhood_type_field": "household_context.neighborhood_type"
+      }
+    },
+    {
+      "name": "life_timeline",
+      "type": "life_timeline",
+      "params": {
+        "birth_date_field": "identity.birth_date",
+        "full_name_field": "identity.full_name",
+        "education_level_field": "professional.education_level",
+        "profession_field": "professional.job_title",
+        "company_field": "professional.company",
+        "marital_status_field": "identity.marital_status",
+        "spouse_field": "family.spouse",
+        "children_field": "family.children",
+        "city_field": "contact.city",
+        "reference_date": "2026-01-01"
+      }
+    },
+    {
+      "name": "biography",
+      "type": "biography_from_timeline",
+      "params": {
+        "timeline_field": "life_timeline",
+        "full_name_field": "identity.full_name",
+        "city_field": "contact.city",
+        "education_level_field": "professional.education_level",
+        "profession_field": "professional.job_title",
+        "hobbies_field": "lifestyle.hobbies",
+        "income_level_field": "finance.income_level",
+        "housing_type_field": "household_context.housing_type",
+        "ownership_status_field": "household_context.ownership_status",
+        "neighborhood_type_field": "household_context.neighborhood_type",
+        "children_field": "family.children",
+        "styles": ["reflective", "direct", "narrative"]
+      }
+    }
+  ]
+}

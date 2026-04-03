@@ -1,0 +1,14 @@
+{
+  "count": 1,
+  "locale": "nl_BE",
+  "country": "BE",
+  "seed": 42,
+  "wishes": [
+    "privacy-conscious urban parent",
+    "works in healthcare",
+    "two children",
+    "no car",
+    "dog"
+  ],
+  "output_path": "artifacts/persona-request-belgium.generated.json"
+}

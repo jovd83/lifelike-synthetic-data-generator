@@ -21,12 +21,28 @@
       "type": "email"
     },
     {
-      "name": "city",
-      "type": "city"
+      "name": "street_address",
+      "type": "belgian_address_component",
+      "params": {
+        "profile": "home",
+        "component": "street_address"
+      }
     },
     {
       "name": "postal_code",
-      "type": "belgian_postal_code"
+      "type": "belgian_address_component",
+      "params": {
+        "profile": "home",
+        "component": "postcode"
+      }
+    },
+    {
+      "name": "city",
+      "type": "belgian_address_component",
+      "params": {
+        "profile": "home",
+        "component": "city"
+      }
     },
     {
       "name": "mobile_phone",

@@ -1,0 +1,25 @@
+{
+  "version": "1.0",
+  "archetypes": {
+    "privacy-conscious-urban-parent": {
+      "locales": ["nl_BE", "fr_BE", "BE"],
+      "description": "A family-oriented urban persona with lower posting frequency, higher privacy awareness, and transit-friendly practical habits.",
+      "assignments": [
+        { "path": "digital.privacy_awareness", "value": "high" },
+        { "path": "digital.posting_frequency", "value": "low" },
+        { "path": "mobility.public_transport_use", "value": "frequent" },
+        { "path": "mobility.travel_style", "value": "carefully planned, city-friendly family travel" },
+        { "path": "daily_routine.evening_habits", "value": "family dinner, practical planning, and limited social posting" }
+      ]
+    },
+    "budget-conscious-commuter": {
+      "locales": ["nl_BE", "fr_BE", "BE"],
+      "description": "A value-focused commuter who balances convenience with cost control.",
+      "assignments": [
+        { "path": "finance.preferred_payment_methods", "value": ["debit card", "mobile payment"] },
+        { "path": "mobility.primary_commute_mode", "choices": ["train", "bike"], "weights": [0.6, 0.4] },
+        { "path": "shopping_and_brand_preferences.favorite_supermarket", "value": "Colruyt" }
+      ]
+    }
+  }
+}

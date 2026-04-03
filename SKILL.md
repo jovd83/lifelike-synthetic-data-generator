@@ -13,10 +13,12 @@ Generate realistic but fake records through the bundled script. Prefer this skil
 ## Available assets
 
 - `scripts/generate_data.py`: Validates config, generates records, writes CSV/JSON/NDJSON, and returns a machine-readable summary.
+- `scripts/translate_persona_request.py`: Translates plain-language persona wishes into a runnable persona config.
 - `scripts/check_open_data_updates.py`: Compares live public-data discovery endpoints against the stored monitoring snapshot.
 - `scripts/refresh_open_data_monitoring.py`: Refreshes the stored monitoring snapshot from live discovery endpoints.
 - `references/schema-config.schema.json`: Versioned config schema for editors, validation, and examples.
 - `references/field-types.md`: Supported field types, parameters, and extension guidance.
+- `references/persona-template.md`: Maintainer template for richer synthetic personas with household, biography, and lifestyle detail.
 - `references/custom_formats.json`: Curated project-local registry of reusable regex-backed formats.
 - `references/open_data_sources.json`: Curated project-local list of public sources for shaping realism.
 - `references/open_data_monitoring.json`: Stored discovery snapshot for detecting newly public data or schema drift.
@@ -74,6 +76,8 @@ Generate realistic but fake records through the bundled script. Prefer this skil
    - a short preview table
    - the next refinement options
 
+   If the user is asking for richer persona-style output rather than flat rows, first consult `references/persona-template.md` to structure the request and make clear whether you are producing a design template, a structured persona JSON artifact, or extending the runtime generator itself.
+
 6. When maintaining the source catalog, check for newly public data.
    Run:
 
@@ -94,6 +98,16 @@ Generate realistic but fake records through the bundled script. Prefer this skil
    ```bash
    python scripts/refresh_open_data_monitoring.py
    ```
+
+## Gotchas
+
+- A polished output is not automatically population-representative. Only describe the dataset as representative for the dimensions that are explicitly source-backed in `population_model`.
+- Output is only deterministic when a `seed` is set. Without a seed, reruns may change values, ordering, and preview rows.
+- `metadata.version` in this `SKILL.md` is the skill version, while config `"version"` in generated dataset configs is the generator config version. They are related to different contracts.
+- Public data sources in `references/open_data_sources.json` should shape distributions, vocabularies, or formats. Do not copy public rows directly into generated output.
+- Persona bundles can still contain partially English or canonical display values if the selected fields or catalogs are not locale-aware. Check the rendered artifact, not just the raw JSON preview, when locale quality matters.
+- `--validate-only` catches many schema and config mistakes early. Skipping validation is one of the easiest ways to waste time on generation runs that were never going to succeed.
+- `references/custom_formats.json` and `references/open_data_sources.json` are curated project assets, not scratch space. Only update them intentionally during maintainer work or when the user explicitly asks to extend the skill.
 
 ## Response contract
 

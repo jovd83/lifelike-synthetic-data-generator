@@ -1,0 +1,4958 @@
+{
+  "version": "1.0",
+  "catalogs": {
+    "banks": [
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "segment": "mainstream",
+        "value": "KBC Bank",
+        "weight": 4
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "segment": "mainstream",
+        "value": "Belfius Bank",
+        "weight": 4
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "segment": "mainstream",
+        "value": "ING Belgium",
+        "weight": 3
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "segment": "mainstream",
+        "value": "Argenta",
+        "weight": 2
+      }
+    ],
+    "supermarkets": [
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "segment": "mainstream",
+        "value": "Delhaize",
+        "weight": 4
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "segment": "mainstream",
+        "value": "Carrefour",
+        "weight": 3
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "segment": "mainstream",
+        "value": "Albert Heijn",
+        "weight": 2
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "segment": "value",
+        "value": "Colruyt",
+        "weight": 4
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "segment": "value",
+        "value": "ALDI",
+        "weight": 2
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "segment": "value",
+        "value": "Lidl",
+        "weight": 2
+      }
+    ],
+    "telcos": [
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "segment": "mainstream",
+        "value": "Proximus",
+        "weight": 4
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "segment": "mainstream",
+        "value": "Telenet",
+        "weight": 3
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "segment": "mainstream",
+        "value": "Orange Belgium",
+        "weight": 3
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "segment": "budget",
+        "value": "Mobile Vikings",
+        "weight": 2
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "segment": "budget",
+        "value": "BASE",
+        "weight": 2
+      }
+    ],
+    "streaming_platforms": [
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "segment": "general",
+        "value": "Netflix",
+        "weight": 5
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "segment": "general",
+        "value": "Disney+",
+        "weight": 3
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "segment": "premium",
+        "value": "Streamz",
+        "weight": 2
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "segment": "general",
+        "value": "Amazon Prime Video",
+        "weight": 2
+      }
+    ],
+    "insurers": [
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "segment": "mainstream",
+        "region": [
+          "VLG",
+          "BXL"
+        ],
+        "value": "Helan",
+        "weight": 3
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "segment": "mainstream",
+        "region": [
+          "VLG",
+          "BXL",
+          "WAL"
+        ],
+        "value": "AG Insurance",
+        "weight": 4
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "segment": "mainstream",
+        "region": [
+          "WAL",
+          "BXL"
+        ],
+        "value": "Partenamut",
+        "weight": 3
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "segment": "value",
+        "region": [
+          "VLG",
+          "WAL",
+          "BXL"
+        ],
+        "value": "DKV",
+        "weight": 2
+      }
+    ],
+    "transit_operators": [
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "region": "VLG",
+        "value": "De Lijn",
+        "weight": 4
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "region": "WAL",
+        "value": "TEC",
+        "weight": 4
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "region": "BXL",
+        "value": "STIB-MIVB",
+        "weight": 5
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "region": [
+          "VLG",
+          "WAL",
+          "BXL"
+        ],
+        "value": "NMBS-SNCB",
+        "weight": 3
+      }
+    ],
+    "news_brands": [
+      {
+        "locales": [
+          "nl_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "region": "VLG",
+        "value": "VRT NWS",
+        "weight": 4
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "region": "VLG",
+        "value": "De Standaard",
+        "weight": 2
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "region": "VLG",
+        "value": "HLN",
+        "weight": 3
+      },
+      {
+        "locales": [
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "region": "WAL",
+        "value": "RTBF",
+        "weight": 4
+      },
+      {
+        "locales": [
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "region": "WAL",
+        "value": "Le Soir",
+        "weight": 3
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "region": "BXL",
+        "value": "Bruzz",
+        "weight": 4
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "region": "BXL",
+        "value": "RTBF",
+        "weight": 2
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "region": "BXL",
+        "value": "VRT NWS",
+        "weight": 2
+      }
+    ],
+    "occupation_profiles": [
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Office Clerk",
+        "industry": "Business Services",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 196426
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Store Salesperson",
+        "industry": "Retail",
+        "collar_type": "white-collar",
+        "work_pattern": "on-site service schedule",
+        "income_bracket": "lower-middle",
+        "weight": 164628
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Home Care Cleaner",
+        "industry": "Home Services",
+        "collar_type": "blue-collar",
+        "work_pattern": "field-based service schedule",
+        "income_bracket": "low",
+        "weight": 124717
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Facility Cleaner",
+        "industry": "Facilities and Hospitality",
+        "collar_type": "blue-collar",
+        "work_pattern": "on-site service schedule",
+        "income_bracket": "low",
+        "weight": 114927
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Secondary School Teacher",
+        "industry": "Education",
+        "collar_type": "civil-service",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "upper-middle",
+        "weight": 108547
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Primary School Teacher",
+        "industry": "Education",
+        "collar_type": "civil-service",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "upper-middle",
+        "weight": 74165
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Practical Nurse",
+        "industry": "Healthcare",
+        "collar_type": "white-collar",
+        "work_pattern": "shift-based schedule",
+        "income_bracket": "middle",
+        "weight": 71429
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Registered Nurse",
+        "industry": "Healthcare",
+        "collar_type": "white-collar",
+        "work_pattern": "shift-based schedule",
+        "income_bracket": "upper-middle",
+        "weight": 70146
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Stock Clerk",
+        "industry": "Logistics",
+        "collar_type": "blue-collar",
+        "work_pattern": "on-site service schedule",
+        "income_bracket": "lower-middle",
+        "weight": 68961
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Care Assistant",
+        "industry": "Healthcare",
+        "collar_type": "blue-collar",
+        "work_pattern": "shift-based schedule",
+        "income_bracket": "lower-middle",
+        "weight": 67143
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Warehouse Handler",
+        "industry": "Logistics",
+        "collar_type": "blue-collar",
+        "work_pattern": "on-site service schedule",
+        "income_bracket": "lower-middle",
+        "weight": 63169
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Social Worker",
+        "industry": "Social Services",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 59067
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Business Analyst",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "hybrid office schedule",
+        "income_bracket": "upper-middle",
+        "weight": 58556
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Sales Manager",
+        "industry": "Wholesale and Retail",
+        "collar_type": "white-collar",
+        "work_pattern": "hybrid office schedule",
+        "income_bracket": "upper-middle",
+        "weight": 58301
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Accountant",
+        "industry": "Finance",
+        "collar_type": "white-collar",
+        "work_pattern": "hybrid office schedule",
+        "income_bracket": "middle",
+        "weight": 57668
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Truck Driver",
+        "industry": "Transport and Logistics",
+        "collar_type": "blue-collar",
+        "work_pattern": "field-based service schedule",
+        "income_bracket": "middle",
+        "weight": 56679
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Waiter",
+        "industry": "Hospitality",
+        "collar_type": "blue-collar",
+        "work_pattern": "shift-based schedule",
+        "income_bracket": "low",
+        "weight": 55906
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Systems Analyst",
+        "industry": "Information Technology",
+        "collar_type": "white-collar",
+        "work_pattern": "hybrid office schedule",
+        "income_bracket": "upper-middle",
+        "weight": 55382
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Bookkeeper",
+        "industry": "Finance",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 55022
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Software Developer",
+        "industry": "Information Technology",
+        "collar_type": "white-collar",
+        "work_pattern": "hybrid office schedule",
+        "income_bracket": "upper-middle",
+        "weight": 52184
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Office Supervisor",
+        "industry": "Business Services",
+        "collar_type": "white-collar",
+        "work_pattern": "hybrid office schedule",
+        "income_bracket": "middle",
+        "weight": 52117
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Childcare Worker",
+        "industry": "Childcare",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "lower-middle",
+        "weight": 50646
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Accounting Technician",
+        "industry": "Finance",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 49073
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Construction Worker",
+        "industry": "Construction",
+        "collar_type": "blue-collar",
+        "work_pattern": "field-based service schedule",
+        "income_bracket": "middle",
+        "weight": 48367
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Sales Representative",
+        "industry": "Wholesale and Distribution",
+        "collar_type": "white-collar",
+        "work_pattern": "field-based service schedule",
+        "income_bracket": "middle",
+        "weight": 47492
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Cashier",
+        "industry": "Retail",
+        "collar_type": "white-collar",
+        "work_pattern": "on-site service schedule",
+        "income_bracket": "low",
+        "weight": 47474
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "General Manager",
+        "industry": "General Management",
+        "collar_type": "white-collar",
+        "work_pattern": "hybrid office schedule",
+        "income_bracket": "upper-middle",
+        "weight": 43735
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Financial Services Clerk",
+        "industry": "Finance",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 42291
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Industrial Machinery Mechanic",
+        "industry": "Manufacturing",
+        "collar_type": "blue-collar",
+        "work_pattern": "on-site service schedule",
+        "income_bracket": "middle",
+        "weight": 42282
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Building Electrician",
+        "industry": "Construction",
+        "collar_type": "blue-collar",
+        "work_pattern": "field-based service schedule",
+        "income_bracket": "middle",
+        "weight": 42265
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Occupational therapist",
+        "industry": "Healthcare",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 3960
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Clinical biochemist",
+        "industry": "Healthcare",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 3740
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Chief Strategy Officer",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "hybrid office schedule",
+        "income_bracket": "upper-middle",
+        "weight": 3520
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Accountant, chartered public finance",
+        "industry": "Finance",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "upper-middle",
+        "weight": 3520
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Designer, multimedia",
+        "industry": "Creative and Media",
+        "collar_type": "white-collar",
+        "work_pattern": "hybrid office schedule",
+        "income_bracket": "middle",
+        "weight": 3520
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Optometrist",
+        "industry": "Healthcare",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 3520
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Warehouse manager",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "hybrid office schedule",
+        "income_bracket": "upper-middle",
+        "weight": 3300
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Equities trader",
+        "industry": "Finance",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "upper-middle",
+        "weight": 3300
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Product designer",
+        "industry": "Creative and Media",
+        "collar_type": "white-collar",
+        "work_pattern": "hybrid office schedule",
+        "income_bracket": "middle",
+        "weight": 3300
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Surgeon",
+        "industry": "Healthcare",
+        "collar_type": "white-collar",
+        "work_pattern": "shift-based schedule",
+        "income_bracket": "upper-middle",
+        "weight": 3300
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Patent attorney",
+        "industry": "Legal Services",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "upper-middle",
+        "weight": 3300
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Engineer, electrical",
+        "industry": "Engineering and Technology",
+        "collar_type": "white-collar",
+        "work_pattern": "hybrid office schedule",
+        "income_bracket": "upper-middle",
+        "weight": 3300
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Multimedia programmer",
+        "industry": "Engineering and Technology",
+        "collar_type": "white-collar",
+        "work_pattern": "hybrid office schedule",
+        "income_bracket": "middle",
+        "weight": 3300
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Insurance risk surveyor",
+        "industry": "Finance",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 3300
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Scientist, biomedical",
+        "industry": "Healthcare",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 3300
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Chartered certified accountant",
+        "industry": "Finance",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "upper-middle",
+        "weight": 3080
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Quarry manager",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "hybrid office schedule",
+        "income_bracket": "upper-middle",
+        "weight": 3080
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Manufacturing engineer",
+        "industry": "Engineering and Technology",
+        "collar_type": "white-collar",
+        "work_pattern": "hybrid office schedule",
+        "income_bracket": "upper-middle",
+        "weight": 3080
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Radio producer",
+        "industry": "Creative and Media",
+        "collar_type": "white-collar",
+        "work_pattern": "hybrid office schedule",
+        "income_bracket": "middle",
+        "weight": 3080
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Agricultural engineer",
+        "industry": "Engineering and Technology",
+        "collar_type": "white-collar",
+        "work_pattern": "hybrid office schedule",
+        "income_bracket": "upper-middle",
+        "weight": 3080
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Astronomer",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 3080
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Personal assistant",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 3080
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Special effects artist",
+        "industry": "Creative and Media",
+        "collar_type": "white-collar",
+        "work_pattern": "hybrid office schedule",
+        "income_bracket": "middle",
+        "weight": 3080
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Land",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 3080
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Psychotherapist, dance movement",
+        "industry": "Healthcare",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 3080
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Structural engineer",
+        "industry": "Engineering and Technology",
+        "collar_type": "white-collar",
+        "work_pattern": "hybrid office schedule",
+        "income_bracket": "upper-middle",
+        "weight": 3080
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Oceanographer",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 3080
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Race relations officer",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2860
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Environmental education officer",
+        "industry": "Education",
+        "collar_type": "civil-service",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2860
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Editor, film/video",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2860
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Control and instrumentation engineer",
+        "industry": "Engineering and Technology",
+        "collar_type": "white-collar",
+        "work_pattern": "hybrid office schedule",
+        "income_bracket": "upper-middle",
+        "weight": 2860
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Librarian, academic",
+        "industry": "Education",
+        "collar_type": "civil-service",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2860
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Copywriter, advertising",
+        "industry": "Creative and Media",
+        "collar_type": "white-collar",
+        "work_pattern": "hybrid office schedule",
+        "income_bracket": "middle",
+        "weight": 2860
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Colour technologist",
+        "industry": "Engineering and Technology",
+        "collar_type": "white-collar",
+        "work_pattern": "hybrid office schedule",
+        "income_bracket": "middle",
+        "weight": 2860
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Conservation officer, historic buildings",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2860
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Scientist, research (life sciences)",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2860
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Armed forces operational officer",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2860
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Chief Technology Officer",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "hybrid office schedule",
+        "income_bracket": "upper-middle",
+        "weight": 2860
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Museum/gallery exhibitions officer",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2860
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Legal executive",
+        "industry": "Legal Services",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "upper-middle",
+        "weight": 2860
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Firefighter",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2860
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Energy engineer",
+        "industry": "Engineering and Technology",
+        "collar_type": "white-collar",
+        "work_pattern": "hybrid office schedule",
+        "income_bracket": "upper-middle",
+        "weight": 2860
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Corporate investment banker",
+        "industry": "Finance",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2860
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Medical illustrator",
+        "industry": "Creative and Media",
+        "collar_type": "white-collar",
+        "work_pattern": "hybrid office schedule",
+        "income_bracket": "middle",
+        "weight": 2860
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Naval architect",
+        "industry": "Engineering and Technology",
+        "collar_type": "white-collar",
+        "work_pattern": "hybrid office schedule",
+        "income_bracket": "upper-middle",
+        "weight": 2860
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Production engineer",
+        "industry": "Engineering and Technology",
+        "collar_type": "white-collar",
+        "work_pattern": "hybrid office schedule",
+        "income_bracket": "upper-middle",
+        "weight": 2860
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Licensed conveyancer",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2860
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Local government officer",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2860
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Biomedical scientist",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2860
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Sales professional, IT",
+        "industry": "Sales and Marketing",
+        "collar_type": "white-collar",
+        "work_pattern": "hybrid office schedule",
+        "income_bracket": "middle",
+        "weight": 2860
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Fine artist",
+        "industry": "Creative and Media",
+        "collar_type": "white-collar",
+        "work_pattern": "hybrid office schedule",
+        "income_bracket": "middle",
+        "weight": 2640
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Meteorologist",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2640
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Trade union research officer",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2640
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Air cabin crew",
+        "industry": "Transport and Logistics",
+        "collar_type": "blue-collar",
+        "work_pattern": "field-based service schedule",
+        "income_bracket": "middle",
+        "weight": 2640
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Educational psychologist",
+        "industry": "Healthcare",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "upper-middle",
+        "weight": 2640
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Video editor",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2640
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Charity fundraiser",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2640
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Therapist, nutritional",
+        "industry": "Healthcare",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2640
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Science writer",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2640
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Bookseller",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2640
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Oncologist",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2640
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Conservator, furniture",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2640
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Sound technician, broadcasting/film/video",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2640
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Metallurgist",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2640
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Market researcher",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2640
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Horticultural consultant",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2640
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Animator",
+        "industry": "Creative and Media",
+        "collar_type": "white-collar",
+        "work_pattern": "hybrid office schedule",
+        "income_bracket": "middle",
+        "weight": 2640
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Journalist, magazine",
+        "industry": "Creative and Media",
+        "collar_type": "white-collar",
+        "work_pattern": "hybrid office schedule",
+        "income_bracket": "middle",
+        "weight": 2640
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Higher education careers adviser",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2640
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Engineer, petroleum",
+        "industry": "Engineering and Technology",
+        "collar_type": "white-collar",
+        "work_pattern": "hybrid office schedule",
+        "income_bracket": "upper-middle",
+        "weight": 2640
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Investment banker, operational",
+        "industry": "Finance",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2640
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Audiological scientist",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2640
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Social researcher",
+        "industry": "Social Services",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2640
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Chief Financial Officer",
+        "industry": "Finance",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2640
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Financial risk analyst",
+        "industry": "Engineering and Technology",
+        "collar_type": "white-collar",
+        "work_pattern": "hybrid office schedule",
+        "income_bracket": "upper-middle",
+        "weight": 2640
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Engineer, materials",
+        "industry": "Engineering and Technology",
+        "collar_type": "white-collar",
+        "work_pattern": "hybrid office schedule",
+        "income_bracket": "upper-middle",
+        "weight": 2640
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Phytotherapist",
+        "industry": "Healthcare",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2640
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Medical sales representative",
+        "industry": "Sales and Marketing",
+        "collar_type": "white-collar",
+        "work_pattern": "hybrid office schedule",
+        "income_bracket": "middle",
+        "weight": 2640
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Tourism officer",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2640
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Personnel officer",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2640
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Stage manager",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "hybrid office schedule",
+        "income_bracket": "upper-middle",
+        "weight": 2640
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Scientist, research (maths)",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2640
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Field trials officer",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2640
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Designer, exhibition/display",
+        "industry": "Creative and Media",
+        "collar_type": "white-collar",
+        "work_pattern": "hybrid office schedule",
+        "income_bracket": "middle",
+        "weight": 2640
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Programmer, applications",
+        "industry": "Engineering and Technology",
+        "collar_type": "white-collar",
+        "work_pattern": "hybrid office schedule",
+        "income_bracket": "middle",
+        "weight": 2640
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Theme park manager",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "hybrid office schedule",
+        "income_bracket": "upper-middle",
+        "weight": 2640
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Forensic psychologist",
+        "industry": "Healthcare",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "upper-middle",
+        "weight": 2640
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Surveyor, planning and development",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2640
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Psychologist, sport and exercise",
+        "industry": "Healthcare",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "upper-middle",
+        "weight": 2420
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Therapist, sports",
+        "industry": "Healthcare",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2420
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Radiographer, therapeutic",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2420
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Chiropodist",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2420
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Media buyer",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2420
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Outdoor activities/education manager",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "hybrid office schedule",
+        "income_bracket": "upper-middle",
+        "weight": 2420
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Social research officer, government",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2420
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Pilot, airline",
+        "industry": "Transport and Logistics",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "upper-middle",
+        "weight": 2420
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Learning disability nurse",
+        "industry": "Healthcare",
+        "collar_type": "white-collar",
+        "work_pattern": "shift-based schedule",
+        "income_bracket": "middle",
+        "weight": 2420
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Warden/ranger",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2420
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Interior and spatial designer",
+        "industry": "Creative and Media",
+        "collar_type": "white-collar",
+        "work_pattern": "hybrid office schedule",
+        "income_bracket": "middle",
+        "weight": 2420
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Midwife",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2420
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Marketing executive",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "hybrid office schedule",
+        "income_bracket": "middle",
+        "weight": 2420
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Medical laboratory scientific officer",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2420
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Furniture conservator/restorer",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2420
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Hospital pharmacist",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2420
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Broadcast journalist",
+        "industry": "Creative and Media",
+        "collar_type": "white-collar",
+        "work_pattern": "hybrid office schedule",
+        "income_bracket": "middle",
+        "weight": 2420
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Horticultural therapist",
+        "industry": "Healthcare",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2420
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Nutritional therapist",
+        "industry": "Healthcare",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2420
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Logistics and distribution manager",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "hybrid office schedule",
+        "income_bracket": "upper-middle",
+        "weight": 2420
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Clinical research associate",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2420
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Psychotherapist, child",
+        "industry": "Healthcare",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2420
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Community development worker",
+        "industry": "Social Services",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2420
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Risk analyst",
+        "industry": "Engineering and Technology",
+        "collar_type": "white-collar",
+        "work_pattern": "hybrid office schedule",
+        "income_bracket": "upper-middle",
+        "weight": 2420
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "International aid/development worker",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2420
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Land/geomatics surveyor",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2420
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Associate Professor",
+        "industry": "Education",
+        "collar_type": "civil-service",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "upper-middle",
+        "weight": 2420
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Exhibition designer",
+        "industry": "Creative and Media",
+        "collar_type": "white-collar",
+        "work_pattern": "hybrid office schedule",
+        "income_bracket": "middle",
+        "weight": 2420
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Visual merchandiser",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2420
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Translator",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2420
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Banker",
+        "industry": "Finance",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2420
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Garment/textile technologist",
+        "industry": "Engineering and Technology",
+        "collar_type": "white-collar",
+        "work_pattern": "hybrid office schedule",
+        "income_bracket": "middle",
+        "weight": 2420
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Careers adviser",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2420
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Fisheries officer",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2420
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Pharmacologist",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2420
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Regulatory affairs officer",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2420
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Quantity surveyor",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2420
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Town planner",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "hybrid office schedule",
+        "income_bracket": "middle",
+        "weight": 2420
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Accountant, chartered management",
+        "industry": "Finance",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "upper-middle",
+        "weight": 2420
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Clothing/textile technologist",
+        "industry": "Engineering and Technology",
+        "collar_type": "white-collar",
+        "work_pattern": "hybrid office schedule",
+        "income_bracket": "middle",
+        "weight": 2420
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Theatre manager",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "hybrid office schedule",
+        "income_bracket": "upper-middle",
+        "weight": 2420
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Dancer",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2420
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Photographer",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2420
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Chief Executive Officer",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "hybrid office schedule",
+        "income_bracket": "upper-middle",
+        "weight": 2420
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Engineer, maintenance (IT)",
+        "industry": "Engineering and Technology",
+        "collar_type": "white-collar",
+        "work_pattern": "hybrid office schedule",
+        "income_bracket": "upper-middle",
+        "weight": 2420
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Teacher, primary school",
+        "industry": "Education",
+        "collar_type": "civil-service",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2420
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Public house manager",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "hybrid office schedule",
+        "income_bracket": "upper-middle",
+        "weight": 2420
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Heritage manager",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "hybrid office schedule",
+        "income_bracket": "upper-middle",
+        "weight": 2420
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Sports administrator",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2420
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Geoscientist",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2420
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Research scientist (physical sciences)",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2420
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Physicist, medical",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2420
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Ecologist",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2200
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Technical sales engineer",
+        "industry": "Engineering and Technology",
+        "collar_type": "white-collar",
+        "work_pattern": "hybrid office schedule",
+        "income_bracket": "upper-middle",
+        "weight": 2200
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Psychologist, educational",
+        "industry": "Healthcare",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "upper-middle",
+        "weight": 2200
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Chemical engineer",
+        "industry": "Engineering and Technology",
+        "collar_type": "white-collar",
+        "work_pattern": "hybrid office schedule",
+        "income_bracket": "upper-middle",
+        "weight": 2200
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Estate manager/land agent",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "hybrid office schedule",
+        "income_bracket": "upper-middle",
+        "weight": 2200
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Paramedic",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2200
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Maintenance engineer",
+        "industry": "Engineering and Technology",
+        "collar_type": "white-collar",
+        "work_pattern": "hybrid office schedule",
+        "income_bracket": "upper-middle",
+        "weight": 2200
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Volunteer coordinator",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2200
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Public relations officer",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2200
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Energy manager",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "hybrid office schedule",
+        "income_bracket": "upper-middle",
+        "weight": 2200
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Operational investment banker",
+        "industry": "Finance",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2200
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Financial adviser",
+        "industry": "Finance",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2200
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Product/process development scientist",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2200
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Statistician",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2200
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Investment analyst",
+        "industry": "Engineering and Technology",
+        "collar_type": "white-collar",
+        "work_pattern": "hybrid office schedule",
+        "income_bracket": "upper-middle",
+        "weight": 2200
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Designer, furniture",
+        "industry": "Creative and Media",
+        "collar_type": "white-collar",
+        "work_pattern": "hybrid office schedule",
+        "income_bracket": "middle",
+        "weight": 2200
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Television production assistant",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2200
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Museum/gallery curator",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2200
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Nurse, adult",
+        "industry": "Healthcare",
+        "collar_type": "white-collar",
+        "work_pattern": "shift-based schedule",
+        "income_bracket": "middle",
+        "weight": 2200
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Engineer, automotive",
+        "industry": "Engineering and Technology",
+        "collar_type": "white-collar",
+        "work_pattern": "hybrid office schedule",
+        "income_bracket": "upper-middle",
+        "weight": 2200
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Facilities manager",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "hybrid office schedule",
+        "income_bracket": "upper-middle",
+        "weight": 2200
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Production manager",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "hybrid office schedule",
+        "income_bracket": "upper-middle",
+        "weight": 2200
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Clinical scientist, histocompatibility and immunogenetics",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2200
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Soil scientist",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2200
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Teacher, early years/pre",
+        "industry": "Education",
+        "collar_type": "civil-service",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2200
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Management consultant",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2200
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Ship broker",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2200
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Education officer, environmental",
+        "industry": "Education",
+        "collar_type": "civil-service",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2200
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Artist",
+        "industry": "Creative and Media",
+        "collar_type": "white-collar",
+        "work_pattern": "hybrid office schedule",
+        "income_bracket": "middle",
+        "weight": 2200
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Runner, broadcasting/film/video",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2200
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Newspaper journalist",
+        "industry": "Creative and Media",
+        "collar_type": "white-collar",
+        "work_pattern": "hybrid office schedule",
+        "income_bracket": "middle",
+        "weight": 2200
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Database administrator",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2200
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Geophysical data processor",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2200
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Mental health nurse",
+        "industry": "Healthcare",
+        "collar_type": "white-collar",
+        "work_pattern": "shift-based schedule",
+        "income_bracket": "middle",
+        "weight": 2200
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Analytical chemist",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2200
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Advertising account planner",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "hybrid office schedule",
+        "income_bracket": "middle",
+        "weight": 2200
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Contracting civil engineer",
+        "industry": "Engineering and Technology",
+        "collar_type": "white-collar",
+        "work_pattern": "hybrid office schedule",
+        "income_bracket": "upper-middle",
+        "weight": 2200
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "IT technical support officer",
+        "industry": "Engineering and Technology",
+        "collar_type": "white-collar",
+        "work_pattern": "hybrid office schedule",
+        "income_bracket": "middle",
+        "weight": 2200
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Pharmacist, hospital",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2200
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Lobbyist",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2200
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Radiographer, diagnostic",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2200
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Advertising art director",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "hybrid office schedule",
+        "income_bracket": "upper-middle",
+        "weight": 2200
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Press sub",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2200
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Engineer, electronics",
+        "industry": "Engineering and Technology",
+        "collar_type": "white-collar",
+        "work_pattern": "hybrid office schedule",
+        "income_bracket": "upper-middle",
+        "weight": 2200
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Financial planner",
+        "industry": "Finance",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2200
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Administrator, Civil Service",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2200
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Risk manager",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "hybrid office schedule",
+        "income_bracket": "upper-middle",
+        "weight": 2200
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Surveyor, mining",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2200
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Osteopath",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2200
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Tax adviser",
+        "industry": "Finance",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2200
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Engineer, production",
+        "industry": "Engineering and Technology",
+        "collar_type": "white-collar",
+        "work_pattern": "hybrid office schedule",
+        "income_bracket": "upper-middle",
+        "weight": 2200
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Commissioning editor",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2200
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Production assistant, television",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2200
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Product manager",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "hybrid office schedule",
+        "income_bracket": "upper-middle",
+        "weight": 2200
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Teacher, adult education",
+        "industry": "Education",
+        "collar_type": "civil-service",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2200
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Therapist, drama",
+        "industry": "Healthcare",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2200
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Make",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2200
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Dramatherapist",
+        "industry": "Healthcare",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2200
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Nature conservation officer",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2200
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Textile designer",
+        "industry": "Creative and Media",
+        "collar_type": "white-collar",
+        "work_pattern": "hybrid office schedule",
+        "income_bracket": "middle",
+        "weight": 2200
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Clinical cytogeneticist",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2200
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Chartered public finance accountant",
+        "industry": "Finance",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "upper-middle",
+        "weight": 2200
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Teacher, music",
+        "industry": "Education",
+        "collar_type": "civil-service",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2200
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Accommodation manager",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "hybrid office schedule",
+        "income_bracket": "upper-middle",
+        "weight": 2200
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Therapist, art",
+        "industry": "Healthcare",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2200
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Biochemist, clinical",
+        "industry": "Healthcare",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2200
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Water engineer",
+        "industry": "Engineering and Technology",
+        "collar_type": "white-collar",
+        "work_pattern": "hybrid office schedule",
+        "income_bracket": "upper-middle",
+        "weight": 2200
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Probation officer",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2200
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Human resources officer",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2200
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Publishing rights manager",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "hybrid office schedule",
+        "income_bracket": "upper-middle",
+        "weight": 2200
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Immigration officer",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2200
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Telecommunications researcher",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2200
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Lecturer, further education",
+        "industry": "Education",
+        "collar_type": "civil-service",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "upper-middle",
+        "weight": 2200
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Art gallery manager",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "hybrid office schedule",
+        "income_bracket": "upper-middle",
+        "weight": 2200
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Museum education officer",
+        "industry": "Education",
+        "collar_type": "civil-service",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 2200
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Haematologist",
+        "industry": "Healthcare",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "upper-middle",
+        "weight": 1980
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Research officer, political party",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 1980
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Conservation officer, nature",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 1980
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Designer, industrial/product",
+        "industry": "Creative and Media",
+        "collar_type": "white-collar",
+        "work_pattern": "hybrid office schedule",
+        "income_bracket": "middle",
+        "weight": 1980
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "job_title": "Public affairs consultant",
+        "industry": "Professional Services",
+        "collar_type": "white-collar",
+        "work_pattern": "structured daytime schedule",
+        "income_bracket": "middle",
+        "weight": 1980
+      }
+    ],
+    "lifestyle_profiles": [
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "collar_type": "white-collar",
+        "hobbies": [
+          "cycling",
+          "home cooking",
+          "podcasts"
+        ],
+        "pet": "dog",
+        "values": [
+          "stability",
+          "family time",
+          "practicality"
+        ],
+        "personality_type": "organized and warm",
+        "favorite_vacation_destinations": [
+          "Ardennes",
+          "Brittany",
+          "Tuscany"
+        ],
+        "weight": 5
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "collar_type": "white-collar",
+        "hobbies": [
+          "weekend running",
+          "museum visits",
+          "recipe experimenting"
+        ],
+        "pet": "cat",
+        "values": [
+          "learning",
+          "reliability",
+          "comfort"
+        ],
+        "personality_type": "thoughtful and steady",
+        "favorite_vacation_destinations": [
+          "Zeeland",
+          "Copenhagen",
+          "Alsace"
+        ],
+        "weight": 4
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "collar_type": "white-collar",
+        "hobbies": [
+          "hiking",
+          "DIY projects",
+          "radio shows"
+        ],
+        "pet": null,
+        "values": [
+          "independence",
+          "fairness",
+          "planning"
+        ],
+        "personality_type": "pragmatic and calm",
+        "favorite_vacation_destinations": [
+          "Black Forest",
+          "Ardennes",
+          "Lake Constance"
+        ],
+        "weight": 3
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "collar_type": "white-collar",
+        "hobbies": [
+          "padel",
+          "weekend city trips",
+          "food podcasts"
+        ],
+        "pet": null,
+        "values": [
+          "balance",
+          "curiosity",
+          "convenience"
+        ],
+        "personality_type": "social and organized",
+        "favorite_vacation_destinations": [
+          "Lisbon",
+          "Ghent",
+          "Valencia"
+        ],
+        "weight": 3
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "collar_type": "white-collar",
+        "hobbies": [
+          "fitness classes",
+          "board games",
+          "brunch with friends"
+        ],
+        "pet": "cat",
+        "values": [
+          "friendship",
+          "comfort",
+          "routine"
+        ],
+        "personality_type": "steady and sociable",
+        "favorite_vacation_destinations": [
+          "Amsterdam",
+          "Antwerp",
+          "Mallorca"
+        ],
+        "weight": 3
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "collar_type": "blue-collar",
+        "hobbies": [
+          "DIY projects",
+          "local football",
+          "barbecuing"
+        ],
+        "pet": "dog",
+        "values": [
+          "reliability",
+          "family loyalty",
+          "practicality"
+        ],
+        "personality_type": "straightforward and dependable",
+        "favorite_vacation_destinations": [
+          "Belgian coast",
+          "Ardennes",
+          "Eifel"
+        ],
+        "weight": 5
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "collar_type": "blue-collar",
+        "hobbies": [
+          "recreational cycling",
+          "gardening",
+          "angling"
+        ],
+        "pet": "cat",
+        "values": [
+          "routine",
+          "fairness",
+          "rest"
+        ],
+        "personality_type": "reserved and steady",
+        "favorite_vacation_destinations": [
+          "Zeeland",
+          "Limburg",
+          "Belgian coast"
+        ],
+        "weight": 4
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "collar_type": "blue-collar",
+        "hobbies": [
+          "motocross on TV",
+          "small repairs",
+          "terrace evenings"
+        ],
+        "pet": null,
+        "values": [
+          "self-reliance",
+          "loyalty",
+          "plain speaking"
+        ],
+        "personality_type": "direct and practical",
+        "favorite_vacation_destinations": [
+          "Belgian coast",
+          "Luxembourg province",
+          "North Sea coast"
+        ],
+        "weight": 3
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "collar_type": "blue-collar",
+        "hobbies": [
+          "darts",
+          "gardening",
+          "weekend markets"
+        ],
+        "pet": "dog",
+        "values": [
+          "community",
+          "stability",
+          "fairness"
+        ],
+        "personality_type": "grounded and friendly",
+        "favorite_vacation_destinations": [
+          "Ostend",
+          "Ardennes",
+          "Limburg"
+        ],
+        "weight": 3
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "collar_type": "civil-service",
+        "hobbies": [
+          "choir",
+          "book club",
+          "weekend markets"
+        ],
+        "pet": "cat",
+        "values": [
+          "community",
+          "security",
+          "balance"
+        ],
+        "personality_type": "patient and structured",
+        "favorite_vacation_destinations": [
+          "Paris",
+          "Ghent",
+          "Alsace"
+        ],
+        "weight": 4
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "collar_type": "civil-service",
+        "hobbies": [
+          "walking clubs",
+          "baking",
+          "community events"
+        ],
+        "pet": "dog",
+        "values": [
+          "care",
+          "patience",
+          "stability"
+        ],
+        "personality_type": "warm and grounded",
+        "favorite_vacation_destinations": [
+          "Ardennes",
+          "Normandy",
+          "Belgian coast"
+        ],
+        "weight": 3
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "collar_type": "civil-service",
+        "hobbies": [
+          "amateur theatre",
+          "library visits",
+          "choosing family outings"
+        ],
+        "pet": null,
+        "values": [
+          "service",
+          "predictability",
+          "community"
+        ],
+        "personality_type": "measured and dependable",
+        "favorite_vacation_destinations": [
+          "Bruges",
+          "Alsace",
+          "Jura"
+        ],
+        "weight": 2
+      }
+    ],
+    "media_profiles": [
+      {
+        "locales": [
+          "nl_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "region": [
+          "VLG",
+          "BXL"
+        ],
+        "favorite_tv_show": "Undercover",
+        "favorite_movie": "The Broken Circle Breakdown",
+        "favorite_documentary": "Formula 1: Drive to Survive",
+        "weight": 5
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "region": [
+          "VLG",
+          "BXL"
+        ],
+        "favorite_tv_show": "The Twelve",
+        "favorite_movie": "Oppenheimer",
+        "favorite_documentary": "Beckham",
+        "weight": 4
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "region": [
+          "VLG",
+          "BXL",
+          "WAL"
+        ],
+        "favorite_tv_show": "Professor T",
+        "favorite_movie": "Knives Out",
+        "favorite_documentary": "Our Planet",
+        "weight": 4
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "region": [
+          "VLG"
+        ],
+        "favorite_tv_show": "Callboys",
+        "favorite_movie": "The Martian",
+        "favorite_documentary": "Apollo 11",
+        "weight": 2
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "region": [
+          "VLG",
+          "BXL"
+        ],
+        "favorite_tv_show": "1985",
+        "favorite_movie": "The Banshees of Inisherin",
+        "favorite_documentary": "Welcome to Wrexham",
+        "weight": 2
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "region": [
+          "VLG",
+          "BXL",
+          "WAL"
+        ],
+        "favorite_tv_show": "The White Lotus",
+        "favorite_movie": "Anatomy of a Fall",
+        "favorite_documentary": "14 Peaks",
+        "weight": 2
+      },
+      {
+        "locales": [
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "region": [
+          "WAL",
+          "BXL"
+        ],
+        "favorite_tv_show": "Lupin",
+        "favorite_movie": "The Intouchables",
+        "favorite_documentary": "March of the Penguins",
+        "weight": 5
+      },
+      {
+        "locales": [
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "region": [
+          "WAL",
+          "BXL"
+        ],
+        "favorite_tv_show": "HPI",
+        "favorite_movie": "Hidden Figures",
+        "favorite_documentary": "Free Solo",
+        "weight": 3
+      },
+      {
+        "locales": [
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "region": [
+          "WAL",
+          "BXL"
+        ],
+        "favorite_tv_show": "Call My Agent!",
+        "favorite_movie": "Les Choristes",
+        "favorite_documentary": "The Rescue",
+        "weight": 3
+      },
+      {
+        "locales": [
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "region": [
+          "WAL"
+        ],
+        "favorite_tv_show": "La Treve",
+        "favorite_movie": "The Grand Budapest Hotel",
+        "favorite_documentary": "Our Planet II",
+        "weight": 2
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "region": [
+          "BXL"
+        ],
+        "favorite_tv_show": "Slow Horses",
+        "favorite_movie": "Dune",
+        "favorite_documentary": "The Last Dance",
+        "weight": 2
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "region": [
+          "BXL"
+        ],
+        "favorite_tv_show": "The Bear",
+        "favorite_movie": "Past Lives",
+        "favorite_documentary": "Beckham",
+        "weight": 2
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "region": [
+          "BXL"
+        ],
+        "favorite_tv_show": "De Dag",
+        "favorite_movie": "Aftersun",
+        "favorite_documentary": "The Last Rider",
+        "weight": 2
+      }
+    ],
+    "car_models": [
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "income_bracket": [
+          "low",
+          "lower-middle"
+        ],
+        "value": null,
+        "weight": 6
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "income_bracket": [
+          "low",
+          "lower-middle"
+        ],
+        "value": "Dacia Sandero",
+        "weight": 7
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "income_bracket": [
+          "low",
+          "lower-middle"
+        ],
+        "value": "Toyota Yaris",
+        "weight": 6
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "income_bracket": [
+          "low",
+          "lower-middle"
+        ],
+        "value": "Peugeot 208",
+        "weight": 5
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "income_bracket": [
+          "low",
+          "lower-middle"
+        ],
+        "value": "Opel Corsa",
+        "weight": 4
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "income_bracket": [
+          "low",
+          "lower-middle"
+        ],
+        "value": "Renault Clio",
+        "weight": 4
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "income_bracket": [
+          "middle"
+        ],
+        "value": "Toyota Yaris Cross",
+        "weight": 4
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "income_bracket": [
+          "middle"
+        ],
+        "value": "Peugeot 2008",
+        "weight": 4
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "income_bracket": [
+          "middle"
+        ],
+        "value": "Dacia Duster",
+        "weight": 4
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "income_bracket": [
+          "middle"
+        ],
+        "value": "Volkswagen Golf",
+        "weight": 4
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "income_bracket": [
+          "middle"
+        ],
+        "value": "Skoda Fabia Combi",
+        "weight": 3
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "income_bracket": [
+          "middle"
+        ],
+        "value": "Opel Astra Sports Tourer",
+        "weight": 3
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "income_bracket": [
+          "upper-middle"
+        ],
+        "value": "BMW X1",
+        "weight": 5
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "income_bracket": [
+          "upper-middle"
+        ],
+        "value": "Tesla Model Y",
+        "weight": 4
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "income_bracket": [
+          "upper-middle"
+        ],
+        "value": "Volvo XC40",
+        "weight": 4
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "income_bracket": [
+          "upper-middle"
+        ],
+        "value": "Skoda Octavia Combi",
+        "weight": 4
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "income_bracket": [
+          "upper-middle"
+        ],
+        "value": "Volkswagen ID.7 Tourer",
+        "weight": 3
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "income_bracket": [
+          "upper-middle"
+        ],
+        "value": "Audi Q3",
+        "weight": 3
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "income_bracket": [
+          "upper-middle"
+        ],
+        "value": "Mercedes-Benz CLA Shooting Brake",
+        "weight": 2
+      }
+    ],
+    "bike_models": [
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "income_bracket": [
+          "low",
+          "lower-middle"
+        ],
+        "value": "Decathlon Riverside 500",
+        "weight": 4
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "income_bracket": [
+          "low",
+          "lower-middle"
+        ],
+        "value": "Trek FX 2",
+        "weight": 3
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "income_bracket": [
+          "low",
+          "lower-middle"
+        ],
+        "value": "Giant Escape 2",
+        "weight": 3
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "income_bracket": [
+          "middle"
+        ],
+        "value": "Gazelle Ultimate",
+        "weight": 4
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "income_bracket": [
+          "middle"
+        ],
+        "value": "Cube Kathmandu Hybrid",
+        "weight": 4
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "income_bracket": [
+          "middle"
+        ],
+        "value": "Trek District 4",
+        "weight": 3
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "income_bracket": [
+          "middle"
+        ],
+        "value": "Specialized Sirrus X",
+        "weight": 2
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "income_bracket": [
+          "upper-middle"
+        ],
+        "value": "Cowboy Cruiser ST",
+        "weight": 4
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "income_bracket": [
+          "upper-middle"
+        ],
+        "value": "Gazelle Ultimate C5",
+        "weight": 4
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "income_bracket": [
+          "upper-middle"
+        ],
+        "value": "Riese & Muller Nevo4",
+        "weight": 3
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "income_bracket": [
+          "upper-middle"
+        ],
+        "value": "Trek Allant+ 7",
+        "weight": 3
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "income_bracket": [
+          "upper-middle"
+        ],
+        "value": "Urban Arrow Family",
+        "weight": 1
+      }
+    ],
+    "tv_brands": [
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "income_bracket": [
+          "low",
+          "lower-middle",
+          "middle",
+          "upper-middle"
+        ],
+        "value": "Samsung",
+        "weight": 5
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "income_bracket": [
+          "low",
+          "lower-middle",
+          "middle",
+          "upper-middle"
+        ],
+        "value": "LG",
+        "weight": 4
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "income_bracket": [
+          "middle",
+          "upper-middle"
+        ],
+        "value": "Sony",
+        "weight": 3
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "income_bracket": [
+          "low",
+          "lower-middle",
+          "middle",
+          "upper-middle"
+        ],
+        "value": "Philips",
+        "weight": 3
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "income_bracket": [
+          "low",
+          "lower-middle",
+          "middle"
+        ],
+        "value": "TCL",
+        "weight": 2
+      },
+      {
+        "locales": [
+          "nl_BE",
+          "fr_BE",
+          "BE"
+        ],
+        "country": "BE",
+        "income_bracket": [
+          "low",
+          "lower-middle",
+          "middle"
+        ],
+        "value": "Hisense",
+        "weight": 2
+      }
+    ]
+  }
+}

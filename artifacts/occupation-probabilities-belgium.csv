@@ -1,0 +1,251 @@
+job_title,industry,collar_type,income_bracket,weight,chance_percent
+Office Clerk,Business Services,white-collar,middle,196426,7.401
+Store Salesperson,Retail,white-collar,lower-middle,164628,6.2029
+Home Care Cleaner,Home Services,blue-collar,low,124717,4.6991
+Facility Cleaner,Facilities and Hospitality,blue-collar,low,114927,4.3303
+Secondary School Teacher,Education,civil-service,upper-middle,108547,4.0899
+Primary School Teacher,Education,civil-service,upper-middle,74165,2.7944
+Practical Nurse,Healthcare,white-collar,middle,71429,2.6913
+Registered Nurse,Healthcare,white-collar,upper-middle,70146,2.643
+Stock Clerk,Logistics,blue-collar,lower-middle,68961,2.5983
+Care Assistant,Healthcare,blue-collar,lower-middle,67143,2.5298
+Warehouse Handler,Logistics,blue-collar,lower-middle,63169,2.3801
+Social Worker,Social Services,white-collar,middle,59067,2.2255
+Business Analyst,Professional Services,white-collar,upper-middle,58556,2.2063
+Sales Manager,Wholesale and Retail,white-collar,upper-middle,58301,2.1967
+Accountant,Finance,white-collar,middle,57668,2.1728
+Truck Driver,Transport and Logistics,blue-collar,middle,56679,2.1356
+Waiter,Hospitality,blue-collar,low,55906,2.1064
+Systems Analyst,Information Technology,white-collar,upper-middle,55382,2.0867
+Bookkeeper,Finance,white-collar,middle,55022,2.0731
+Software Developer,Information Technology,white-collar,upper-middle,52184,1.9662
+Office Supervisor,Business Services,white-collar,middle,52117,1.9637
+Childcare Worker,Childcare,white-collar,lower-middle,50646,1.9083
+Accounting Technician,Finance,white-collar,middle,49073,1.849
+Construction Worker,Construction,blue-collar,middle,48367,1.8224
+Sales Representative,Wholesale and Distribution,white-collar,middle,47492,1.7894
+Cashier,Retail,white-collar,low,47474,1.7887
+General Manager,General Management,white-collar,upper-middle,43735,1.6479
+Financial Services Clerk,Finance,white-collar,middle,42291,1.5935
+Industrial Machinery Mechanic,Manufacturing,blue-collar,middle,42282,1.5931
+Building Electrician,Construction,blue-collar,middle,42265,1.5925
+Occupational therapist,Healthcare,white-collar,middle,3960,0.1492
+Clinical biochemist,Healthcare,white-collar,middle,3740,0.1409
+Chief Strategy Officer,Professional Services,white-collar,upper-middle,3520,0.1326
+"Accountant, chartered public finance",Finance,white-collar,upper-middle,3520,0.1326
+"Designer, multimedia",Creative and Media,white-collar,middle,3520,0.1326
+Optometrist,Healthcare,white-collar,middle,3520,0.1326
+Warehouse manager,Professional Services,white-collar,upper-middle,3300,0.1243
+Equities trader,Finance,white-collar,upper-middle,3300,0.1243
+Product designer,Creative and Media,white-collar,middle,3300,0.1243
+Surgeon,Healthcare,white-collar,upper-middle,3300,0.1243
+Patent attorney,Legal Services,white-collar,upper-middle,3300,0.1243
+"Engineer, electrical",Engineering and Technology,white-collar,upper-middle,3300,0.1243
+Multimedia programmer,Engineering and Technology,white-collar,middle,3300,0.1243
+Insurance risk surveyor,Finance,white-collar,middle,3300,0.1243
+"Scientist, biomedical",Healthcare,white-collar,middle,3300,0.1243
+Chartered certified accountant,Finance,white-collar,upper-middle,3080,0.116
+Quarry manager,Professional Services,white-collar,upper-middle,3080,0.116
+Manufacturing engineer,Engineering and Technology,white-collar,upper-middle,3080,0.116
+Radio producer,Creative and Media,white-collar,middle,3080,0.116
+Agricultural engineer,Engineering and Technology,white-collar,upper-middle,3080,0.116
+Astronomer,Professional Services,white-collar,middle,3080,0.116
+Personal assistant,Professional Services,white-collar,middle,3080,0.116
+Special effects artist,Creative and Media,white-collar,middle,3080,0.116
+Land,Professional Services,white-collar,middle,3080,0.116
+"Psychotherapist, dance movement",Healthcare,white-collar,middle,3080,0.116
+Structural engineer,Engineering and Technology,white-collar,upper-middle,3080,0.116
+Oceanographer,Professional Services,white-collar,middle,3080,0.116
+Race relations officer,Professional Services,white-collar,middle,2860,0.1078
+Environmental education officer,Education,civil-service,middle,2860,0.1078
+"Editor, film/video",Professional Services,white-collar,middle,2860,0.1078
+Control and instrumentation engineer,Engineering and Technology,white-collar,upper-middle,2860,0.1078
+"Librarian, academic",Education,civil-service,middle,2860,0.1078
+"Copywriter, advertising",Creative and Media,white-collar,middle,2860,0.1078
+Colour technologist,Engineering and Technology,white-collar,middle,2860,0.1078
+"Conservation officer, historic buildings",Professional Services,white-collar,middle,2860,0.1078
+"Scientist, research (life sciences)",Professional Services,white-collar,middle,2860,0.1078
+Armed forces operational officer,Professional Services,white-collar,middle,2860,0.1078
+Chief Technology Officer,Professional Services,white-collar,upper-middle,2860,0.1078
+Museum/gallery exhibitions officer,Professional Services,white-collar,middle,2860,0.1078
+Legal executive,Legal Services,white-collar,upper-middle,2860,0.1078
+Firefighter,Professional Services,white-collar,middle,2860,0.1078
+Energy engineer,Engineering and Technology,white-collar,upper-middle,2860,0.1078
+Corporate investment banker,Finance,white-collar,middle,2860,0.1078
+Medical illustrator,Creative and Media,white-collar,middle,2860,0.1078
+Naval architect,Engineering and Technology,white-collar,upper-middle,2860,0.1078
+Production engineer,Engineering and Technology,white-collar,upper-middle,2860,0.1078
+Licensed conveyancer,Professional Services,white-collar,middle,2860,0.1078
+Local government officer,Professional Services,white-collar,middle,2860,0.1078
+Biomedical scientist,Professional Services,white-collar,middle,2860,0.1078
+"Sales professional, IT",Sales and Marketing,white-collar,middle,2860,0.1078
+Fine artist,Creative and Media,white-collar,middle,2640,0.0995
+Meteorologist,Professional Services,white-collar,middle,2640,0.0995
+Trade union research officer,Professional Services,white-collar,middle,2640,0.0995
+Air cabin crew,Transport and Logistics,blue-collar,middle,2640,0.0995
+Educational psychologist,Healthcare,white-collar,upper-middle,2640,0.0995
+Video editor,Professional Services,white-collar,middle,2640,0.0995
+Charity fundraiser,Professional Services,white-collar,middle,2640,0.0995
+"Therapist, nutritional",Healthcare,white-collar,middle,2640,0.0995
+Science writer,Professional Services,white-collar,middle,2640,0.0995
+Bookseller,Professional Services,white-collar,middle,2640,0.0995
+Oncologist,Professional Services,white-collar,middle,2640,0.0995
+"Conservator, furniture",Professional Services,white-collar,middle,2640,0.0995
+"Sound technician, broadcasting/film/video",Professional Services,white-collar,middle,2640,0.0995
+Metallurgist,Professional Services,white-collar,middle,2640,0.0995
+Market researcher,Professional Services,white-collar,middle,2640,0.0995
+Horticultural consultant,Professional Services,white-collar,middle,2640,0.0995
+Animator,Creative and Media,white-collar,middle,2640,0.0995
+"Journalist, magazine",Creative and Media,white-collar,middle,2640,0.0995
+Higher education careers adviser,Professional Services,white-collar,middle,2640,0.0995
+"Engineer, petroleum",Engineering and Technology,white-collar,upper-middle,2640,0.0995
+"Investment banker, operational",Finance,white-collar,middle,2640,0.0995
+Audiological scientist,Professional Services,white-collar,middle,2640,0.0995
+Social researcher,Social Services,white-collar,middle,2640,0.0995
+Chief Financial Officer,Finance,white-collar,middle,2640,0.0995
+Financial risk analyst,Engineering and Technology,white-collar,upper-middle,2640,0.0995
+"Engineer, materials",Engineering and Technology,white-collar,upper-middle,2640,0.0995
+Phytotherapist,Healthcare,white-collar,middle,2640,0.0995
+Medical sales representative,Sales and Marketing,white-collar,middle,2640,0.0995
+Tourism officer,Professional Services,white-collar,middle,2640,0.0995
+Personnel officer,Professional Services,white-collar,middle,2640,0.0995
+Stage manager,Professional Services,white-collar,upper-middle,2640,0.0995
+"Scientist, research (maths)",Professional Services,white-collar,middle,2640,0.0995
+Field trials officer,Professional Services,white-collar,middle,2640,0.0995
+"Designer, exhibition/display",Creative and Media,white-collar,middle,2640,0.0995
+"Programmer, applications",Engineering and Technology,white-collar,middle,2640,0.0995
+Theme park manager,Professional Services,white-collar,upper-middle,2640,0.0995
+Forensic psychologist,Healthcare,white-collar,upper-middle,2640,0.0995
+"Surveyor, planning and development",Professional Services,white-collar,middle,2640,0.0995
+"Psychologist, sport and exercise",Healthcare,white-collar,upper-middle,2420,0.0912
+"Therapist, sports",Healthcare,white-collar,middle,2420,0.0912
+"Radiographer, therapeutic",Professional Services,white-collar,middle,2420,0.0912
+Chiropodist,Professional Services,white-collar,middle,2420,0.0912
+Media buyer,Professional Services,white-collar,middle,2420,0.0912
+Outdoor activities/education manager,Professional Services,white-collar,upper-middle,2420,0.0912
+"Social research officer, government",Professional Services,white-collar,middle,2420,0.0912
+"Pilot, airline",Transport and Logistics,white-collar,upper-middle,2420,0.0912
+Learning disability nurse,Healthcare,white-collar,middle,2420,0.0912
+Warden/ranger,Professional Services,white-collar,middle,2420,0.0912
+Interior and spatial designer,Creative and Media,white-collar,middle,2420,0.0912
+Midwife,Professional Services,white-collar,middle,2420,0.0912
+Marketing executive,Professional Services,white-collar,middle,2420,0.0912
+Medical laboratory scientific officer,Professional Services,white-collar,middle,2420,0.0912
+Furniture conservator/restorer,Professional Services,white-collar,middle,2420,0.0912
+Hospital pharmacist,Professional Services,white-collar,middle,2420,0.0912
+Broadcast journalist,Creative and Media,white-collar,middle,2420,0.0912
+Horticultural therapist,Healthcare,white-collar,middle,2420,0.0912
+Nutritional therapist,Healthcare,white-collar,middle,2420,0.0912
+Logistics and distribution manager,Professional Services,white-collar,upper-middle,2420,0.0912
+Clinical research associate,Professional Services,white-collar,middle,2420,0.0912
+"Psychotherapist, child",Healthcare,white-collar,middle,2420,0.0912
+Community development worker,Social Services,white-collar,middle,2420,0.0912
+Risk analyst,Engineering and Technology,white-collar,upper-middle,2420,0.0912
+International aid/development worker,Professional Services,white-collar,middle,2420,0.0912
+Land/geomatics surveyor,Professional Services,white-collar,middle,2420,0.0912
+Associate Professor,Education,civil-service,upper-middle,2420,0.0912
+Exhibition designer,Creative and Media,white-collar,middle,2420,0.0912
+Visual merchandiser,Professional Services,white-collar,middle,2420,0.0912
+Translator,Professional Services,white-collar,middle,2420,0.0912
+Banker,Finance,white-collar,middle,2420,0.0912
+Garment/textile technologist,Engineering and Technology,white-collar,middle,2420,0.0912
+Careers adviser,Professional Services,white-collar,middle,2420,0.0912
+Fisheries officer,Professional Services,white-collar,middle,2420,0.0912
+Pharmacologist,Professional Services,white-collar,middle,2420,0.0912
+Regulatory affairs officer,Professional Services,white-collar,middle,2420,0.0912
+Quantity surveyor,Professional Services,white-collar,middle,2420,0.0912
+Town planner,Professional Services,white-collar,middle,2420,0.0912
+"Accountant, chartered management",Finance,white-collar,upper-middle,2420,0.0912
+Clothing/textile technologist,Engineering and Technology,white-collar,middle,2420,0.0912
+Theatre manager,Professional Services,white-collar,upper-middle,2420,0.0912
+Dancer,Professional Services,white-collar,middle,2420,0.0912
+Photographer,Professional Services,white-collar,middle,2420,0.0912
+Chief Executive Officer,Professional Services,white-collar,upper-middle,2420,0.0912
+"Engineer, maintenance (IT)",Engineering and Technology,white-collar,upper-middle,2420,0.0912
+"Teacher, primary school",Education,civil-service,middle,2420,0.0912
+Public house manager,Professional Services,white-collar,upper-middle,2420,0.0912
+Heritage manager,Professional Services,white-collar,upper-middle,2420,0.0912
+Sports administrator,Professional Services,white-collar,middle,2420,0.0912
+Geoscientist,Professional Services,white-collar,middle,2420,0.0912
+Research scientist (physical sciences),Professional Services,white-collar,middle,2420,0.0912
+"Physicist, medical",Professional Services,white-collar,middle,2420,0.0912
+Ecologist,Professional Services,white-collar,middle,2200,0.0829
+Technical sales engineer,Engineering and Technology,white-collar,upper-middle,2200,0.0829
+"Psychologist, educational",Healthcare,white-collar,upper-middle,2200,0.0829
+Chemical engineer,Engineering and Technology,white-collar,upper-middle,2200,0.0829
+Estate manager/land agent,Professional Services,white-collar,upper-middle,2200,0.0829
+Paramedic,Professional Services,white-collar,middle,2200,0.0829
+Maintenance engineer,Engineering and Technology,white-collar,upper-middle,2200,0.0829
+Volunteer coordinator,Professional Services,white-collar,middle,2200,0.0829
+Public relations officer,Professional Services,white-collar,middle,2200,0.0829
+Energy manager,Professional Services,white-collar,upper-middle,2200,0.0829
+Operational investment banker,Finance,white-collar,middle,2200,0.0829
+Financial adviser,Finance,white-collar,middle,2200,0.0829
+Product/process development scientist,Professional Services,white-collar,middle,2200,0.0829
+Statistician,Professional Services,white-collar,middle,2200,0.0829
+Investment analyst,Engineering and Technology,white-collar,upper-middle,2200,0.0829
+"Designer, furniture",Creative and Media,white-collar,middle,2200,0.0829
+Television production assistant,Professional Services,white-collar,middle,2200,0.0829
+Museum/gallery curator,Professional Services,white-collar,middle,2200,0.0829
+"Nurse, adult",Healthcare,white-collar,middle,2200,0.0829
+"Engineer, automotive",Engineering and Technology,white-collar,upper-middle,2200,0.0829
+Facilities manager,Professional Services,white-collar,upper-middle,2200,0.0829
+Production manager,Professional Services,white-collar,upper-middle,2200,0.0829
+"Clinical scientist, histocompatibility and immunogenetics",Professional Services,white-collar,middle,2200,0.0829
+Soil scientist,Professional Services,white-collar,middle,2200,0.0829
+"Teacher, early years/pre",Education,civil-service,middle,2200,0.0829
+Management consultant,Professional Services,white-collar,middle,2200,0.0829
+Ship broker,Professional Services,white-collar,middle,2200,0.0829
+"Education officer, environmental",Education,civil-service,middle,2200,0.0829
+Artist,Creative and Media,white-collar,middle,2200,0.0829
+"Runner, broadcasting/film/video",Professional Services,white-collar,middle,2200,0.0829
+Newspaper journalist,Creative and Media,white-collar,middle,2200,0.0829
+Database administrator,Professional Services,white-collar,middle,2200,0.0829
+Geophysical data processor,Professional Services,white-collar,middle,2200,0.0829
+Mental health nurse,Healthcare,white-collar,middle,2200,0.0829
+Analytical chemist,Professional Services,white-collar,middle,2200,0.0829
+Advertising account planner,Professional Services,white-collar,middle,2200,0.0829
+Contracting civil engineer,Engineering and Technology,white-collar,upper-middle,2200,0.0829
+IT technical support officer,Engineering and Technology,white-collar,middle,2200,0.0829
+"Pharmacist, hospital",Professional Services,white-collar,middle,2200,0.0829
+Lobbyist,Professional Services,white-collar,middle,2200,0.0829
+"Radiographer, diagnostic",Professional Services,white-collar,middle,2200,0.0829
+Advertising art director,Professional Services,white-collar,upper-middle,2200,0.0829
+Press sub,Professional Services,white-collar,middle,2200,0.0829
+"Engineer, electronics",Engineering and Technology,white-collar,upper-middle,2200,0.0829
+Financial planner,Finance,white-collar,middle,2200,0.0829
+"Administrator, Civil Service",Professional Services,white-collar,middle,2200,0.0829
+Risk manager,Professional Services,white-collar,upper-middle,2200,0.0829
+"Surveyor, mining",Professional Services,white-collar,middle,2200,0.0829
+Osteopath,Professional Services,white-collar,middle,2200,0.0829
+Tax adviser,Finance,white-collar,middle,2200,0.0829
+"Engineer, production",Engineering and Technology,white-collar,upper-middle,2200,0.0829
+Commissioning editor,Professional Services,white-collar,middle,2200,0.0829
+"Production assistant, television",Professional Services,white-collar,middle,2200,0.0829
+Product manager,Professional Services,white-collar,upper-middle,2200,0.0829
+"Teacher, adult education",Education,civil-service,middle,2200,0.0829
+"Therapist, drama",Healthcare,white-collar,middle,2200,0.0829
+Make,Professional Services,white-collar,middle,2200,0.0829
+Dramatherapist,Healthcare,white-collar,middle,2200,0.0829
+Nature conservation officer,Professional Services,white-collar,middle,2200,0.0829
+Textile designer,Creative and Media,white-collar,middle,2200,0.0829
+Clinical cytogeneticist,Professional Services,white-collar,middle,2200,0.0829
+Chartered public finance accountant,Finance,white-collar,upper-middle,2200,0.0829
+"Teacher, music",Education,civil-service,middle,2200,0.0829
+Accommodation manager,Professional Services,white-collar,upper-middle,2200,0.0829
+"Therapist, art",Healthcare,white-collar,middle,2200,0.0829
+"Biochemist, clinical",Healthcare,white-collar,middle,2200,0.0829
+Water engineer,Engineering and Technology,white-collar,upper-middle,2200,0.0829
+Probation officer,Professional Services,white-collar,middle,2200,0.0829
+Human resources officer,Professional Services,white-collar,middle,2200,0.0829
+Publishing rights manager,Professional Services,white-collar,upper-middle,2200,0.0829
+Immigration officer,Professional Services,white-collar,middle,2200,0.0829
+Telecommunications researcher,Professional Services,white-collar,middle,2200,0.0829
+"Lecturer, further education",Education,civil-service,upper-middle,2200,0.0829
+Art gallery manager,Professional Services,white-collar,upper-middle,2200,0.0829
+Museum education officer,Education,civil-service,middle,2200,0.0829
+Haematologist,Healthcare,white-collar,upper-middle,1980,0.0746
+"Research officer, political party",Professional Services,white-collar,middle,1980,0.0746
+"Conservation officer, nature",Professional Services,white-collar,middle,1980,0.0746
+"Designer, industrial/product",Creative and Media,white-collar,middle,1980,0.0746
+Public affairs consultant,Professional Services,white-collar,middle,1980,0.0746

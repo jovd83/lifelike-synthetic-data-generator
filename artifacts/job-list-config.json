@@ -1,0 +1,16 @@
+{
+  "version": "1.0",
+  "locale": "en_US",
+  "records": 400,
+  "seed": 42,
+  "output": {
+    "format": "json",
+    "path": "artifacts/job-list-raw.json"
+  },
+  "fields": [
+    {
+      "name": "job_title",
+      "type": "job"
+    }
+  ]
+}

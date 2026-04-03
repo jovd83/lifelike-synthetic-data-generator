@@ -1,0 +1,1664 @@
+[
+  {
+    "identity": {
+      "first_name": "Yves",
+      "last_name": "Buyse",
+      "full_name": "Yves Buyse",
+      "gender": "M",
+      "birth_date": "1981-11-10",
+      "age": 44,
+      "nationality": "Belgian",
+      "marital_status": "divorced",
+      "num_children": 1,
+      "unique_id": "0f5748f4-a983-429d-9971-7acd8cc3b1fd",
+      "preferred_pronouns": "he/him",
+      "national_id_type": "INSZ",
+      "national_id_number": "811110-563-42"
+    },
+    "household_context": {
+      "household_size": 3,
+      "neighborhood_type": "urban",
+      "commute_style": "train-based family logistics",
+      "housing_type": "apartment",
+      "ownership_status": "owner"
+    },
+    "daily_routine": {
+      "wake_time": "06:30",
+      "work_pattern": "hybrid office schedule",
+      "weekday_rhythm": "school- of huishoudafstemming rond een treinrit, vaste overlegmomenten, gerichte werkblokken en afstemming in een middelgroot team, en een voorspelbare avondoverdracht",
+      "evening_habits": "avondeten, planning voor de volgende dag en licht streamen of lezen",
+      "weekend_rhythm": "gezinsactiviteiten, boodschappen en een ontspannen uitstap"
+    },
+    "mobility": {
+      "driving_frequency": "weekends and occasional school runs",
+      "travel_frequency": "one or two leisure trips per year",
+      "primary_commute_mode": "train",
+      "public_transport_use": "frequent",
+      "travel_style": "well-planned, family-friendly trips"
+    },
+    "contact": {
+      "email": "yves.buyse@example.net",
+      "phone_number": "+32497449459",
+      "region": "BXL",
+      "address": "Berthelotstraat 27",
+      "city": "Vorst",
+      "province": "Brussels-Capital",
+      "postal_code": "1190",
+      "country": "Belgium"
+    },
+    "professional": {
+      "job_title": "Product designer",
+      "profession": "Product designer",
+      "industry": "Creative and Media",
+      "collar_type": "white-collar",
+      "work_pattern": "hybrid office schedule",
+      "company": "Lopez & Diallo Projects NV",
+      "organization_type": "office-based firm",
+      "sector_type": "private sector",
+      "employer_scale": "regional mid-sized employer",
+      "education_profile": {
+        "level": "Master's degree",
+        "institution_type": "university",
+        "instruction_language": "Dutch or French"
+      },
+      "education_level": "Master's degree",
+      "income_bracket": "middle"
+    },
+    "lifestyle": {
+      "hobbies": [
+        "hiking",
+        "DIY projects",
+        "radio shows"
+      ],
+      "languages_spoken": [
+        "French",
+        "Dutch",
+        "English"
+      ],
+      "pet": null,
+      "values": [
+        "independence",
+        "fairness",
+        "planning"
+      ],
+      "personality_type": "pragmatic and calm",
+      "computer_model": "Dell Inspiron 14",
+      "smartphone_model": "Samsung Galaxy A55",
+      "tablet_model": "Samsung Galaxy Tab S9 FE",
+      "car_model": "Skoda Fabia Combi",
+      "bike_model": "Cube Kathmandu Hybrid",
+      "tv_brand": "Samsung",
+      "favorite_tv_show": "HPI",
+      "favorite_movie": "Hidden Figures",
+      "favorite_documentary": "Free Solo",
+      "favorite_vacation_destinations": [
+        "Black Forest",
+        "Ardennes",
+        "Lake Constance"
+      ]
+    },
+    "finance": {
+      "iban": "BE04052851705595",
+      "bank_name": "Belfius Bank",
+      "swift_bic": "GKCCBEBB",
+      "income_level": "stable middle-income household",
+      "preferred_payment_methods": [
+        "debit card",
+        "credit card",
+        "mobile payment"
+      ]
+    },
+    "shopping_and_brand_preferences": {
+      "favorite_supermarket": "Delhaize",
+      "preferred_insurer": "Helan",
+      "preferred_transit_operator": "NMBS-SNCB",
+      "preferred_news_brand": "VRT NWS"
+    },
+    "digital": {
+      "mobile_provider": "Orange Belgium",
+      "streaming_platform": "Amazon Prime Video",
+      "device_use": "budget-conscious shopping, messaging, and one value-focused streaming subscription",
+      "privacy_awareness": "moderate-to-high",
+      "posting_frequency": "low"
+    },
+    "family": {
+      "children": [
+        {
+          "first_name": "Mathis",
+          "last_name": "Buyse",
+          "full_name": "Mathis Buyse",
+          "birth_date": "2016-02-24",
+          "age": 9,
+          "nationality": "Belgian"
+        }
+      ]
+    },
+    "introduction": "Yves Buyse is 44 jaar en werkt als productontwerper in Vorst. Het dagelijks leven wordt gevormd door werk in creatieve sector en media, een stedelijke thuisbasis, en door voorkeuren die passen bij een geloofwaardig Belgisch dagelijks leven.",
+    "life_timeline": [
+      {
+        "date": "1981-11-10",
+        "category": "identity",
+        "title": "Birth",
+        "description": "Yves Buyse werd geboren op 1981-11-10."
+      },
+      {
+        "date": "1999-11-10",
+        "category": "education",
+        "title": "Completed secondary education",
+        "description": "Yves Buyse voltooide het secundair onderwijs en begon zich voor te bereiden op een zelfstandiger volwassen leven."
+      },
+      {
+        "date": "1999-11-10",
+        "category": "education",
+        "title": "Started higher education or training",
+        "description": "Yves Buyse begon rond de leeftijd van 18 aan een meer gespecialiseerde opleiding of training."
+      },
+      {
+        "date": "2005-11-10",
+        "category": "education",
+        "title": "Completed a master's degree",
+        "description": "Yves Buyse bereikte rond de leeftijd van 24 het niveau van masteropleiding."
+      },
+      {
+        "date": "2005-11-10",
+        "category": "career",
+        "title": "Career start",
+        "description": "Yves Buyse stapte het beroepsleven in als productontwerper."
+      },
+      {
+        "date": "2010-04-19",
+        "category": "career",
+        "title": "Expanded responsibilities",
+        "description": "Yves Buyse groeide door naar een bredere verantwoordelijkheid naarmate ervaring en vertrouwen toenamen."
+      },
+      {
+        "date": "2015-04-15",
+        "category": "family",
+        "title": "Established an independent household",
+        "description": "Yves Buyse bouwde een meer zelfstandige huishoudroutine en langdurigere verantwoordelijkheden op."
+      },
+      {
+        "date": "2016-02-24",
+        "category": "family",
+        "title": "Child born",
+        "description": "Yves Buyse verwelkomde Mathis Buyse in het huishouden."
+      },
+      {
+        "date": "2016-05-24",
+        "category": "family",
+        "title": "Household routine changed",
+        "description": "Yves Buyse herorganiseerde de dagelijkse routine rond zorg, logistiek en een voller huishouden."
+      },
+      {
+        "date": "2020-02-25",
+        "category": "location",
+        "title": "Settled in current city",
+        "description": "Yves Buyse bouwde het dagelijkse leven uit in Vorst."
+      },
+      {
+        "date": "2023-01-07",
+        "category": "career",
+        "title": "Current role",
+        "description": "Yves Buyse nam de huidige rol als productontwerper op bij Lopez & Diallo Projects NV."
+      }
+    ],
+    "biography": "Yves Buyse is vandaag gevestigd als productontwerper in Vorst. De masteropleiding legde veel van de basis voor de huidige rol. Professionele stappen leidden gaandeweg naar de huidige functie als productontwerper. Dagelijkse keuzes worden duidelijk gevormd door 1 kind en een vaste huishoudelijke cadans. Dagelijkse gewoonten worden duidelijk gevormd door het leven in Vorst. Het dagelijks leven wordt mee gedragen door een appartement in eigendom in een stedelijke omgeving. De meeste vrije tijd vloeit naar wandelen, doe-het-zelfprojecten en radioprogramma's. Uitgaven passen bij een stabiel middeninkomenshuishouden."
+  },
+  {
+    "identity": {
+      "first_name": "Pascal",
+      "last_name": "Maertens",
+      "full_name": "Pascal Maertens",
+      "gender": "M",
+      "birth_date": "1982-11-21",
+      "age": 43,
+      "nationality": "Belgian",
+      "marital_status": "partnered",
+      "num_children": 0,
+      "unique_id": "76b29fbf-a6b9-4723-a327-2b19a9461687",
+      "preferred_pronouns": "he/him",
+      "national_id_type": "INSZ",
+      "national_id_number": "821121-371-22"
+    },
+    "household_context": {
+      "household_size": 2,
+      "neighborhood_type": "urban",
+      "commute_style": "car-led commute routine",
+      "housing_type": "apartment",
+      "ownership_status": "renter"
+    },
+    "contact": {
+      "email": "pascal.m52@example.org",
+      "phone_number": "+32491785026",
+      "region": "VLG",
+      "address": "Uilenstraat 13",
+      "city": "Sint-Niklaas",
+      "province": "East Flanders",
+      "postal_code": "9100",
+      "country": "Belgium"
+    },
+    "professional": {
+      "job_title": "Cashier",
+      "profession": "Cashier",
+      "industry": "Retail",
+      "collar_type": "white-collar",
+      "work_pattern": "on-site service schedule",
+      "company": "De Smet Market BV",
+      "organization_type": "operating company",
+      "sector_type": "private sector",
+      "employer_scale": "national or regional operator",
+      "education_profile": {
+        "level": "Vocational training",
+        "institution_type": "vocational school or adult training",
+        "instruction_language": "Dutch"
+      },
+      "education_level": "Vocational training",
+      "income_bracket": "low"
+    },
+    "lifestyle": {
+      "hobbies": [
+        "fitness classes",
+        "board games",
+        "brunch with friends"
+      ],
+      "languages_spoken": [
+        "Dutch",
+        "French",
+        "English"
+      ],
+      "pet": "cat",
+      "values": [
+        "friendship",
+        "comfort",
+        "routine"
+      ],
+      "personality_type": "steady and sociable",
+      "computer_model": "Lenovo IdeaPad Slim 3",
+      "smartphone_model": "Nokia G42",
+      "tablet_model": "Samsung Galaxy Tab A9+",
+      "car_model": "Renault Clio",
+      "bike_model": "Giant Escape 2",
+      "tv_brand": "TCL",
+      "favorite_tv_show": "The White Lotus",
+      "favorite_movie": "Anatomy of a Fall",
+      "favorite_documentary": "14 Peaks",
+      "favorite_vacation_destinations": [
+        "Amsterdam",
+        "Antwerp",
+        "Mallorca"
+      ]
+    },
+    "mobility": {
+      "driving_frequency": "most weekdays",
+      "travel_frequency": "mostly day trips and one budget-friendly holiday",
+      "primary_commute_mode": "car",
+      "public_transport_use": "occasional"
+    },
+    "finance": {
+      "iban": "BE87310885683256",
+      "bank_name": "ING Belgium",
+      "swift_bic": "BBRUBEBB",
+      "income_level": "carefully budgeted household",
+      "preferred_payment_methods": [
+        "debit card",
+        "credit card",
+        "mobile payment"
+      ]
+    },
+    "shopping_and_brand_preferences": {
+      "favorite_supermarket": "ALDI",
+      "preferred_insurer": "AG Insurance",
+      "preferred_transit_operator": "De Lijn",
+      "preferred_news_brand": "De Standaard"
+    },
+    "digital": {
+      "mobile_provider": "Mobile Vikings",
+      "streaming_platform": "Netflix",
+      "device_use": "value-conscious mobile use, messaging, catch-up TV, and one main streaming subscription",
+      "privacy_awareness": "high",
+      "posting_frequency": "occasional"
+    },
+    "daily_routine": {
+      "wake_time": "06:05",
+      "work_pattern": "on-site schedule",
+      "weekday_rhythm": "verplaatsingen naar werkplekken, praktische afstemming en een fysieker dagritme",
+      "evening_habits": "avondeten, decompressie en een rustiger herstelmoment na een actievere dag",
+      "weekend_rhythm": "praktische boodschappen, prijsbewust winkelen en wat lokale ontspanning"
+    },
+    "family": {
+      "spouse": {
+        "gender": "F",
+        "first_name": "Emma",
+        "last_name": "Maertens",
+        "full_name": "Emma Maertens",
+        "birth_date": "1978-05-15",
+        "age": 47,
+        "nationality": "Belgian",
+        "preferred_pronouns": "she/her",
+        "national_id_type": "INSZ",
+        "national_id_number": "780515-898-34"
+      }
+    },
+    "introduction": "Pascal Maertens is 43 jaar en werkt als kassamedewerker in Sint-Niklaas. Het dagelijks leven wordt gevormd door werk in detailhandel, een stedelijke thuisbasis, en door voorkeuren die passen bij een geloofwaardig Belgisch dagelijks leven.",
+    "life_timeline": [
+      {
+        "date": "1982-11-21",
+        "category": "identity",
+        "title": "Birth",
+        "description": "Pascal Maertens werd geboren op 1982-11-21."
+      },
+      {
+        "date": "2000-11-21",
+        "category": "education",
+        "title": "Completed secondary education",
+        "description": "Pascal Maertens voltooide het secundair onderwijs en begon zich voor te bereiden op een zelfstandiger volwassen leven."
+      },
+      {
+        "date": "2002-11-21",
+        "category": "education",
+        "title": "Completed vocational training",
+        "description": "Pascal Maertens bereikte rond de leeftijd van 20 het niveau van beroepsopleiding."
+      },
+      {
+        "date": "2002-11-21",
+        "category": "career",
+        "title": "Career start",
+        "description": "Pascal Maertens stapte het beroepsleven in als kassamedewerker."
+      },
+      {
+        "date": "2006-02-23",
+        "category": "family",
+        "title": "Established an independent household",
+        "description": "Pascal Maertens bouwde een meer zelfstandige huishoudroutine en langdurigere verantwoordelijkheden op."
+      },
+      {
+        "date": "2016-03-08",
+        "category": "career",
+        "title": "Expanded responsibilities",
+        "description": "Pascal Maertens groeide door naar een bredere verantwoordelijkheid naarmate ervaring en vertrouwen toenamen."
+      },
+      {
+        "date": "2019-07-10",
+        "category": "location",
+        "title": "Settled in current city",
+        "description": "Pascal Maertens bouwde het dagelijkse leven uit in Sint-Niklaas."
+      },
+      {
+        "date": "2019-12-01",
+        "category": "career",
+        "title": "Current role",
+        "description": "Pascal Maertens nam de huidige rol als kassamedewerker op bij De Smet Market BV."
+      },
+      {
+        "date": "2022-04-08",
+        "category": "family",
+        "title": "Marriage or long-term partnership",
+        "description": "Pascal Maertens formaliseerde een duurzame partnerrelatie met Emma Maertens."
+      }
+    ],
+    "biography": "Pascal Maertens heeft vandaag een stabiele plek als kassamedewerker in Sint-Niklaas. Beroepsopleiding vormde een belangrijke basis voor het huidige werk. De loopbaan bouwde geleidelijk op naar de huidige rol als kassamedewerker. Een stabiele partnercontext speelt nog altijd een rol in de manier waarop tijd en verantwoordelijkheden worden verdeeld. Het leven in Sint-Niklaas kleurt de wekelijkse gewoonten en lokale voorkeuren. Het huishouden is gecentreerd rond een huurappartement in een stedelijke omgeving. Buiten verplichtingen gaat tijd vaak naar fitnesslessen, bordspellen en brunchen met vrienden. Uitgaven passen bij een zorgvuldig gebudgetteerd huishouden."
+  },
+  {
+    "identity": {
+      "first_name": "Quinten",
+      "last_name": "Vandenbroucke",
+      "full_name": "Quinten Vandenbroucke",
+      "gender": "M",
+      "birth_date": "1981-01-07",
+      "age": 44,
+      "nationality": "Belgian",
+      "marital_status": "married",
+      "num_children": 2,
+      "unique_id": "9e447f7a-51bf-439e-880e-03f4bfa64d92",
+      "preferred_pronouns": "he/him",
+      "national_id_type": "INSZ",
+      "national_id_number": "810107-883-33"
+    },
+    "household_context": {
+      "household_size": 4,
+      "neighborhood_type": "small-town",
+      "commute_style": "train-based family logistics",
+      "housing_type": "apartment",
+      "ownership_status": "renter"
+    },
+    "daily_routine": {
+      "wake_time": "05:50",
+      "work_pattern": "on-site schedule",
+      "weekday_rhythm": "vroege vertrekken, praktische afstemming en een strak geregelde gezinsoverdracht na het werk op locatie",
+      "evening_habits": "avondeten, decompressie en een rustiger herstelmoment na een actievere dag",
+      "weekend_rhythm": "gezinsactiviteiten, boodschappen en een ontspannen uitstap"
+    },
+    "mobility": {
+      "driving_frequency": "weekends and occasional school runs",
+      "travel_frequency": "mostly day trips and one budget-friendly holiday",
+      "primary_commute_mode": "train",
+      "public_transport_use": "frequent",
+      "travel_style": "well-planned, family-friendly trips"
+    },
+    "contact": {
+      "email": "quinten.v@example.com",
+      "phone_number": "+32482280394",
+      "region": "WAL",
+      "address": "Rue de Slins 8",
+      "city": "Oupeye",
+      "province": "Liege",
+      "postal_code": "4682",
+      "country": "Belgium"
+    },
+    "professional": {
+      "job_title": "Home Care Cleaner",
+      "profession": "Home Care Cleaner",
+      "industry": "Home Services",
+      "collar_type": "blue-collar",
+      "work_pattern": "field-based service schedule",
+      "company": "Oupeye Cleaning SRL",
+      "organization_type": "service firm",
+      "sector_type": "private sector",
+      "employer_scale": "local SME",
+      "education_profile": {
+        "level": "Vocational training",
+        "institution_type": "vocational school or adult training",
+        "instruction_language": "French"
+      },
+      "education_level": "Vocational training",
+      "income_bracket": "low"
+    },
+    "lifestyle": {
+      "hobbies": [
+        "DIY projects",
+        "local football",
+        "barbecuing"
+      ],
+      "languages_spoken": [
+        "French",
+        "English"
+      ],
+      "pet": "dog",
+      "values": [
+        "reliability",
+        "family loyalty",
+        "practicality"
+      ],
+      "personality_type": "straightforward and dependable",
+      "computer_model": "Lenovo IdeaPad Slim 3",
+      "smartphone_model": "Motorola Edge 50 Neo",
+      "tablet_model": "Lenovo Tab M11",
+      "car_model": "Dacia Sandero",
+      "bike_model": "Decathlon Riverside 500",
+      "tv_brand": "LG",
+      "favorite_tv_show": "Professor T",
+      "favorite_movie": "Knives Out",
+      "favorite_documentary": "Our Planet",
+      "favorite_vacation_destinations": [
+        "Belgian coast",
+        "Ardennes",
+        "Eifel"
+      ]
+    },
+    "finance": {
+      "iban": "BE33052288329655",
+      "bank_name": "Belfius Bank",
+      "swift_bic": "GKCCBEBB",
+      "income_level": "carefully budgeted household with close monthly planning",
+      "preferred_payment_methods": [
+        "debit card",
+        "credit card",
+        "mobile payment"
+      ]
+    },
+    "shopping_and_brand_preferences": {
+      "favorite_supermarket": "Colruyt",
+      "preferred_insurer": "Partenamut",
+      "preferred_transit_operator": "NMBS-SNCB",
+      "preferred_news_brand": "RTBF"
+    },
+    "digital": {
+      "mobile_provider": "Mobile Vikings",
+      "streaming_platform": "Netflix",
+      "device_use": "messaging, practical household admin, catch-up TV, and careful online shopping",
+      "privacy_awareness": "high",
+      "posting_frequency": "occasional"
+    },
+    "family": {
+      "spouse": {
+        "gender": "F",
+        "first_name": "Sophie",
+        "last_name": "Vandenbroucke",
+        "full_name": "Sophie Vandenbroucke",
+        "birth_date": "1984-12-04",
+        "age": 41,
+        "nationality": "Belgian",
+        "preferred_pronouns": "she/her",
+        "national_id_type": "INSZ",
+        "national_id_number": "841204-506-58"
+      },
+      "children": [
+        {
+          "first_name": "Jarno",
+          "last_name": "Vandenbroucke",
+          "full_name": "Jarno Vandenbroucke",
+          "birth_date": "2010-12-04",
+          "age": 15,
+          "nationality": "Belgian"
+        },
+        {
+          "first_name": "Wilhelmus",
+          "last_name": "Vandenbroucke",
+          "full_name": "Wilhelmus Vandenbroucke",
+          "birth_date": "2014-03-16",
+          "age": 11,
+          "nationality": "Belgian"
+        }
+      ]
+    },
+    "introduction": "Quinten Vandenbroucke is 44 jaar en werkt als poetshulp aan huis in Oupeye. Het dagelijks leven wordt gevormd door werk in huishoudelijke diensten, een kleinstedelijke thuisbasis, en door voorkeuren die passen bij een geloofwaardig Belgisch dagelijks leven.",
+    "life_timeline": [
+      {
+        "date": "1981-01-07",
+        "category": "identity",
+        "title": "Birth",
+        "description": "Quinten Vandenbroucke werd geboren op 1981-01-07."
+      },
+      {
+        "date": "1999-01-07",
+        "category": "education",
+        "title": "Completed secondary education",
+        "description": "Quinten Vandenbroucke voltooide het secundair onderwijs en begon zich voor te bereiden op een zelfstandiger volwassen leven."
+      },
+      {
+        "date": "2001-01-07",
+        "category": "education",
+        "title": "Completed vocational training",
+        "description": "Quinten Vandenbroucke bereikte rond de leeftijd van 20 het niveau van beroepsopleiding."
+      },
+      {
+        "date": "2001-01-07",
+        "category": "career",
+        "title": "Career start",
+        "description": "Quinten Vandenbroucke stapte het beroepsleven in als poetshulp aan huis."
+      },
+      {
+        "date": "2003-09-28",
+        "category": "family",
+        "title": "Established an independent household",
+        "description": "Quinten Vandenbroucke bouwde een meer zelfstandige huishoudroutine en langdurigere verantwoordelijkheden op."
+      },
+      {
+        "date": "2004-12-23",
+        "category": "career",
+        "title": "Expanded responsibilities",
+        "description": "Quinten Vandenbroucke groeide door naar een bredere verantwoordelijkheid naarmate ervaring en vertrouwen toenamen."
+      },
+      {
+        "date": "2007-07-14",
+        "category": "family",
+        "title": "Marriage or long-term partnership",
+        "description": "Quinten Vandenbroucke formaliseerde een duurzame partnerrelatie met Sophie Vandenbroucke."
+      },
+      {
+        "date": "2010-12-04",
+        "category": "family",
+        "title": "Child born",
+        "description": "Quinten Vandenbroucke verwelkomde Jarno Vandenbroucke in het huishouden."
+      },
+      {
+        "date": "2011-03-04",
+        "category": "family",
+        "title": "Household routine changed",
+        "description": "Quinten Vandenbroucke herorganiseerde de dagelijkse routine rond zorg, logistiek en een voller huishouden."
+      },
+      {
+        "date": "2014-03-16",
+        "category": "family",
+        "title": "Child born",
+        "description": "Quinten Vandenbroucke verwelkomde Wilhelmus Vandenbroucke in het huishouden."
+      },
+      {
+        "date": "2018-09-20",
+        "category": "career",
+        "title": "Current role",
+        "description": "Quinten Vandenbroucke nam de huidige rol als poetshulp aan huis op bij Oupeye Cleaning SRL."
+      },
+      {
+        "date": "2020-07-25",
+        "category": "location",
+        "title": "Settled in current city",
+        "description": "Quinten Vandenbroucke bouwde het dagelijkse leven uit in Oupeye."
+      }
+    ],
+    "biography": "Quinten Vandenbroucke is vandaag gevestigd als poetshulp aan huis in Oupeye. De beroepsopleiding legde veel van de basis voor de huidige rol. Professionele stappen leidden gaandeweg naar de huidige functie als poetshulp aan huis. Dagelijkse keuzes worden duidelijk gevormd door 2 kinderen en een vaste huishoudelijke cadans. Dagelijkse gewoonten worden duidelijk gevormd door het leven in Oupeye. Het dagelijks leven wordt mee gedragen door een huurappartement in een kleinstedelijke omgeving. De meeste vrije tijd vloeit naar doe-het-zelfprojecten, lokaal voetbal en barbecueen. Uitgaven passen bij een zorgvuldig gebudgetteerd huishouden met strakke maandplanning."
+  },
+  {
+    "identity": {
+      "first_name": "Max",
+      "last_name": "Aerts",
+      "full_name": "Max Aerts",
+      "gender": "M",
+      "birth_date": "1989-06-18",
+      "age": 36,
+      "nationality": "Belgian",
+      "marital_status": "married",
+      "num_children": 1,
+      "unique_id": "d8a708eb-e423-4218-8d60-0b968303226c",
+      "preferred_pronouns": "he/him",
+      "national_id_type": "INSZ",
+      "national_id_number": "890618-389-12"
+    },
+    "household_context": {
+      "household_size": 2,
+      "neighborhood_type": "small-town",
+      "commute_style": "bike-first family routine",
+      "housing_type": "row house",
+      "ownership_status": "owner"
+    },
+    "daily_routine": {
+      "wake_time": "07:10",
+      "work_pattern": "structured daytime schedule",
+      "weekday_rhythm": "korte actieve verplaatsingen, vaste dagverplichtingen rond boekhouder, gerichte werkblokken en praktische afstemming rond de functie, en een regelmatige avondreset",
+      "evening_habits": "een maaltijd thuis, lichtere administratie en bescheiden ontspanning",
+      "weekend_rhythm": "gezinsactiviteiten, boodschappen en een ontspannen uitstap"
+    },
+    "mobility": {
+      "driving_frequency": "rare",
+      "travel_frequency": "one or two leisure trips per year",
+      "primary_commute_mode": "bike",
+      "public_transport_use": "occasional",
+      "travel_style": "well-planned, family-friendly trips"
+    },
+    "contact": {
+      "email": "max.aerts@example.net",
+      "phone_number": "+32464422856",
+      "region": "VLG",
+      "address": "Wolfaardstraat 38",
+      "city": "Roeselare",
+      "province": "West Flanders",
+      "postal_code": "8800",
+      "country": "Belgium"
+    },
+    "professional": {
+      "job_title": "Bookkeeper",
+      "profession": "Bookkeeper",
+      "industry": "Finance",
+      "collar_type": "white-collar",
+      "work_pattern": "structured daytime schedule",
+      "company": "Michiels Accountancy Groep CommV",
+      "organization_type": "office-based firm",
+      "sector_type": "private sector",
+      "employer_scale": "local or regional firm",
+      "education_profile": {
+        "level": "Bachelor's degree",
+        "institution_type": "university college",
+        "instruction_language": "Dutch"
+      },
+      "education_level": "Bachelor's degree",
+      "income_bracket": "middle"
+    },
+    "lifestyle": {
+      "hobbies": [
+        "cycling",
+        "home cooking",
+        "podcasts"
+      ],
+      "languages_spoken": [
+        "Dutch",
+        "French",
+        "English"
+      ],
+      "pet": "dog",
+      "values": [
+        "stability",
+        "family time",
+        "practicality"
+      ],
+      "personality_type": "organized and warm",
+      "computer_model": "HP ProBook 445",
+      "smartphone_model": "iPhone 15e",
+      "tablet_model": "Samsung Galaxy Tab S9 FE",
+      "car_model": "Skoda Fabia Combi",
+      "bike_model": "Gazelle Ultimate",
+      "tv_brand": "Samsung",
+      "favorite_tv_show": "1985",
+      "favorite_movie": "The Banshees of Inisherin",
+      "favorite_documentary": "Welcome to Wrexham",
+      "favorite_vacation_destinations": [
+        "Ardennes",
+        "Brittany",
+        "Tuscany"
+      ]
+    },
+    "finance": {
+      "iban": "BE34052110693246",
+      "bank_name": "Belfius Bank",
+      "swift_bic": "GKCCBEBB",
+      "income_level": "stable middle-income household",
+      "preferred_payment_methods": [
+        "debit card",
+        "credit card",
+        "mobile payment"
+      ]
+    },
+    "shopping_and_brand_preferences": {
+      "favorite_supermarket": "Carrefour",
+      "preferred_insurer": "AG Insurance",
+      "preferred_transit_operator": "NMBS-SNCB",
+      "preferred_news_brand": "VRT NWS"
+    },
+    "digital": {
+      "mobile_provider": "Orange Belgium",
+      "streaming_platform": "Amazon Prime Video",
+      "device_use": "budget-conscious shopping, messaging, and one value-focused streaming subscription",
+      "privacy_awareness": "moderate-to-high",
+      "posting_frequency": "low"
+    },
+    "family": {
+      "spouse": {
+        "gender": "F",
+        "first_name": "Lotte",
+        "last_name": "Aerts",
+        "full_name": "Lotte Aerts",
+        "birth_date": "1994-11-28",
+        "age": 31,
+        "nationality": "Belgian",
+        "preferred_pronouns": "she/her",
+        "national_id_type": "INSZ",
+        "national_id_number": "941128-138-06"
+      },
+      "children": [
+        {
+          "first_name": "Nele",
+          "last_name": "Aerts",
+          "full_name": "Nele Aerts",
+          "birth_date": "2012-12-08",
+          "age": 13,
+          "nationality": "Belgian"
+        }
+      ]
+    },
+    "introduction": "Max Aerts is 36 jaar en werkt als boekhouder in Roeselare. Het dagelijks leven wordt gevormd door werk in financien, een kleinstedelijke thuisbasis, en door voorkeuren die passen bij een geloofwaardig Belgisch dagelijks leven.",
+    "life_timeline": [
+      {
+        "date": "1989-06-18",
+        "category": "identity",
+        "title": "Birth",
+        "description": "Max Aerts werd geboren op 1989-06-18."
+      },
+      {
+        "date": "2007-06-18",
+        "category": "education",
+        "title": "Completed secondary education",
+        "description": "Max Aerts voltooide het secundair onderwijs en begon zich voor te bereiden op een zelfstandiger volwassen leven."
+      },
+      {
+        "date": "2007-06-18",
+        "category": "education",
+        "title": "Started higher education or training",
+        "description": "Max Aerts begon rond de leeftijd van 18 aan een meer gespecialiseerde opleiding of training."
+      },
+      {
+        "date": "2011-06-18",
+        "category": "education",
+        "title": "Completed a bachelor's degree",
+        "description": "Max Aerts bereikte rond de leeftijd van 22 het niveau van bacheloropleiding."
+      },
+      {
+        "date": "2011-06-18",
+        "category": "career",
+        "title": "Career start",
+        "description": "Max Aerts stapte het beroepsleven in als boekhouder."
+      },
+      {
+        "date": "2011-11-27",
+        "category": "family",
+        "title": "Established an independent household",
+        "description": "Max Aerts bouwde een meer zelfstandige huishoudroutine en langdurigere verantwoordelijkheden op."
+      },
+      {
+        "date": "2012-06-20",
+        "category": "family",
+        "title": "Marriage or long-term partnership",
+        "description": "Max Aerts formaliseerde een duurzame partnerrelatie met Lotte Aerts."
+      },
+      {
+        "date": "2012-12-08",
+        "category": "family",
+        "title": "Child born",
+        "description": "Max Aerts verwelkomde Nele Aerts in het huishouden."
+      },
+      {
+        "date": "2013-03-08",
+        "category": "family",
+        "title": "Household routine changed",
+        "description": "Max Aerts herorganiseerde de dagelijkse routine rond zorg, logistiek en een voller huishouden."
+      },
+      {
+        "date": "2013-12-03",
+        "category": "career",
+        "title": "Expanded responsibilities",
+        "description": "Max Aerts groeide door naar een bredere verantwoordelijkheid naarmate ervaring en vertrouwen toenamen."
+      },
+      {
+        "date": "2018-03-03",
+        "category": "location",
+        "title": "Settled in current city",
+        "description": "Max Aerts bouwde het dagelijkse leven uit in Roeselare."
+      },
+      {
+        "date": "2020-01-03",
+        "category": "career",
+        "title": "Current role",
+        "description": "Max Aerts nam de huidige rol als boekhouder op bij Michiels Accountancy Groep CommV."
+      }
+    ],
+    "biography": "Max Aerts bevindt zich vandaag in een gegronde levensfase als boekhouder in Roeselare. Na bacheloropleiding verschoof het pad naar een duidelijker professionele richting. De loopbaanlijn wijst op een geleidelijke doorgroei naar de huidige rol als boekhouder. Na verloop van tijd draaide het huishouden duidelijker rond 1 kind, waarbij zorg en planning meer gewicht kregen. Zich vestigen in Roeselare verankert het dagelijkse ritme, lokale voorkeuren en een langdurig gevoel van plaats. De huiselijke context draait om een rijwoning in eigendom in een kleinstedelijke omgeving, wat het beschreven weekritme verder ondersteunt. Naast werk helpen fietsen, thuis koken en podcasts een levensstijl uittekenen die stabiel en persoonlijk samenhangend aanvoelt. Het algemene profiel wijst op een stabiel middeninkomenshuishouden, met keuzes die betrouwbaarheid, comfort en realistische afwegingen benadrukken."
+  },
+  {
+    "identity": {
+      "first_name": "Marleen",
+      "last_name": "De Cock",
+      "full_name": "Marleen De Cock",
+      "gender": "F",
+      "birth_date": "1985-10-13",
+      "age": 40,
+      "nationality": "Belgian",
+      "marital_status": "single",
+      "num_children": 0,
+      "unique_id": "dfba06b4-e234-4ea0-9670-f3299306a2ce",
+      "preferred_pronouns": "she/her",
+      "national_id_type": "INSZ",
+      "national_id_number": "851013-474-21"
+    },
+    "household_context": {
+      "household_size": 1,
+      "neighborhood_type": "small-town",
+      "commute_style": "train-based commuter routine",
+      "housing_type": "apartment",
+      "ownership_status": "renter"
+    },
+    "contact": {
+      "email": "marleen.decock@example.org",
+      "phone_number": "+32494132222",
+      "region": "VLG",
+      "address": "Th. De Beckerstraat 35",
+      "city": "Aarschot",
+      "province": "Flemish Brabant",
+      "postal_code": "3200",
+      "country": "Belgium"
+    },
+    "professional": {
+      "job_title": "Store Salesperson",
+      "profession": "Store Salesperson",
+      "industry": "Retail",
+      "collar_type": "white-collar",
+      "work_pattern": "on-site service schedule",
+      "company": "Aarschot Retail BV",
+      "organization_type": "operating company",
+      "sector_type": "private sector",
+      "employer_scale": "national or regional operator",
+      "education_profile": {
+        "level": "Upper secondary education",
+        "institution_type": "secondary school",
+        "instruction_language": "Dutch"
+      },
+      "education_level": "Upper secondary education",
+      "income_bracket": "lower-middle"
+    },
+    "lifestyle": {
+      "hobbies": [
+        "weekend running",
+        "museum visits",
+        "recipe experimenting"
+      ],
+      "languages_spoken": [
+        "Dutch",
+        "French",
+        "English"
+      ],
+      "pet": "cat",
+      "values": [
+        "learning",
+        "reliability",
+        "comfort"
+      ],
+      "personality_type": "thoughtful and steady",
+      "computer_model": "Acer Aspire 5",
+      "smartphone_model": "Samsung Galaxy A55",
+      "tablet_model": "iPad 10th generation",
+      "car_model": "Opel Corsa",
+      "bike_model": "Trek FX 2",
+      "tv_brand": "LG",
+      "favorite_tv_show": "The Twelve",
+      "favorite_movie": "Oppenheimer",
+      "favorite_documentary": "Beckham",
+      "favorite_vacation_destinations": [
+        "Zeeland",
+        "Copenhagen",
+        "Alsace"
+      ]
+    },
+    "mobility": {
+      "driving_frequency": "weekends and occasional errands",
+      "travel_frequency": "one leisure trip or a few short breaks per year",
+      "primary_commute_mode": "train",
+      "public_transport_use": "frequent"
+    },
+    "finance": {
+      "iban": "BE33979599148993",
+      "bank_name": "Argenta",
+      "swift_bic": "ARSPBE22",
+      "income_level": "stable but budget-aware household",
+      "preferred_payment_methods": [
+        "debit card",
+        "credit card",
+        "mobile payment"
+      ]
+    },
+    "shopping_and_brand_preferences": {
+      "favorite_supermarket": "Colruyt",
+      "preferred_insurer": "AG Insurance",
+      "preferred_transit_operator": "De Lijn",
+      "preferred_news_brand": "De Standaard"
+    },
+    "digital": {
+      "mobile_provider": "Orange Belgium",
+      "streaming_platform": "Amazon Prime Video",
+      "device_use": "budget-conscious shopping, messaging, and one value-focused streaming subscription",
+      "privacy_awareness": "moderate-to-high",
+      "posting_frequency": "low"
+    },
+    "daily_routine": {
+      "wake_time": "06:05",
+      "work_pattern": "on-site schedule",
+      "weekday_rhythm": "verplaatsingen naar werkplekken, praktische afstemming en een fysieker dagritme",
+      "evening_habits": "avondeten, decompressie en een rustiger herstelmoment na een actievere dag",
+      "weekend_rhythm": "praktische boodschappen, prijsbewust winkelen en wat lokale ontspanning"
+    },
+    "family": {},
+    "introduction": "Marleen De Cock is 40 jaar en werkt als winkelmedewerker in Aarschot. Het dagelijks leven wordt gevormd door werk in detailhandel, een kleinstedelijke thuisbasis, en door voorkeuren die passen bij een geloofwaardig Belgisch dagelijks leven.",
+    "life_timeline": [
+      {
+        "date": "1985-10-13",
+        "category": "identity",
+        "title": "Birth",
+        "description": "Marleen De Cock werd geboren op 1985-10-13."
+      },
+      {
+        "date": "2003-10-13",
+        "category": "education",
+        "title": "Completed secondary education",
+        "description": "Marleen De Cock voltooide het secundair onderwijs en begon zich voor te bereiden op een zelfstandiger volwassen leven."
+      },
+      {
+        "date": "2003-10-13",
+        "category": "education",
+        "title": "Completed secondary education",
+        "description": "Marleen De Cock bereikte rond de leeftijd van 18 het niveau van opleiding in het secundair onderwijs."
+      },
+      {
+        "date": "2003-10-13",
+        "category": "career",
+        "title": "Career start",
+        "description": "Marleen De Cock stapte het beroepsleven in als winkelmedewerker."
+      },
+      {
+        "date": "2007-07-24",
+        "category": "career",
+        "title": "Expanded responsibilities",
+        "description": "Marleen De Cock groeide door naar een bredere verantwoordelijkheid naarmate ervaring en vertrouwen toenamen."
+      },
+      {
+        "date": "2011-10-15",
+        "category": "family",
+        "title": "Established an independent household",
+        "description": "Marleen De Cock bouwde een meer zelfstandige huishoudroutine en langdurigere verantwoordelijkheden op."
+      },
+      {
+        "date": "2019-11-10",
+        "category": "location",
+        "title": "Settled in current city",
+        "description": "Marleen De Cock bouwde het dagelijkse leven uit in Aarschot."
+      },
+      {
+        "date": "2023-02-17",
+        "category": "career",
+        "title": "Current role",
+        "description": "Marleen De Cock nam de huidige rol als winkelmedewerker op bij Aarschot Retail BV."
+      }
+    ],
+    "biography": "Vandaag leeft Marleen De Cock als winkelmedewerker in Aarschot. Met opleiding in het secundair onderwijs ontstond een groot deel van de basis voor het werkritme van vandaag. Werkervaring groeide uit tot de huidige positie als winkelmedewerker. Aarschot geeft het lokale kader voor wekelijkse routines en voorkeuren. Het thuisleven is verankerd in een huurappartement in een kleinstedelijke omgeving. Vrije tijd gaat meestal naar weekend hardlopen, museumbezoeken en experimenteren met recepten. Uitgaven passen bij een stabiel maar prijsbewust huishouden."
+  },
+  {
+    "identity": {
+      "first_name": "Roos",
+      "last_name": "De Block",
+      "full_name": "Roos De Block",
+      "gender": "F",
+      "birth_date": "1985-06-25",
+      "age": 40,
+      "nationality": "Belgian",
+      "marital_status": "married",
+      "num_children": 2,
+      "unique_id": "52220f19-e578-42da-b2f0-a066fb6ea7d5",
+      "preferred_pronouns": "she/her",
+      "national_id_type": "INSZ",
+      "national_id_number": "850625-582-10"
+    },
+    "household_context": {
+      "household_size": 4,
+      "neighborhood_type": "suburban",
+      "commute_style": "bike-first family routine",
+      "housing_type": "row house",
+      "ownership_status": "renter"
+    },
+    "daily_routine": {
+      "wake_time": "07:10",
+      "work_pattern": "structured daytime schedule",
+      "weekday_rhythm": "korte actieve verplaatsingen, vaste dagverplichtingen rond kinderbegeleider, mensgerichte afstemming, praktische opvolging en een dienstgerichte dagstructuur, en een regelmatige avondreset",
+      "evening_habits": "een maaltijd thuis, lichtere administratie en bescheiden ontspanning",
+      "weekend_rhythm": "gezinsactiviteiten, boodschappen en een ontspannen uitstap"
+    },
+    "mobility": {
+      "driving_frequency": "rare",
+      "travel_frequency": "one leisure trip or a few short breaks per year",
+      "primary_commute_mode": "bike",
+      "public_transport_use": "occasional",
+      "travel_style": "well-planned, family-friendly trips"
+    },
+    "contact": {
+      "email": "roosdeblock@example.net",
+      "phone_number": "+32490944786",
+      "region": "WAL",
+      "address": "Grand'Route 378",
+      "city": "Eigenbrakel",
+      "province": "Walloon Brabant",
+      "postal_code": "1428",
+      "country": "Belgium"
+    },
+    "professional": {
+      "job_title": "Childcare Worker",
+      "profession": "Childcare Worker",
+      "industry": "Childcare",
+      "collar_type": "white-collar",
+      "work_pattern": "structured daytime schedule",
+      "company": "Simon & Toussaint Solidarite locale ASBL",
+      "organization_type": "community service organization",
+      "sector_type": "nonprofit or community sector",
+      "employer_scale": "local community organization",
+      "education_profile": {
+        "level": "Upper secondary education",
+        "institution_type": "secondary school",
+        "instruction_language": "French"
+      },
+      "education_level": "Upper secondary education",
+      "income_bracket": "lower-middle"
+    },
+    "lifestyle": {
+      "hobbies": [
+        "padel",
+        "weekend city trips",
+        "food podcasts"
+      ],
+      "languages_spoken": [
+        "French",
+        "English"
+      ],
+      "pet": null,
+      "values": [
+        "balance",
+        "curiosity",
+        "convenience"
+      ],
+      "personality_type": "social and organized",
+      "computer_model": "HP 15",
+      "smartphone_model": "Google Pixel 8a",
+      "tablet_model": "iPad 10th generation",
+      "car_model": "Toyota Yaris",
+      "bike_model": "Giant Escape 2",
+      "tv_brand": "Philips",
+      "favorite_tv_show": "Lupin",
+      "favorite_movie": "The Intouchables",
+      "favorite_documentary": "March of the Penguins",
+      "favorite_vacation_destinations": [
+        "Lisbon",
+        "Ghent",
+        "Valencia"
+      ]
+    },
+    "finance": {
+      "iban": "BE26052682931601",
+      "bank_name": "Belfius Bank",
+      "swift_bic": "GKCCBEBB",
+      "income_level": "stable middle-income household with careful planning",
+      "preferred_payment_methods": [
+        "debit card",
+        "credit card",
+        "mobile payment"
+      ]
+    },
+    "shopping_and_brand_preferences": {
+      "favorite_supermarket": "Colruyt",
+      "preferred_insurer": "Partenamut",
+      "preferred_transit_operator": "TEC",
+      "preferred_news_brand": "RTBF"
+    },
+    "digital": {
+      "mobile_provider": "Mobile Vikings",
+      "streaming_platform": "Netflix",
+      "device_use": "messaging, household coordination, work communication, and one or two main streaming habits",
+      "privacy_awareness": "high",
+      "posting_frequency": "occasional"
+    },
+    "family": {
+      "spouse": {
+        "gender": "M",
+        "first_name": "Roeland",
+        "last_name": "De Block",
+        "full_name": "Roeland De Block",
+        "birth_date": "1982-02-28",
+        "age": 43,
+        "nationality": "Belgian",
+        "preferred_pronouns": "he/him",
+        "national_id_type": "INSZ",
+        "national_id_number": "820228-993-97"
+      },
+      "children": [
+        {
+          "first_name": "Kathleen",
+          "last_name": "De Block",
+          "full_name": "Kathleen De Block",
+          "birth_date": "2010-05-26",
+          "age": 15,
+          "nationality": "Belgian"
+        },
+        {
+          "first_name": "Sharon",
+          "last_name": "De Block",
+          "full_name": "Sharon De Block",
+          "birth_date": "2012-04-30",
+          "age": 13,
+          "nationality": "Belgian"
+        }
+      ]
+    },
+    "introduction": "Roos De Block is 40 jaar en werkt als kinderbegeleider in Eigenbrakel. Het dagelijks leven wordt gevormd door werk in kinderopvang, een voorstedelijke thuisbasis, en door voorkeuren die passen bij een geloofwaardig Belgisch dagelijks leven.",
+    "life_timeline": [
+      {
+        "date": "1985-06-25",
+        "category": "identity",
+        "title": "Birth",
+        "description": "Roos De Block werd geboren op 1985-06-25."
+      },
+      {
+        "date": "2003-06-25",
+        "category": "education",
+        "title": "Completed secondary education",
+        "description": "Roos De Block voltooide het secundair onderwijs en begon zich voor te bereiden op een zelfstandiger volwassen leven."
+      },
+      {
+        "date": "2003-06-25",
+        "category": "education",
+        "title": "Completed secondary education",
+        "description": "Roos De Block bereikte rond de leeftijd van 18 het niveau van opleiding in het secundair onderwijs."
+      },
+      {
+        "date": "2003-06-25",
+        "category": "career",
+        "title": "Career start",
+        "description": "Roos De Block stapte het beroepsleven in als kinderbegeleider."
+      },
+      {
+        "date": "2006-01-19",
+        "category": "family",
+        "title": "Established an independent household",
+        "description": "Roos De Block bouwde een meer zelfstandige huishoudroutine en langdurigere verantwoordelijkheden op."
+      },
+      {
+        "date": "2007-07-14",
+        "category": "family",
+        "title": "Marriage or long-term partnership",
+        "description": "Roos De Block formaliseerde een duurzame partnerrelatie met Roeland De Block."
+      },
+      {
+        "date": "2009-10-06",
+        "category": "career",
+        "title": "Expanded responsibilities",
+        "description": "Roos De Block groeide door naar een bredere verantwoordelijkheid naarmate ervaring en vertrouwen toenamen."
+      },
+      {
+        "date": "2010-05-26",
+        "category": "family",
+        "title": "Child born",
+        "description": "Roos De Block verwelkomde Kathleen De Block in het huishouden."
+      },
+      {
+        "date": "2010-08-24",
+        "category": "family",
+        "title": "Household routine changed",
+        "description": "Roos De Block herorganiseerde de dagelijkse routine rond zorg, logistiek en een voller huishouden."
+      },
+      {
+        "date": "2012-04-30",
+        "category": "family",
+        "title": "Child born",
+        "description": "Roos De Block verwelkomde Sharon De Block in het huishouden."
+      },
+      {
+        "date": "2018-12-01",
+        "category": "career",
+        "title": "Current role",
+        "description": "Roos De Block nam de huidige rol als kinderbegeleider op bij Simon & Toussaint Solidarite locale ASBL."
+      },
+      {
+        "date": "2021-07-12",
+        "category": "location",
+        "title": "Settled in current city",
+        "description": "Roos De Block bouwde het dagelijkse leven uit in Eigenbrakel."
+      }
+    ],
+    "biography": "Het verhaal van Roos De Block wordt gevormd door een reeks gestage overgangen die nu samenkomen in Eigenbrakel. Opleiding in het secundair onderwijs vormde een belangrijk keerpunt richting een duidelijker professioneel pad. Loopbaanontwikkeling leidde uiteindelijk naar de huidige functie als kinderbegeleider, waar consistentie en ervaring sterker zichtbaar werden. Gezinsmijlpalen hertekenden het huishouden, waarbij 2 kinderen planning, zorg en stabiliteit centraler maakten. Het dagelijkse leven wordt verder gegrond in een huurwoning in een voorstedelijke omgeving, wat het profiel een duidelijker thuiscentrum geeft. Buiten formele verantwoordelijkheden zorgen padel, stedentrips in het weekend en foodpodcasts voor continuiteit en verklaren ze mee het persoonlijke ritme. De levensstijl sluit daardoor aan bij een stabiel middeninkomenshuishouden met zorgvuldige planning, waarbij comfort en praktische afwegingen in evenwicht blijven."
+  },
+  {
+    "identity": {
+      "first_name": "Beatrijs",
+      "last_name": "Wauters",
+      "full_name": "Beatrijs Wauters",
+      "gender": "F",
+      "birth_date": "1982-12-23",
+      "age": 43,
+      "nationality": "Belgian",
+      "marital_status": "divorced",
+      "num_children": 1,
+      "unique_id": "e25af6b9-41a8-40bf-b925-b3758c0a7b3b",
+      "preferred_pronouns": "she/her",
+      "national_id_type": "INSZ",
+      "national_id_number": "821223-604-27"
+    },
+    "household_context": {
+      "household_size": 3,
+      "neighborhood_type": "suburban",
+      "commute_style": "car-based family commute",
+      "housing_type": "semi-detached house",
+      "ownership_status": "owner"
+    },
+    "daily_routine": {
+      "wake_time": "06:30",
+      "work_pattern": "hybrid office schedule",
+      "weekday_rhythm": "verplaatsingen en planning rond een werkdag met de auto, afstemming tussen teams en gestructureerde overdrachten binnen een grotere organisatie, en een voorspelbare avondoverdracht",
+      "evening_habits": "avondeten, planning voor de volgende dag en licht streamen of lezen",
+      "weekend_rhythm": "gezinsactiviteiten, boodschappen en een ontspannen uitstap"
+    },
+    "mobility": {
+      "driving_frequency": "most weekdays",
+      "travel_frequency": "two or three leisure trips per year",
+      "primary_commute_mode": "car",
+      "public_transport_use": "occasional",
+      "travel_style": "well-planned, family-friendly trips"
+    },
+    "contact": {
+      "email": "beatrijs.wauters@example.com",
+      "phone_number": "+32498669226",
+      "region": "VLG",
+      "address": "Kerkveldweg 14",
+      "city": "Aalst",
+      "province": "East Flanders",
+      "postal_code": "9320",
+      "country": "Belgium"
+    },
+    "professional": {
+      "job_title": "Sales Manager",
+      "profession": "Sales Manager",
+      "industry": "Wholesale and Retail",
+      "collar_type": "white-collar",
+      "work_pattern": "hybrid office schedule",
+      "company": "Aalst Handel NV",
+      "organization_type": "operating company",
+      "sector_type": "private sector",
+      "employer_scale": "national or regional operator",
+      "education_profile": {
+        "level": "Master's degree",
+        "institution_type": "university",
+        "instruction_language": "Dutch"
+      },
+      "education_level": "Master's degree",
+      "income_bracket": "upper-middle"
+    },
+    "lifestyle": {
+      "hobbies": [
+        "fitness classes",
+        "board games",
+        "brunch with friends"
+      ],
+      "languages_spoken": [
+        "Dutch",
+        "French",
+        "English"
+      ],
+      "pet": "cat",
+      "values": [
+        "friendship",
+        "comfort",
+        "routine"
+      ],
+      "personality_type": "steady and sociable",
+      "computer_model": "Lenovo ThinkPad X1 Carbon",
+      "smartphone_model": "Samsung Galaxy S24",
+      "tablet_model": "iPad mini",
+      "car_model": "Skoda Octavia Combi",
+      "bike_model": "Cowboy Cruiser ST",
+      "tv_brand": "Sony",
+      "favorite_tv_show": "Professor T",
+      "favorite_movie": "Knives Out",
+      "favorite_documentary": "Our Planet",
+      "favorite_vacation_destinations": [
+        "Amsterdam",
+        "Antwerp",
+        "Mallorca"
+      ]
+    },
+    "finance": {
+      "iban": "BE39052397495869",
+      "bank_name": "Belfius Bank",
+      "swift_bic": "GKCCBEBB",
+      "income_level": "comfortable upper-middle-income household",
+      "preferred_payment_methods": [
+        "debit card",
+        "credit card",
+        "mobile payment"
+      ]
+    },
+    "shopping_and_brand_preferences": {
+      "favorite_supermarket": "Delhaize",
+      "preferred_insurer": "Helan",
+      "preferred_transit_operator": "NMBS-SNCB",
+      "preferred_news_brand": "De Standaard"
+    },
+    "digital": {
+      "mobile_provider": "Telenet",
+      "streaming_platform": "Streamz",
+      "device_use": "connected-home routines, streaming, work communication, and shared family logistics",
+      "privacy_awareness": "moderate",
+      "posting_frequency": "low"
+    },
+    "family": {
+      "children": [
+        {
+          "first_name": "Wendy",
+          "last_name": "Wauters",
+          "full_name": "Wendy Wauters",
+          "birth_date": "2019-01-10",
+          "age": 6,
+          "nationality": "Belgian"
+        }
+      ]
+    },
+    "introduction": "Beatrijs Wauters is 43 jaar en werkt als salesmanager in Aalst. Het dagelijks leven wordt gevormd door werk in groothandel en detailhandel, een voorstedelijke thuisbasis, en door voorkeuren die passen bij een geloofwaardig Belgisch dagelijks leven.",
+    "life_timeline": [
+      {
+        "date": "1982-12-23",
+        "category": "identity",
+        "title": "Birth",
+        "description": "Beatrijs Wauters werd geboren op 1982-12-23."
+      },
+      {
+        "date": "2000-12-23",
+        "category": "education",
+        "title": "Completed secondary education",
+        "description": "Beatrijs Wauters voltooide het secundair onderwijs en begon zich voor te bereiden op een zelfstandiger volwassen leven."
+      },
+      {
+        "date": "2000-12-23",
+        "category": "education",
+        "title": "Started higher education or training",
+        "description": "Beatrijs Wauters begon rond de leeftijd van 18 aan een meer gespecialiseerde opleiding of training."
+      },
+      {
+        "date": "2006-12-23",
+        "category": "education",
+        "title": "Completed a master's degree",
+        "description": "Beatrijs Wauters bereikte rond de leeftijd van 24 het niveau van masteropleiding."
+      },
+      {
+        "date": "2006-12-23",
+        "category": "career",
+        "title": "Career start",
+        "description": "Beatrijs Wauters stapte het beroepsleven in als salesmanager."
+      },
+      {
+        "date": "2012-07-31",
+        "category": "career",
+        "title": "Expanded responsibilities",
+        "description": "Beatrijs Wauters groeide door naar een bredere verantwoordelijkheid naarmate ervaring en vertrouwen toenamen."
+      },
+      {
+        "date": "2013-07-25",
+        "category": "family",
+        "title": "Established an independent household",
+        "description": "Beatrijs Wauters bouwde een meer zelfstandige huishoudroutine en langdurigere verantwoordelijkheden op."
+      },
+      {
+        "date": "2018-03-18",
+        "category": "career",
+        "title": "Current role",
+        "description": "Beatrijs Wauters nam de huidige rol als salesmanager op bij Aalst Handel NV."
+      },
+      {
+        "date": "2019-01-10",
+        "category": "family",
+        "title": "Child born",
+        "description": "Beatrijs Wauters verwelkomde Wendy Wauters in het huishouden."
+      },
+      {
+        "date": "2019-04-10",
+        "category": "family",
+        "title": "Household routine changed",
+        "description": "Beatrijs Wauters herorganiseerde de dagelijkse routine rond zorg, logistiek en een voller huishouden."
+      },
+      {
+        "date": "2024-12-12",
+        "category": "location",
+        "title": "Settled in current city",
+        "description": "Beatrijs Wauters bouwde het dagelijkse leven uit in Aalst."
+      }
+    ],
+    "biography": "Beatrijs Wauters bevindt zich vandaag in een gegronde levensfase als salesmanager in Aalst. Na masteropleiding verschoof het pad naar een duidelijker professionele richting. De loopbaanlijn wijst op een geleidelijke doorgroei naar de huidige rol als salesmanager. Na verloop van tijd draaide het huishouden duidelijker rond 1 kind, waarbij zorg en planning meer gewicht kregen. Zich vestigen in Aalst verankert het dagelijkse ritme, lokale voorkeuren en een langdurig gevoel van plaats. De huiselijke context draait om een halfopen woning in eigendom in een voorstedelijke omgeving, wat het beschreven weekritme verder ondersteunt. Naast werk helpen fitnesslessen, bordspellen en brunchen met vrienden een levensstijl uittekenen die stabiel en persoonlijk samenhangend aanvoelt. Het algemene profiel wijst op een comfortabel hoger-middeninkomenshuishouden, met keuzes die betrouwbaarheid, comfort en realistische afwegingen benadrukken."
+  },
+  {
+    "identity": {
+      "first_name": "Martine",
+      "last_name": "De Cuyper",
+      "full_name": "Martine De Cuyper",
+      "gender": "F",
+      "birth_date": "1982-02-10",
+      "age": 43,
+      "nationality": "Belgian",
+      "marital_status": "partnered",
+      "num_children": 0,
+      "unique_id": "72ebc19a-3fb7-40fd-91b1-b9e60eabd0ff",
+      "preferred_pronouns": "she/her",
+      "national_id_type": "INSZ",
+      "national_id_number": "820210-826-28"
+    },
+    "household_context": {
+      "household_size": 2,
+      "neighborhood_type": "small-town",
+      "commute_style": "car-led commute routine",
+      "housing_type": "semi-detached house",
+      "ownership_status": "owner"
+    },
+    "contact": {
+      "email": "mdecuyper@example.com",
+      "phone_number": "+32495558441",
+      "region": "VLG",
+      "address": "Haag 40",
+      "city": "Hamont-Achel",
+      "province": "Limburg",
+      "postal_code": "3930",
+      "country": "Belgium"
+    },
+    "professional": {
+      "job_title": "Quarry manager",
+      "profession": "Quarry manager",
+      "industry": "Professional Services",
+      "collar_type": "white-collar",
+      "work_pattern": "hybrid office schedule",
+      "company": "Claes Advies Groep BV",
+      "organization_type": "office-based firm",
+      "sector_type": "private sector",
+      "employer_scale": "regional mid-sized employer",
+      "education_profile": {
+        "level": "Master's degree",
+        "institution_type": "university",
+        "instruction_language": "Dutch"
+      },
+      "education_level": "Master's degree",
+      "income_bracket": "upper-middle"
+    },
+    "lifestyle": {
+      "hobbies": [
+        "weekend running",
+        "museum visits",
+        "recipe experimenting"
+      ],
+      "languages_spoken": [
+        "Dutch",
+        "French",
+        "English"
+      ],
+      "pet": "cat",
+      "values": [
+        "learning",
+        "reliability",
+        "comfort"
+      ],
+      "personality_type": "thoughtful and steady",
+      "computer_model": "Lenovo ThinkPad X1 Carbon",
+      "smartphone_model": "Samsung Galaxy S24",
+      "tablet_model": "Samsung Galaxy Tab S10+",
+      "car_model": "BMW X1",
+      "bike_model": "Riese & Muller Nevo4",
+      "tv_brand": "Samsung",
+      "favorite_tv_show": "Undercover",
+      "favorite_movie": "The Broken Circle Breakdown",
+      "favorite_documentary": "Formula 1: Drive to Survive",
+      "favorite_vacation_destinations": [
+        "Zeeland",
+        "Copenhagen",
+        "Alsace"
+      ]
+    },
+    "mobility": {
+      "driving_frequency": "most weekdays",
+      "travel_frequency": "two or three leisure trips per year",
+      "primary_commute_mode": "car",
+      "public_transport_use": "occasional"
+    },
+    "finance": {
+      "iban": "BE08409157525980",
+      "bank_name": "KBC Bank",
+      "swift_bic": "KREDBEBB",
+      "income_level": "comfortable upper-middle-income household",
+      "preferred_payment_methods": [
+        "debit card",
+        "credit card",
+        "mobile payment"
+      ]
+    },
+    "shopping_and_brand_preferences": {
+      "favorite_supermarket": "Delhaize",
+      "preferred_insurer": "AG Insurance",
+      "preferred_transit_operator": "De Lijn",
+      "preferred_news_brand": "De Standaard"
+    },
+    "digital": {
+      "mobile_provider": "Telenet",
+      "streaming_platform": "Streamz",
+      "device_use": "connected-home routines, streaming, work communication, and shared family logistics",
+      "privacy_awareness": "moderate",
+      "posting_frequency": "low"
+    },
+    "daily_routine": {
+      "wake_time": "06:50",
+      "work_pattern": "hybrid office schedule",
+      "weekday_rhythm": "verplaatsingen en planning rond een werkdag met de auto, vaste overlegmomenten, gerichte werkblokken en afstemming in een middelgroot team, en een voorspelbare avondoverdracht",
+      "evening_habits": "avondeten, planning voor de volgende dag en licht streamen of lezen",
+      "weekend_rhythm": "beweging, boodschappen en nog een extra sociaal of recreatief plan"
+    },
+    "family": {
+      "spouse": {
+        "gender": "M",
+        "first_name": "Jan",
+        "last_name": "De Cuyper",
+        "full_name": "Jan De Cuyper",
+        "birth_date": "1979-09-28",
+        "age": 46,
+        "nationality": "Belgian",
+        "preferred_pronouns": "he/him",
+        "national_id_type": "INSZ",
+        "national_id_number": "790928-617-71"
+      }
+    },
+    "introduction": "Martine De Cuyper is 43 jaar en werkt als Quarry manager in Hamont-Achel. Het dagelijks leven wordt gevormd door werk in professionele dienstverlening, een kleinstedelijke thuisbasis, en door voorkeuren die passen bij een geloofwaardig Belgisch dagelijks leven.",
+    "life_timeline": [
+      {
+        "date": "1982-02-10",
+        "category": "identity",
+        "title": "Birth",
+        "description": "Martine De Cuyper werd geboren op 1982-02-10."
+      },
+      {
+        "date": "2000-02-10",
+        "category": "education",
+        "title": "Completed secondary education",
+        "description": "Martine De Cuyper voltooide het secundair onderwijs en begon zich voor te bereiden op een zelfstandiger volwassen leven."
+      },
+      {
+        "date": "2000-02-10",
+        "category": "education",
+        "title": "Started higher education or training",
+        "description": "Martine De Cuyper begon rond de leeftijd van 18 aan een meer gespecialiseerde opleiding of training."
+      },
+      {
+        "date": "2006-02-10",
+        "category": "education",
+        "title": "Completed a master's degree",
+        "description": "Martine De Cuyper bereikte rond de leeftijd van 24 het niveau van masteropleiding."
+      },
+      {
+        "date": "2006-02-10",
+        "category": "career",
+        "title": "Career start",
+        "description": "Martine De Cuyper stapte het beroepsleven in als Quarry manager."
+      },
+      {
+        "date": "2007-02-09",
+        "category": "family",
+        "title": "Established an independent household",
+        "description": "Martine De Cuyper bouwde een meer zelfstandige huishoudroutine en langdurigere verantwoordelijkheden op."
+      },
+      {
+        "date": "2010-08-20",
+        "category": "career",
+        "title": "Expanded responsibilities",
+        "description": "Martine De Cuyper groeide door naar een bredere verantwoordelijkheid naarmate ervaring en vertrouwen toenamen."
+      },
+      {
+        "date": "2011-06-04",
+        "category": "family",
+        "title": "Marriage or long-term partnership",
+        "description": "Martine De Cuyper formaliseerde een duurzame partnerrelatie met Jan De Cuyper."
+      },
+      {
+        "date": "2015-03-14",
+        "category": "location",
+        "title": "Settled in current city",
+        "description": "Martine De Cuyper bouwde het dagelijkse leven uit in Hamont-Achel."
+      },
+      {
+        "date": "2021-12-18",
+        "category": "career",
+        "title": "Current role",
+        "description": "Martine De Cuyper nam de huidige rol als Quarry manager op bij Claes Advies Groep BV."
+      }
+    ],
+    "biography": "In de loop van de tijd groeide Martine De Cuyper uit tot een profiel met duidelijke praktische mijlpalen die nu samenkomen in Hamont-Achel. De opleiding mondde uit in masteropleiding, wat de weg opende naar meer gespecialiseerde verantwoordelijkheden. Het werkleven ontwikkelde zich daarna richting de huidige positie als Quarry manager, waar ervaring en betrouwbaarheid zichtbaarder werden. Een duurzame relatie werd deel van het bredere patroon dat vandaag de prioriteiten mee bepaalt. Het huishoudelijke beeld wordt concreter door een halfopen woning in eigendom in een kleinstedelijke omgeving, wat het dagelijkse ritme beter verankert. Los van werk en verplichtingen geven weekend hardlopen, museumbezoeken en experimenteren met recepten continuiteit en een duidelijker persoonlijk tempo. De levensstijl sluit daardoor aan bij een comfortabel hoger-middeninkomenshuishouden, waarbij comfort en praktische afwegingen in evenwicht blijven."
+  }
+]

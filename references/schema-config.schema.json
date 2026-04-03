@@ -41,7 +41,9 @@
             "csv",
             "json",
             "ndjson",
-            "sql"
+            "sql",
+            "html",
+            "markdown"
           ]
         },
         "path": {
@@ -49,6 +51,12 @@
         },
         "table_name": {
           "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "include_sensitive_fields": {
+          "type": "boolean"
         }
       },
       "additionalProperties": false
@@ -59,7 +67,9 @@
         "csv",
         "json",
         "ndjson",
-        "sql"
+        "sql",
+        "html",
+        "markdown"
       ],
       "description": "Legacy key. Prefer output.format."
     },

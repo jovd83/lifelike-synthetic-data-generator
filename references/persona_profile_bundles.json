@@ -1,0 +1,98 @@
+{
+  "version": "1.0",
+  "bundles": {
+    "digital_profiles": [
+      {
+        "locales": ["nl_BE", "fr_BE", "BE"],
+        "segment": "mainstream_family",
+        "income_bracket": ["middle", "upper-middle"],
+        "weight": 4,
+        "profile": {
+          "mobile_provider": "Proximus",
+          "streaming_platform": "Netflix",
+          "device_use": "shared family planning, streaming, banking, and work communication",
+          "privacy_awareness": "moderate",
+          "posting_frequency": "low-to-moderate"
+        }
+      },
+      {
+        "locales": ["nl_BE", "fr_BE", "BE"],
+        "segment": "digital_practical",
+        "income_bracket": ["middle"],
+        "weight": 3,
+        "profile": {
+          "mobile_provider": "Orange Belgium",
+          "streaming_platform": "Disney+",
+          "device_use": "practical household coordination, media, and mobile-first browsing",
+          "privacy_awareness": "moderate-to-high",
+          "posting_frequency": "low"
+        }
+      },
+      {
+        "locales": ["nl_BE", "fr_BE", "BE"],
+        "segment": "practical_local_mix",
+        "income_bracket": ["middle", "upper-middle"],
+        "weight": 2,
+        "profile": {
+          "mobile_provider": "Telenet",
+          "streaming_platform": "Streamz",
+          "device_use": "connected TV use, local content, catch-up viewing, and practical family coordination",
+          "privacy_awareness": "moderate",
+          "posting_frequency": "low"
+        }
+      },
+      {
+        "locales": ["nl_BE", "fr_BE", "BE"],
+        "segment": "budget_mobile",
+        "income_bracket": ["low", "lower-middle"],
+        "weight": 3,
+        "profile": {
+          "mobile_provider": "Mobile Vikings",
+          "streaming_platform": "Netflix",
+          "device_use": "value-conscious mobile use, messaging, catch-up TV, and one main streaming subscription",
+          "privacy_awareness": "high",
+          "posting_frequency": "occasional"
+        }
+      },
+      {
+        "locales": ["nl_BE", "fr_BE", "BE"],
+        "segment": "budget_practical",
+        "income_bracket": ["low", "lower-middle", "middle"],
+        "weight": 2,
+        "profile": {
+          "mobile_provider": "Orange Belgium",
+          "streaming_platform": "Amazon Prime Video",
+          "device_use": "budget-conscious shopping, messaging, and one value-focused streaming subscription",
+          "privacy_awareness": "moderate-to-high",
+          "posting_frequency": "low"
+        }
+      },
+      {
+        "locales": ["nl_BE", "fr_BE", "BE"],
+        "segment": "budget_mobile",
+        "income_bracket": ["low", "lower-middle"],
+        "weight": 2,
+        "profile": {
+          "mobile_provider": "BASE",
+          "streaming_platform": "Disney+",
+          "device_use": "mobile-centric browsing, messaging, and selective streaming on a tighter budget",
+          "privacy_awareness": "high",
+          "posting_frequency": "low"
+        }
+      },
+      {
+        "locales": ["nl_BE", "fr_BE", "BE"],
+        "segment": "mainstream_family",
+        "income_bracket": ["upper-middle"],
+        "weight": 3,
+        "profile": {
+          "mobile_provider": "Telenet",
+          "streaming_platform": "Streamz",
+          "device_use": "connected-home routines, streaming, work communication, and shared family logistics",
+          "privacy_awareness": "moderate",
+          "posting_frequency": "low"
+        }
+      }
+    ]
+  }
+}

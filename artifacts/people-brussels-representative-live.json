@@ -1,0 +1,110 @@
+[
+  {
+    "district_nuts3": "BE100",
+    "sex": "M",
+    "age_band": "Y20T44",
+    "birth_date": "2001-09-28",
+    "first_name": "Franz",
+    "last_name": "Rousseaux",
+    "email": "franz.r@example.com"
+  },
+  {
+    "district_nuts3": "BE100",
+    "sex": "F",
+    "age_band": "Y0T19",
+    "birth_date": "2014-01-22",
+    "first_name": "Mélanie",
+    "last_name": "Russo",
+    "email": "mlanie.r@example.org"
+  },
+  {
+    "district_nuts3": "BE100",
+    "sex": "F",
+    "age_band": "Y20T44",
+    "birth_date": "2001-04-04",
+    "first_name": "Patricia",
+    "last_name": "Closset",
+    "email": "patricia.c@example.net"
+  },
+  {
+    "district_nuts3": "BE100",
+    "sex": "F",
+    "age_band": "Y0T19",
+    "birth_date": "2016-11-22",
+    "first_name": "Julie",
+    "last_name": "Lemoine",
+    "email": "julielemoine@example.net"
+  },
+  {
+    "district_nuts3": "BE100",
+    "sex": "M",
+    "age_band": "Y0T19",
+    "birth_date": "2018-08-04",
+    "first_name": "Roger",
+    "last_name": "Michel",
+    "email": "roger.m@example.net"
+  },
+  {
+    "district_nuts3": "BE100",
+    "sex": "F",
+    "age_band": "Y0T19",
+    "birth_date": "2020-09-24",
+    "first_name": "Julie",
+    "last_name": "Remy",
+    "email": "jremy@example.org"
+  },
+  {
+    "district_nuts3": "BE100",
+    "sex": "F",
+    "age_band": "Y20T44",
+    "birth_date": "1983-04-01",
+    "first_name": "Frédérique",
+    "last_name": "Charlier",
+    "email": "frdrique.c@example.com"
+  },
+  {
+    "district_nuts3": "BE100",
+    "sex": "M",
+    "age_band": "Y20T44",
+    "birth_date": "2002-04-17",
+    "first_name": "Jacques",
+    "last_name": "Massart",
+    "email": "jacquesmassart@example.net"
+  },
+  {
+    "district_nuts3": "BE100",
+    "sex": "F",
+    "age_band": "Y65PL",
+    "birth_date": "1942-02-22",
+    "first_name": "Christelle",
+    "last_name": "Lempereur",
+    "email": "clempereur@example.net"
+  },
+  {
+    "district_nuts3": "BE100",
+    "sex": "M",
+    "age_band": "Y20T44",
+    "birth_date": "1982-03-24",
+    "first_name": "Denis",
+    "last_name": "Lejeune",
+    "email": "dlejeune@example.org"
+  },
+  {
+    "district_nuts3": "BE100",
+    "sex": "M",
+    "age_band": "Y45T64",
+    "birth_date": "1975-08-01",
+    "first_name": "Alain",
+    "last_name": "Massart",
+    "email": "alain.m63@example.net"
+  },
+  {
+    "district_nuts3": "BE100",
+    "sex": "M",
+    "age_band": "Y45T64",
+    "birth_date": "1973-12-11",
+    "first_name": "Philippe",
+    "last_name": "Lecocq",
+    "email": "philippelecocq33@example.net"
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "version": "1.0",
+  "banks": [
+    {
+      "bank_name": "KBC Bank",
+      "bank_code": "409",
+      "swift_bic": "KREDBEBB",
+      "weight": 4
+    },
+    {
+      "bank_name": "Belfius Bank",
+      "bank_code": "052",
+      "swift_bic": "GKCCBEBB",
+      "weight": 4
+    },
+    {
+      "bank_name": "ING Belgium",
+      "bank_code": "310",
+      "swift_bic": "BBRUBEBB",
+      "weight": 3
+    },
+    {
+      "bank_name": "Argenta",
+      "bank_code": "979",
+      "swift_bic": "ARSPBE22",
+      "weight": 2
+    }
+  ]
+}
