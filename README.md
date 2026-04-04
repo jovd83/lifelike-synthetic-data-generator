@@ -2,13 +2,8 @@
 
 [![Version](https://img.shields.io/badge/version-2.2.0-blue.svg)](./SKILL.md)
 [![License](https://img.shields.io/github/license/jovd83/lifelike-synthetic-data-generator)](./LICENSE)
-[![Build Status](https://img.shields.io/github/actions/workflow/status/jovd83/lifelike-synthetic-data-generator/ci.yml?branch=main&label=CI)](https://github.com/jovd83/lifelike-synthetic-data-generator/actions)
+[![Validate skills](https://img.shields.io/github/actions/workflow/status/jovd83/lifelike-synthetic-data-generator/ci.yml?branch=main&label=CI)](https://github.com/jovd83/lifelike-synthetic-data-generator/actions)
 [![Python Version](https://img.shields.io/badge/python-3.11%2B-blue)](./scripts/requirements.txt)
-[![Issues](https://img.shields.io/github/issues/jovd83/lifelike-synthetic-data-generator)](https://github.com/jovd83/lifelike-synthetic-data-generator/issues)
-[![Pull Requests](https://img.shields.io/github/issues-pr/jovd83/lifelike-synthetic-data-generator)](https://github.com/jovd83/lifelike-synthetic-data-generator/pulls)
-[![Stars](https://img.shields.io/github/stars/jovd83/lifelike-synthetic-data-generator)](https://github.com/jovd83/lifelike-synthetic-data-generator/stargazers)
-[![Last Commit](https://img.shields.io/github/last-commit/jovd83/lifelike-synthetic-data-generator)](https://github.com/jovd83/lifelike-synthetic-data-generator/commits/main)
-[![Outputs](https://img.shields.io/badge/output-CSV%20%7C%20JSON%20%7C%20NDJSON%20%7C%20SQL%20%7C%20HTML%20%7C%20Markdown-success)](./README.md#key-features)
 [![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=flat&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/jovd83)
 
 An Agent Skill and reference repository for generating realistic synthetic datasets for tests, demos, sandboxes, seed data, and workflow simulations.
