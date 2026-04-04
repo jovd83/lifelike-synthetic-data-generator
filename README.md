@@ -2,7 +2,7 @@
 
 [![Version](https://img.shields.io/badge/version-2.2.0-blue.svg)](./SKILL.md)
 [![License](https://img.shields.io/github/license/jovd83/lifelike-synthetic-data-generator)](./LICENSE)
-[![Validate skills](https://img.shields.io/github/actions/workflow/status/jovd83/lifelike-synthetic-data-generator/ci.yml?branch=main&label=CI)](https://github.com/jovd83/lifelike-synthetic-data-generator/actions)
+[![Validate Skills](https://img.shields.io/github/actions/workflow/status/jovd83/lifelike-synthetic-data-generator/ci.yml?branch=main&label=CI)](https://github.com/jovd83/lifelike-synthetic-data-generator/actions)
 [![Python Version](https://img.shields.io/badge/python-3.11%2B-blue)](./scripts/requirements.txt)
 [![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=flat&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/jovd83)
 
