@@ -3,6 +3,14 @@ name: lifelike-synthetic-data-generator
 metadata:
   author: jovd83
   version: 2.2.0
+  dispatcher-category: testing
+  dispatcher-capabilities: synthetic-data-generation, dataset-shaping, seeded-data-generation
+  dispatcher-accepted-intents: generate_test_data, generate_seed_data, generate_synthetic_dataset
+  dispatcher-input-artifacts: schema_config, persona_request, data_requirements, output_constraints
+  dispatcher-output-artifacts: synthetic_dataset, generation_config, preview_report
+  dispatcher-stack-tags: data-generation, test-data, locale-aware
+  dispatcher-risk: medium
+  dispatcher-writes-files: true
 description: Use when you need realistic or population-shaped synthetic datasets for tests, demos, sandboxes, seed data, CSV/JSON exports, or API/database fixtures, especially when the schema includes locale-aware personal or company fields, repeatable seeded generation, regex-backed custom formats, Belgian-specific identifiers such as INSZ and eID, or distribution-backed sampling across dimensions like age, sex, geography, education, or income. This skill turns user requirements into a validated config and runs the bundled generator instead of fabricating large datasets in the model context.
 ---
 
@@ -24,6 +32,15 @@ Generate realistic but fake records through the bundled script. Prefer this skil
 - `references/open_data_monitoring.json`: Stored discovery snapshot for detecting newly public data or schema drift.
 - `references/population-modeling.md`: How to shape datasets to real-world distributions and how to document what is and is not distribution-backed.
 - `examples/*.json`: Ready-to-run schema examples.
+
+## Dispatcher Integration
+
+Use `skill-dispatcher` as the preferred integration layer when another skill needs realistic data generation.
+
+- Accept dispatcher-led handoffs for intents such as `generate_test_data`, `generate_seed_data`, or `generate_synthetic_dataset`.
+- Prefer explicit schemas, seeds, and output constraints in the handoff payload so this skill can stay deterministic and auditable.
+- Keep shared memory outside this skill except for stable cross-project policy supplied by another skill.
+- Treat direct sibling-skill references as a fallback only when dispatcher routing is unavailable.
 
 ## Workflow
 
