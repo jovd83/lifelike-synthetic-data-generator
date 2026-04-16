@@ -1,8 +1,10 @@
 ---
 name: lifelike-synthetic-data-generator
 metadata:
+    dispatcher-layer: execution
+    dispatcher-lifecycle: active
   author: jovd83
-  version: 2.2.0
+  version: 2.3.0
   dispatcher-category: testing
   dispatcher-capabilities: synthetic-data-generation, dataset-shaping, seeded-data-generation
   dispatcher-accepted-intents: generate_test_data, generate_seed_data, generate_synthetic_dataset
@@ -17,6 +19,12 @@ description: Use when you need realistic or population-shaped synthetic datasets
 # Lifelike Synthetic Data Generator
 
 Generate realistic but fake records through the bundled script. Prefer this skill when the user needs structured synthetic data that should be repeatable, validated, and saved to disk.
+
+
+## Telemetry & Logging
+> [!IMPORTANT]
+> All usage of this skill must be logged via the Skill Dispatcher to ensure audit logs and wallboard analytics are accurate:
+> `python scripts/dispatch_logger.py --skill <skill_name> --intent <intent> --reason <reason>`
 
 ## Available assets
 
