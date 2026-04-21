@@ -1,7 +1,7 @@
 ---
 name: lifelike-synthetic-data-generator
 metadata:
-  dispatcher-layer: execution
+  dispatcher-layer: information
   dispatcher-lifecycle: active
   author: jovd83
   version: 2.3.0
