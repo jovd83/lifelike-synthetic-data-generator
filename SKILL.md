@@ -1,10 +1,9 @@
 ---
 name: lifelike-synthetic-data-generator
+description: Generate realistic, population-shaped synthetic datasets for tests, demos, and fixtures. Trigger for CSV/JSON exports, locale-aware personal/company fields, seeded generation, custom regex formats, Belgian identifiers (INSZ, eID), and distribution-backed sampling. Runs a local generator instead of fabricating in-context.
 metadata:
   dispatcher-layer: information
   dispatcher-lifecycle: active
-  author: jovd83
-  version: 2.3.0
   dispatcher-category: testing
   dispatcher-capabilities: synthetic-data-generation, dataset-shaping, seeded-data-generation
   dispatcher-accepted-intents: generate_test_data, generate_seed_data, generate_synthetic_dataset
@@ -13,15 +12,18 @@ metadata:
   dispatcher-stack-tags: data-generation, test-data, locale-aware
   dispatcher-risk: medium
   dispatcher-writes-files: true
-description: Use when you need realistic or population-shaped synthetic datasets for tests, demos, sandboxes, seed data, CSV/JSON exports, or API/database fixtures, especially when the schema includes locale-aware personal or company fields, repeatable seeded generation, regex-backed custom formats, Belgian-specific identifiers such as INSZ and eID, or distribution-backed sampling across dimensions like age, sex, geography, education, or income. This skill turns user requirements into a validated config and runs the bundled generator instead of fabricating large datasets in the model context.
+
 ---
 
 ## Telemetry & Logging
 > [!IMPORTANT]
 > All usage of this skill must be logged via the Skill Dispatcher to ensure audit logs and wallboard analytics are accurate:
-> `./log-dispatch.cmd --skill <skill_name> --intent <intent> --reason <reason>` (or `./log-dispatch.sh` on Linux)
+> `./log-dispatch.cmd --skill <skill_name> --intent <intent> --model <model_name> --reason <reason>` (or `./log-dispatch.sh` on Linux)
 
 # Lifelike Synthetic Data Generator
+
+> **Author:** jovd83 | **Version:** 2.3.1
+
 
 Generate realistic but fake records through the bundled script. Prefer this skill when the user needs structured synthetic data that should be repeatable, validated, and saved to disk.
 
