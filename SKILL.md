@@ -37,14 +37,10 @@ Generate realistic but fake records through the bundled script. Prefer this skil
 - `references/population-modeling.md`: How to shape datasets to real-world distributions and how to document what is and is not distribution-backed.
 - `examples/*.json`: Ready-to-run schema examples.
 
-## Dispatcher Integration
+## Working With Other Skills
 
-Use `skill-dispatcher` as the preferred integration layer when another skill needs realistic data generation.
-
-- Accept dispatcher-led handoffs for intents such as `generate_test_data`, `generate_seed_data`, or `generate_synthetic_dataset`.
+- Accept handoffs from other skills that need test data, seed data, or a synthetic dataset.
 - Prefer explicit schemas, seeds, and output constraints in the handoff payload so this skill can stay deterministic and auditable.
-- Keep shared memory outside this skill except for stable cross-project policy supplied by another skill.
-- Treat direct sibling-skill references as a fallback only when dispatcher routing is unavailable.
 
 ## Workflow
 
