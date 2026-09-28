@@ -157,7 +157,7 @@ When using this skill, answer with:
   Use `references/custom_formats.json` and `references/open_data_sources.json` as reviewed, auditable skill-local memory. Promote information here only when it is stable and broadly useful for future executions of this skill.
 
 - Shared memory:
-  Keep cross-agent or cross-repository memory out of this skill. If broader reuse is needed, integrate with a separate shared-memory skill instead of embedding that infrastructure here.
+  Keep cross-agent or cross-repository memory out of this skill. If broader reuse is needed, use the agent's own memory (for example CLAUDE.md or AGENTS.md) instead of embedding that infrastructure here.
 
 ## Extension rules
 
